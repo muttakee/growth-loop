@@ -9,11 +9,11 @@ one at a time and creates the brand's folder. No new code is needed per brand.
 
 ## Status
 
-Initialized. Being built phase by phase. See [`docs/PHASES.md`](docs/PHASES.md).
+Initialized. Being built step by step. See [`todo.md`](todo.md).
 
 ## Docs
 
 - [`docs/blueprint.pdf`](docs/blueprint.pdf): the original build blueprint (source of truth)
 - [`docs/blueprint.txt`](docs/blueprint.txt): plain-text copy
-- [`docs/PHASES.md`](docs/PHASES.md): phase roadmap and progress
+- [`todo.md`](todo.md): work list and progress
 - [`CLAUDE.md`](CLAUDE.md): rules and conventions for Claude Code working in this repo

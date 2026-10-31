@@ -1,6 +1,6 @@
 # CLAUDE.md: GrowthLoop
 
-This file guides Claude Code when working in this repository. It gets expanded in Phase 1.
+This file guides Claude Code when working in this repository. It gets expanded in the Foundation step.
 
 ## What this project is
 
@@ -9,10 +9,10 @@ GrowthLoop is a social media growth agent for Facebook and Instagram. The full s
 
 ## How we build
 
-- We build **one phase at a time** (see `docs/PHASES.md`). Don't start work from a later phase
+- We build **one section of `todo.md` at a time**. Don't start work from a later section
   unless asked.
-- Each phase starts with a short plan that the user agrees to, and ends with a review and a commit.
-- Update the checklist in `docs/PHASES.md` when a phase is finished.
+- Each section starts with a short plan that the user agrees to, and ends with a review and a commit.
+- Tick items in `todo.md` as they are finished.
 
 ## Non-negotiable rules (from the blueprint)
 
