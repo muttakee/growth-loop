@@ -19,8 +19,16 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - **Video tool:** Remotion is recommended (confirm before starting the content tools). It renders
   locally and can also make images and carousels.
 - **No hardcoded brands:** the user adds every brand with `/new-brand`.
+- **Week folders:** named by calendar week number (`weeks/2026-W45`), with the dates written
+  inside `plan.md`. They always sort in order and give each week one unique name.
+- **Plan status line:** `draft → approved → content-ready → posted`. No content is created
+  unless the status is `approved`.
+- **File format:** Markdown for all brand files, so they're easy for the user to read and edit
+  and git shows clear changes.
+- **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
+  brand's own language rules.
 
-## 1. Foundation ← next (plan sent, waiting for approval)
+## 1. Foundation ← next (choices confirmed, waiting for go-ahead)
 
 - [ ] Full `CLAUDE.md`: weekly flow, folder and naming rules, how agents hand off work
 - [ ] `.env.example` listing the API keys we'll need (no real values)
