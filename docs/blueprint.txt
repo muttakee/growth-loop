@@ -1,0 +1,200 @@
+Social Media Growth Agent – Build Blueprint
+
+
+
+
+  Social Media Growth Agent – Build Blueprint
+  This is a plan for an AI agent system that grows engagement and reach for our brands on
+  Facebook and Instagram. It handles everything from research to publishing, and it gets
+  better each week by learning from results.
+
+  Starting brands: an IELTS mock test platform and an LMS selling Islamic educational
+  courses. The system is built so we can add new brands easily.
+
+
+  Goals
+        Increase engagement and reach on Facebook and Instagram.
+        Automate the full cycle: research, targeting, planning, content creation, publishing and
+        learning.
+        Learn from our own results and from what's working for local competitors.
+        Keep human effort to one approval of each week's plan. Everything after that is
+        automatic.
+
+
+  The Weekly Flow
+    1. Research: study the brand and local competitors on Facebook and Instagram.
+    2. Targeting: define audience personas, their pain points and the best hooks.
+    3. Plan: build a 7-day content calendar using lessons from past weeks.
+    4. Approve: a human reviews and approves the 7-day plan before any content is made.
+       They can approve it or send it back with changes.
+    5. Create: once the plan is approved, write scripts and captions, and produce reels,
+       images and carousels. A reviewer subagent checks every post before it's scheduled,
+       with no human review at this step.
+    6. Publish: posts go out automatically at scheduled times through the Meta Graph API.
+    7. Learn: pull performance data for our posts and competitors' posts, then feed the
+       lessons back into the next cycle.
+
+  Around day 5, the next week is analysed and planned, and the plan is sent for approval.
+  Once it's approved, the content is created before the current week ends, so there's never
+  a gap in posting.
+
+
+
+
+                                                                                            Page 1 of 5
+Social Media Growth Agent – Build Blueprint
+
+
+
+
+  Subagents
+  Each subagent is a specialist with a detailed instruction file, examples of good and bad
+  output, and a quality checklist. Its output is reviewed before moving to the next stage.
+
+        Researcher: analyses the brand and local competitors using real data, such as public
+        posts, comments and the Meta Ad Library, and notes where each finding came from.
+        Targeting Strategist: builds detailed personas, for example a nervous first-time IELTS
+        candidate in Dhaka who needs band 7 for Canada. Each persona covers fears, goals,
+        the language they use, and when they're online.
+        Planner: turns personas and past lessons into a balanced 7-day calendar that mixes
+        posts that educate, build trust and sell, with formats and posting times for each.
+        Content Creator: writes hooks, scripts, captions, hashtags and calls to action in the
+        brand voice, then directs the image and video tools. It checks its own work against the
+        checklist.
+        Analyst: measures performance, compares it with competitors, and writes clear
+        lessons into the brand's memory.
+
+
+  Project Structure (Claude Code)
+        CLAUDE.md at the root: overall workflow, rules and conventions.
+        Subagent definitions: one instruction file per subagent.
+        brands/ folder: one subfolder per brand, each containing:
+             Brand brief (product, audience, voice, language, rules and no-go topics)
+             Memory file (what has and hasn't worked, plus lessons learned)
+             Personas and competitor list
+             Weekly plans and generated content, organised by week
+        templates/ folder: an empty brand template for onboarding new brands.
+        Git version control for code, instructions and memory.
+
+
+  Adding a New Brand (/new-brand command)
+    1. Run the /new-brand slash command.
+    2. The main agent asks one question at a time: name, website, products, audience, voice,
+       language, competitors, and rules or no-go topics.
+    3. It creates the brand folder from the template and saves the brief.
+
+
+
+                                                                                            Page 2 of 5
+Social Media Growth Agent – Build Blueprint
+
+
+
+
+    4. It hands off to an onboarding subagent, which does deep research and targeting and
+       fills in the memory files.
+    5. We confirm the summary, and the brand joins the weekly cycle.
+
+  No new code is needed for each brand. Setup takes about 15 minutes.
+
+
+  Content Production
+        Reels (main approach): template-based video through code, using Creatomate,
+        Shotstack or Remotion. It's reliable, low cost and stays on brand.
+        Optional: AI avatars (HeyGen, Synthesia) for tip-style presenter videos, and AI video
+        generation (Veo, Kling, Runway) for eye-catching footage.
+        Voiceover: ElevenLabs, which supports English and Bangla.
+        Images and carousels: generated with templates in the brand style.
+
+  Brand-specific rules: the Islamic courses brand defaults to no background music and no
+  animated human figures, using voice-only audio, calligraphy and nature visuals. Religious
+  content may only quote verses and hadith from an approved source list, and the reviewer
+  subagent checks it closely, because a single mistake about a verse or ruling could damage
+  trust.
+
+  Language rule (Bangladesh audience): all communication is in Bangla, including captions,
+  voiceovers, hooks, on-screen explanations and calls to action. For the IELTS brand, the
+  English learning material stays in English, such as sample answers, vocabulary, example
+  sentences and test questions, and it's explained in Bangla. The reviewer subagent checks
+  that every post follows this rule and that the Bangla sounds natural, not machine-
+  translated.
+
+
+  Architecture and Deployment (Hybrid)
+        Local (Claude Code): research, planning and content creation run on our machine
+        when the weekly cycle is started.
+        Supabase Storage: stores the final media, since Instagram's API needs media at a
+        public URL. Local copies stay in the brand folders.
+        Supabase Database: stores scheduled posts, captions, post times and all performance
+        data.
+        Supabase Edge Function plus scheduler: publishes each post to Meta at its scheduled
+        time, so our computer doesn't need to stay on.
+
+
+
+                                                                                           Page 3 of 5
+Social Media Growth Agent – Build Blueprint
+
+
+
+
+        Weekly trigger: started manually, or with a cron job or GitHub Actions.
+        Notifications: a reminder by email or WhatsApp when the next week's plan is ready for
+        approval.
+
+
+  Measuring Engagement and Reach
+  Our posts (Meta Insights API): reach, views, likes, comments, saves, shares, profile visits,
+  follows from each post, and reel watch time.
+
+  Competitor posts (public data only): likes, comments and sometimes reel views. Reach
+  isn't available.
+
+  Key metrics:
+
+        Engagement rate: likes, comments, saves and shares added together, divided by reach.
+        Weighted signals: saves and shares count more than likes.
+        Reel retention: average watch time and completion.
+        Business results: UTM-tagged links to track site visits, mock test bookings and course
+        enrolments.
+        Competitor benchmark: engagement relative to follower count, to spot their posts
+        that stand out.
+
+  We take inspiration from competitors' winning formats but don't copy their content.
+  Competitor data is collected within platform rules.
+
+
+  Prerequisites
+        A Meta Business account with Facebook pages and Instagram business accounts
+        connected.
+        A Meta developer app with Graph API publishing and insights permissions, which
+        requires app review.
+        A Supabase project (already connected).
+        API keys for the video tool and ElevenLabs.
+        Claude Code set up in the project repository.
+
+
+  Suggested Build Order
+    1. Set up the project structure, CLAUDE.md and brand template.
+
+
+
+                                                                                          Page 4 of 5
+Social Media Growth Agent – Build Blueprint
+
+
+
+
+    2. Build the /new-brand command and onboard both brands.
+    3. Build the Researcher and Targeting Strategist subagents.
+    4. Build the Planner and Content Creator, including the video and image pipeline.
+    5. Set up Supabase storage, database tables and the publishing Edge Function.
+    6. Connect the Meta Graph API for publishing and insights.
+    7. Build the Analyst and the learning loop.
+    8. Run a supervised pilot week, adjust, then move to the weekly cycle.
+
+
+
+
+                                                                                        Page 5 of 5
+
