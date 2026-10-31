@@ -28,17 +28,17 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
-## 1. Foundation ← next (choices confirmed, waiting for go-ahead)
+## 1. Foundation ✅ (waiting for user review)
 
-- [ ] Full `CLAUDE.md`: weekly flow, folder and naming rules, how agents hand off work
-- [ ] `.env.example` listing the API keys we'll need (no real values)
-- [ ] Empty `.claude/agents/` and `.claude/commands/` folders
-- [ ] Empty `brands/` folder
-- [ ] `templates/brand/`: `brief.md`, `memory.md`, `personas.md`, `competitors.md`, `weeks/README.md`
-- [ ] Name week folders by calendar week (`2026-W45`)
-- [ ] Add a status line to each plan: `draft → approved → content-ready → posted`
+- [x] Full `CLAUDE.md`: weekly flow, folder and naming rules, how agents hand off work
+- [x] `.env.example` listing the API keys we'll need (no real values)
+- [x] Empty `.claude/agents/` and `.claude/commands/` folders
+- [x] Empty `brands/` folder
+- [x] `templates/brand/`: `brief.md`, `memory.md`, `personas.md`, `competitors.md`, `weeks/README.md`
+- [x] Name week folders by calendar week (`2026-W45`)
+- [x] Add a status line to each plan: `draft → approved → content-ready → posted` (`templates/week/plan.md`)
 
-## 2. Adding brands
+## 2. Adding brands ← next
 
 - [ ] `/new-brand` command (asks one question at a time, creates the brand folder from the template)
 - [ ] Onboarding agent (deep research and targeting, fills in the memory files)
