@@ -24,4 +24,12 @@ Status key: ⬜ not started · 🟨 in progress · ✅ done
 - [x] Blueprint saved to `docs/`
 - [x] Starter `CLAUDE.md` with the non-negotiable rules
 - [x] Phase roadmap (this file)
-- [ ] Remote repository connected (needs the user's GitHub repo)
+- [x] Remote repository connected: `muttakee/growth-loop`
+
+## Decisions so far
+
+- **Order:** content first. Phases 1–4 produce a full 7-day content pack (plans, captions,
+  reels, images, carousels) that can be posted by hand. Meta isn't set up yet, so Supabase and
+  Meta (Phases 5–6) come after.
+- **Video tool:** Remotion is recommended (to be confirmed at the start of Phase 4). It renders
+  locally from code and can also make the still images and carousels.
