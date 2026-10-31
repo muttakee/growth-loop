@@ -17,11 +17,11 @@ GrowthLoop is a social media growth agent for Facebook and Instagram. The full s
 ## Non-negotiable rules (from the blueprint)
 
 - **Human approval:** nothing is created or published until a human approves the weekly 7-day plan.
-- **Language:** all audience-facing content is in natural Bangla (not machine-translated).
-  IELTS learning material (sample answers, vocabulary, example sentences, test questions)
-  stays in English and is explained in Bangla.
-- **Islamic courses brand:** no background music, no animated human figures. Use voice-only audio,
-  calligraphy and nature visuals. Verses and hadith may only be quoted from the approved source list.
+- **No hardcoded brands:** brands exist only once the user adds them with `/new-brand`.
+  Brand-specific rules (language, voice, music, visuals, approved sources, no-go topics) live in
+  that brand's brief under `brands/<brand>/`, never in code or in this file.
+- **Brand rules are binding:** every subagent reads the brand brief first and follows its rules.
+  The reviewer subagent checks every post against them.
 - **Competitors:** take inspiration from winning formats but never copy their content.
   Collect competitor data only within platform rules (public data only).
 - **Sources:** research findings must note where they came from.

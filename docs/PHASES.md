@@ -9,7 +9,7 @@ Status key: ⬜ not started · 🟨 in progress · ✅ done
 |---|-------|-------------|--------|
 | 0 | **Initialize** | Project name, repo, blueprint saved, this roadmap | ✅ |
 | 1 | **Foundation** | Folder structure, full `CLAUDE.md`, `brands/` layout, `templates/` brand template, `.gitignore`, `.env.example` | ⬜ |
-| 2 | **Brand onboarding** | `/new-brand` command plus an onboarding subagent; IELTS and Islamic LMS brands onboarded | ⬜ |
+| 2 | **Brand onboarding** | `/new-brand` command plus an onboarding subagent; the user then adds their own brands with it | ⬜ |
 | 3 | **Research and targeting** | Researcher and Targeting Strategist subagents (instructions, good/bad examples, checklists) | ⬜ |
 | 4 | **Planning and content** | Planner, Content Creator and Reviewer subagents; video, image and carousel pipeline; ElevenLabs voiceover | ⬜ |
 | 5 | **Supabase backend** | Storage buckets, DB tables (posts, schedule, metrics), publishing Edge Function plus scheduler | ⬜ |

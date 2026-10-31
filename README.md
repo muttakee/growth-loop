@@ -4,11 +4,8 @@ An AI agent system that grows engagement and reach for our brands on Facebook an
 It runs a weekly cycle (research → targeting → plan → **human approval** → create → publish → learn)
 and gets better each week by learning from its own results and from local competitors.
 
-**Starting brands**
-- IELTS mock test platform
-- LMS selling Islamic educational courses
-
-New brands are added with `/new-brand` and need no new code.
+**Brands:** none yet. Every brand is added with the `/new-brand` command, which asks questions
+one at a time and creates the brand's folder. No new code is needed per brand.
 
 ## Status
 
