@@ -58,7 +58,8 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   time, then the content rules, and creates the brand folder from the template
 - [x] Onboarding agent (deep research and targeting, fills in the memory files)
 - [x] Brief: channels table (personal profile, Page, Instagram) and person photo for personal profiles
-- [ ] The user adds their first brand and confirms the summary
+- [x] Test run: sample brand `sample-ielts-coach` created and onboarded (fictional, delete later)
+- [ ] The user adds their first real brand and confirms the summary
 
 ## 3. Research and targeting
 
