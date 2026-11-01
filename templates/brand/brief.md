@@ -72,6 +72,8 @@
 
 ### Visuals and audio
 
+- **Logo:** `assets/logo.png` (main), `assets/logo-white.png` (for dark backgrounds, optional)
+- **Logo placement:** (e.g. bottom-right corner, small)
 - **Colours and fonts:**
 - **Music:** (allowed / not allowed)
 - **People and figures:** (e.g. real people, animated figures, none)

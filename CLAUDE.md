@@ -66,6 +66,7 @@ brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case
   memory.md                   what worked, what didn't, lessons learned (updated weekly by the Analyst)
   personas.md                 audience personas
   competitors.md              competitor list and notes
+  assets/                     logo files and other brand media (e.g. logo.png, logo-white.png)
   weeks/<YYYY>-W<WW>/         one folder per week, ISO week number (e.g. 2026-W45)
     research.md
     targeting.md
