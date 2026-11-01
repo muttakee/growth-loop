@@ -4,7 +4,7 @@ An AI agent system that grows engagement and reach for our brands on Facebook an
 It runs a weekly cycle (research → targeting → plan → **human approval** → create → publish → learn)
 and gets better each week by learning from its own results and from local competitors.
 
-**Brands:** none yet. Every brand is added with the `/new-brand` command, which asks questions
+**Brands:** none yet. Every brand is added with the `/setup-brand` command, which asks questions
 one at a time and creates the brand's folder. No new code is needed per brand.
 
 ## Status

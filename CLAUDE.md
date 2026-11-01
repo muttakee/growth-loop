@@ -20,9 +20,12 @@ ask before acting.
 
 - **Human approval:** nothing is created or published until a human approves the weekly 7-day
   plan. Content work only starts when the plan's status is `approved`.
-- **No hardcoded brands:** brands exist only once the user adds them with `/new-brand`.
+- **No hardcoded brands:** brands exist only once the user adds them with `/setup-brand`.
   Brand-specific rules (language, voice, music, visuals, approved sources, no-go topics) live in
-  that brand's `brief.md`, never in code or in this file.
+  the "Content rules" section of that brand's `brief.md`, never in code or in this file.
+- **Two profile types:** `business` (Mission, Vision, Next year goal, USP, Target customer,
+  Customer persona, Business product, Target customer geography) and `personal` (all of those plus
+  Professional info and Personal info). The type is set in `brief.md` under Basics.
 - **Brand rules are binding:** every agent reads the brand's `brief.md` first and follows it.
   The Reviewer checks every post against it. If the brief is unclear, ask; don't guess.
 - **Competitors:** take inspiration from winning formats but never copy their content.
@@ -53,13 +56,13 @@ That way the content is ready before the current week ends and posting never has
 - An agent only works from files. It reads its inputs from the brand folder and writes its output
   to the paths in the table above, so the next agent (and the user) can see exactly what was passed on.
 - Before handing off, an agent checks its own output against its checklist.
-- Slash commands live in `.claude/commands/` (for example `/new-brand`).
+- Slash commands live in `.claude/commands/` (for example `/setup-brand`).
 
 ## Folders and naming
 
 ```
 brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case (e.g. my-brand)
-  brief.md                    product, audience, voice, language, visual/audio rules, sources, no-go topics
+  brief.md                    profile (business or personal) plus content rules (language, voice, visuals, sources, no-go)
   memory.md                   what worked, what didn't, lessons learned (updated weekly by the Analyst)
   personas.md                 audience personas
   competitors.md              competitor list and notes
@@ -69,7 +72,7 @@ brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case
     plan.md                   7-day plan with a status line
     content/                  final captions, scripts and media for each post
     report.md                 the week's performance and lessons
-templates/brand/              blank brand folder, copied by /new-brand
+templates/brand/              blank brand folder, copied by /setup-brand
 templates/week/               blank week files (plan.md)
 ```
 

@@ -18,13 +18,20 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   posted by hand. Supabase and Meta come later, because Meta isn't set up yet.
 - **Video tool:** Remotion is recommended (confirm before starting the content tools). It renders
   locally and can also make images and carousels.
-- **No hardcoded brands:** the user adds every brand with `/new-brand`.
+- **No hardcoded brands:** the user adds every brand with `/setup-brand`.
 - **Week folders:** named by calendar week number (`weeks/2026-W45`), with the dates written
   inside `plan.md`. They always sort in order and give each week one unique name.
 - **Plan status line:** `draft → approved → content-ready → posted`. No content is created
   unless the status is `approved`.
 - **File format:** Markdown for all brand files, so they're easy for the user to read and edit
   and git shows clear changes.
+- **Brand command:** `/setup-brand` (renamed from `/new-brand` in the blueprint).
+- **Profile types:** `business` covers Mission, Vision, Next year goal, USP, Target customer,
+  Customer persona, Business product and Target customer geography. `personal` covers all of
+  those plus Professional info and Personal info.
+- **Content rules stay in the brief:** language, voice, visuals and audio, approved sources and
+  no-go topics are kept in a separate section of `brief.md`, so the Content Creator knows how to
+  write and the Reviewer has something to check against.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
@@ -40,7 +47,8 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 
 ## 2. Adding brands ← next
 
-- [ ] `/new-brand` command (asks one question at a time, creates the brand folder from the template)
+- [ ] `/setup-brand` command: asks business or personal first, then that profile's questions one at a
+  time, then the content rules, and creates the brand folder from the template
 - [ ] Onboarding agent (deep research and targeting, fills in the memory files)
 - [ ] The user adds their first brand and confirms the summary
 
