@@ -37,6 +37,8 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   post time, and the user posts it by hand. The brand Page and Instagram are fully automatic.
 - **Open decision:** reminder channel for assisted posting (Telegram, WhatsApp or email). To be
   decided later.
+- **Competitors at setup:** `/setup-brand` asks the user for 3–5 competitors. If the user says
+  "find", the onboarding agent suggests some and the user confirms them.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
@@ -50,11 +52,12 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Name week folders by calendar week (`2026-W45`)
 - [x] Add a status line to each plan: `draft → approved → content-ready → posted` (`templates/week/plan.md`)
 
-## 2. Adding brands ← next
+## 2. Adding brands ← in progress (waiting for the user to add their first brand)
 
-- [ ] `/setup-brand` command: asks business or personal first, then that profile's questions one at a
+- [x] `/setup-brand` command: asks business or personal first, then that profile's questions one at a
   time, then the content rules, and creates the brand folder from the template
-- [ ] Onboarding agent (deep research and targeting, fills in the memory files)
+- [x] Onboarding agent (deep research and targeting, fills in the memory files)
+- [x] Brief: channels table (personal profile, Page, Instagram) and person photo for personal profiles
 - [ ] The user adds their first brand and confirms the summary
 
 ## 3. Research and targeting

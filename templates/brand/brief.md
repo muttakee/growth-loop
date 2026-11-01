@@ -8,8 +8,21 @@
 - **Slug:** (folder name, lowercase-kebab-case)
 - **Profile type:** business | personal
 - **Website:**
-- **Facebook page:**
-- **Instagram account:**
+
+### Channels
+
+| Channel | Link | Posting |
+|---------|------|---------|
+| Facebook personal profile | | assisted (prepared, reminder, posted by hand) |
+| Facebook Page | | automatic (later, via Meta) |
+| Instagram | | automatic (later, via Meta) |
+
+<!-- Leave a row's link empty if the brand doesn't use that channel -->
+
+### Assets
+
+- **Logo:** `assets/logo.png`
+- **Person photo (personal profile only):** `assets/photo.png`, placed in a corner of every post design
 
 ---
 
@@ -72,7 +85,6 @@
 
 ### Visuals and audio
 
-- **Logo:** `assets/logo.png` (main), `assets/logo-white.png` (for dark backgrounds, optional)
 - **Logo placement:** (e.g. bottom-right corner, small)
 - **Colours and fonts:**
 - **Music:** (allowed / not allowed)
