@@ -32,6 +32,11 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - **Content rules stay in the brief:** language, voice, visuals and audio, approved sources and
   no-go topics are kept in a separate section of `brief.md`, so the Content Creator knows how to
   write and the Reviewer has something to check against.
+- **Personal Facebook profile is the main channel** (most reach). Meta doesn't allow automatic
+  posting there, so it will use assisted posting: everything is prepared, a reminder arrives at
+  post time, and the user posts it by hand. The brand Page and Instagram are fully automatic.
+- **Open decision:** reminder channel for assisted posting (Telegram, WhatsApp or email). To be
+  decided later.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
