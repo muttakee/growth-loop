@@ -39,6 +39,22 @@
   main offer]. Seeing peers like them improve. A price below offline centres (BDT 6,500 against a
   BDT 15,000 offline course [https://cdn.10minuteschool.com/images/Brochure_10MS_English_Centre_1715256964842.pdf]).
   Live classes that fit around university (inferred).
+- **Updates (2026-W46):**
+  - **Fee caveat:** the BDT 31,100 / UKVI 34,850 figure above is not confirmed. Sources conflict:
+    BDT 24,950 [https://ielts.idp.com/bangladesh/about/ielts-exam-fee], 28,450 / UKVI 27,450
+    [https://www.idp.com/bangladesh/ielts/prepare-for-ielts/test-fee], 29,600 (BC Dhaka, Oct sessions)
+    [https://speakshark.com/blog/ielts-exam-dates-october-2026-bangladesh], 31,100
+    [https://mentors.com.bd/news/ielts-test-fee-update] (all via search snippets). Do not quote a fee
+    until checked on the official booking page. [research 2026-W46: Top 3 findings #2]
+  - **Test format:** IELTS in Bangladesh is computer-delivered only; paper test not offered after
+    31 Jan 2026 [https://ielts.idp.com/bangladesh/about/which-test-do-i-take/paper-based-ielts, via
+    search snippet]; UKVI is fully digital [https://ielts.org/news-and-insights/updates-to-ielts-test-delivery,
+    via search snippet]. First-timers will meet an on-screen test, including typed Writing (typing
+    pressure is inferred). [research 2026-W46: Top 3 findings #1]
+  - **Timing:** UK January 2027 intake deadlines fall in November (e.g. LJMU CAS deadline 30 Nov 2026
+    [https://cm-prod.ljmu.ac.uk/campaigns/january-intake-2027]; Kent application deadline 27 Nov,
+    year inferred [https://www.gradding.com/blog/study-abroad/january-intake-in-the-uk, via search
+    snippet]). [research 2026-W46: Top 3 findings #3]
 
 ## Persona 2: Young professional heading for work or migration
 
@@ -90,5 +106,21 @@
   find exactly where they lose marks; the crash course price compared with the cost of another
   test (inferred). The brief's honesty ("no fake band promises") builds trust with this group,
   because they have already been let down once (inferred).
+- **Updates (2026-W46):**
+  - **One Skill Retake:** British Council launched One Skill Retake in Bangladesh (retake one
+    section, not the whole test)
+    [https://www.thedailystar.net/campus/education/news/british-council-ielts-launches-one-skill-retake-bangladesh-3428586].
+    Computer-delivered tests only, booked within 60 days of the original test
+    [https://www.ielts.org/one-skill-retake, via search snippet]. Not every centre may offer it
+    [https://vocal.media/education/ielts-registration-and-requirements-in-bangladesh, via search snippet].
+    Fee not found. This changes this persona's options: "pay for the whole test again" is no longer
+    the only path (inferred). [research 2026-W46: Top 3 findings #1; Niche news #2]
+  - **Fee caveat:** the BDT 31,100 figure above is not confirmed (sources conflict; see Persona 1
+    update, 2026-W46). Do not quote a fee until checked on the official booking page.
+  - **Nerves:** nervous candidates speak too fast, then speed up further after noticing mistakes,
+    or say too little, which lowers the score
+    [https://www.awalenglish.com/ielts-preparation/overcoming-ielts-speaking-nervousness/;
+    https://ted-ielts.com/8-useful-ielts-speaking-tips/, via search snippets; prep sites, not
+    audience comments]. [research 2026-W46: Audience questions #1]
 
 <!-- Copy a block above for more personas -->
