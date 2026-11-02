@@ -25,6 +25,17 @@
   final-year exams and thesis [brief]. Cost: the test is BDT 31,100 (UKVI BDT 34,850)
   [https://mentors.com.bd/news/ielts-test-fee-update], so a failed attempt is expensive.
   Confused about Academic vs UKVI vs General (inferred).
+  - *Update (2026-W46):* the BDT 31,100 fee above is **disputed**. IDP Bangladesh pages (as indexed)
+    show BDT 28,450 (UKVI BDT 27,450) [https://www.idp.com/bangladesh/ielts/prepare-for-ielts/test-fee]
+    or BDT 24,950 [https://ielts.idp.com/bangladesh/about/ielts-exam-fee]; NextStep gives
+    BDT 23,000–25,500 [https://nextstepielts.com/ielts-exam-fee-in-bangladesh/]. Confirm on the
+    official booking page before quoting any fee. [research 2026-W46, Top findings #1]
+  - *Update (2026-W46):* IDP stopped IELTS on Paper in Bangladesh after 31 Jan 2026, so first-time
+    takers will likely sit the computer test
+    [https://speakshark.com/blog/ielts-test-dates-november-2026-bangladesh, via search snippet].
+    Agent guides say UK January-intake applicants should be underway by October and that the UK visa
+    needs IELTS for UKVI [https://ardentoverseas.com/january-intake-in-uk/; https://www.gradding.com/blog/study-abroad/january-intake-in-the-uk, via search snippets]
+    (not yet checked against gov.uk; may not apply to every degree-level offer). [research 2026-W46, Top findings #2, #3]
 - **Words they use:** "আইইএলটিএস প্রস্তুতি", "ইংরেজি বলায় জড়তা"
   [https://www.prothomalo.com/education/examination/26znz7bure]; "ঘরে বসে IELTS প্রস্তুতি"
   [book title: https://othoba.com/ghore-boshe-ielts-prostuti-by-munzereen-shahid-book-vandar-521695];
@@ -56,6 +67,11 @@
   [https://www.pw.live/exams/ielts/ielts-preparation-tips-for-canada-immigration]; that it applies to
   Bangladeshi applicants is inferred). Worried that one
   missed score will delay the whole migration file (inferred).
+  - *Update (2026-W46):* for the UK, the Skilled Worker, Scale-up and HPI English requirement rose
+    from B1 to B2 for applications from 8 Jan 2026
+    [https://latitudelaw.com/news/new-english-language-threshold-for-many-uk-work-visas;
+    https://www.gov.uk/government/news/migrants-will-be-required-to-pass-a-level-standard-of-english, via search snippets].
+    Content must stay about the English level, never a visa promise. [research 2026-W46, Niche news]
 - **Words they use:** "General IELTS", "CRS score", "Canada PR er jonno koto band lage", "office er
   pore kokhon porbo" (inferred; no sourced comments yet).
 - **When they're online:** After work and after dinner, about 9pm–12am; Friday and Saturday
@@ -79,6 +95,14 @@
   score below their real ability, mainly because of fear
   [https://bangla.thedailystar.net/youth/education/news-500221]. Embarrassed to tell family or
   friends (inferred).
+  - *Update (2026-W46):* the BDT 31,100 fee is **disputed** (other sources show BDT 28,450, 24,950
+    or 23,000–25,500; see Persona 1 update). Don't quote a fee until confirmed. [research 2026-W46, Top findings #1]
+  - *Update (2026-W46):* **One Skill Retake** exists in Bangladesh (British Council, since Sept 2023):
+    retake one section instead of the whole test, booked within 60 days of the original test,
+    computer-delivered Academic/General Training only. No Bangladesh fee found
+    [https://www.dhakatribune.com/bangladesh/326390/british-council-ielts-launches-one-skill-retake-in;
+    https://en.prothomalo.com/youth/ae0152r00g;
+    https://takeielts.britishcouncil.org/ielts-recognising-organisations/one-skill-retake]. [research 2026-W46, Top findings #2]
 - **Words they use:** "যোগ্যতার তুলনায় কম স্কোর" (paraphrased from
   [https://bangla.thedailystar.net/youth/education/news-500221]); "abar exam dite hobe", "writing e
   6 ashe", "0.5 er jonno atke gesi" (inferred).
