@@ -15,21 +15,23 @@
 > or Banglish), 4 in Bangla script. Sample is small and from one competitor.
 > [research 2026-W46, Audience questions and language]
 
-## Persona 1: Final-year "study abroad" student (core persona from the brief)
+## Persona 1: Final-year first-time test taker (core persona from the brief)
 
-- **Who:** 21–24, final-year private or public university student in Dhaka. Plans a Master's (or
-  Bachelor's top-up) in Canada or the UK. Has never taken IELTS. [brief: Customer persona]
-- **Goal:** Band 6.5–7 on the first attempt, in time for intake deadlines. UK postgraduate courses
-  typically ask 6.5–7.0 and need IELTS for UKVI [https://gabble.ai/blog/study-in-uk-for-bangladeshi-students].
-  Canada has no fixed study-permit minimum since the SDS stream ended in Nov 2024, so each university
-  sets the score [https://gostudyin.com/bangladesh/study-in-canada/study-guides].
+> *Update (2026-W46): Bangladesh-only focus per brief change.* Renamed from "Final-year 'study
+> abroad' student". Removed the Canada/UK study plan, intake-deadline goal, UK/Canada score rules,
+> UK January-intake note and UKVI-for-UK-visa framing. Bangladesh test facts kept. [brief: Vision,
+> Customer persona, geography, No-go topics]
+
+- **Who:** 21–24, final-year private or public university student in Dhaka. Has never taken IELTS
+  and needs a score. [brief: Customer persona]
+- **Goal:** Band 6.5–7 on the first attempt [brief: Customer persona].
 - **Fears and pain points:** Speaking and Writing [brief]. Gets nervous and speaks in broken,
   word-by-word sentences even after 12 years of English at school
   [https://www.prothomalo.com/education/examination/26znz7bure]. Many students find Speaking Part 3
   the hardest [https://bangla.thedailystar.net/youth/education/news-500221]. Little time because of
   final-year exams and thesis [brief]. Cost: the test is BDT 31,100 (UKVI BDT 34,850)
   [https://mentors.com.bd/news/ielts-test-fee-update], so a failed attempt is expensive.
-  Confused about Academic vs UKVI vs General (inferred).
+  Confused about which test version to book, Academic or General Training (inferred).
   - *Update (2026-W46):* the BDT 31,100 fee above is **disputed**. IDP Bangladesh pages (as indexed)
     show BDT 28,450 (UKVI BDT 27,450) [https://www.idp.com/bangladesh/ielts/prepare-for-ielts/test-fee]
     or BDT 24,950 [https://ielts.idp.com/bangladesh/about/ielts-exam-fee]; NextStep gives
@@ -38,9 +40,7 @@
   - *Update (2026-W46):* IDP stopped IELTS on Paper in Bangladesh after 31 Jan 2026, so first-time
     takers will likely sit the computer test
     [https://speakshark.com/blog/ielts-test-dates-november-2026-bangladesh, via search snippet].
-    Agent guides say UK January-intake applicants should be underway by October and that the UK visa
-    needs IELTS for UKVI [https://ardentoverseas.com/january-intake-in-uk/; https://www.gradding.com/blog/study-abroad/january-intake-in-the-uk, via search snippets]
-    (not yet checked against gov.uk; may not apply to every degree-level offer). [research 2026-W46, Top findings #2, #3]
+    [research 2026-W46, Top findings #2]
   - *Update (2026-W46, redo):* **fee confirmed**, superseding the "disputed" note above. IDP's
     Bangladesh fee page (fetched 2 Nov 2026) lists IELTS on Computer BDT 31,100 (same in every
     city) and IELTS for UKVI BDT 34,850. The lower figures seen elsewhere (BDT 25,600–28,100) are
@@ -51,16 +51,13 @@
     [https://www.facebook.com/futureed.ieltsbritishcouncilbd/posts/pfbid04WELYzEEyLNJ7HD95NQxhvdQgWrNygh1YUfDNAuqis1zQ1TfF8fh4XDSeZ5zWbAVl],
     so "paper is gone" may only apply to IDP. Don't assume every first-timer sits the computer test.
     [research 2026-W46, Niche news]
-  - *Update (2026-W46, redo):* by 9 Nov most UK January 2027 deadlines have probably passed
-    (competitor posts said "THIS OCTOBER" [https://www.facebook.com/reel/1157260903499103/]);
-    September 2027 planning fits better (inferred). [research 2026-W46, Niche news]
   - *Update (2026-W46, redo):* juggling university mid-terms with IELTS prep is a real, stated
     pain: "Sir klk mid tao apnar class kortesi" (public comment on a Mentors' Live).
     [research 2026-W46, Audience questions and language]
 - **Words they use:** "আইইএলটিএস প্রস্তুতি", "ইংরেজি বলায় জড়তা"
   [https://www.prothomalo.com/education/examination/26znz7bure]; "ঘরে বসে IELTS প্রস্তুতি"
   [book title: https://othoba.com/ghore-boshe-ielts-prostuti-by-munzereen-shahid-book-vandar-521695];
-  "speaking e bhoy lage", "band 7 kivabe pabo", "UKVI lagbe?" (inferred).
+  "speaking e bhoy lage", "band 7 kivabe pabo" (inferred).
   - *Update (2026-W46, redo), real public comments on Mentors' IELTS posts* (persona match is
     inferred; commenters' age and status unknown): "Vaiya Reading part er class sesh kore felci
     tobuo confidence pacci nah"; "Sir how to improve my reading?"; "Sir klk mid tao apnar class
@@ -85,29 +82,27 @@
     the centre (many greetings to the teacher by name). Viewers answer practice questions in the
     comments ("1.B 2.D 3.E"). [research 2026-W46, Top findings #2; Audience questions and language]
 
-## Persona 2: Young professional heading for work or migration
+## Persona 2: Local working professional who needs an IELTS score
 
-- **Who:** 25–30, employed (bank, garments, IT, NGO) in Dhaka, Chattogram or Sylhet. Wants to
-  migrate or work abroad (Canada PR, UK, Australia). Takes IELTS **General Training**, which is the
-  version for work and migration [https://epfs.thedailystar.net/TDS/2025/09/15/Bangladesh/SUP/5_11/2593da2b4341e36b_11.pdf].
-  [brief: Target customer, geography]
-- **Goal:** A high score, especially in Speaking. For Canada, band 7 clearly meets Federal Skilled
-  Worker needs and higher Speaking scores add CRS points
-  [https://ielts.idp.com/bangladesh/about/news-and-articles/article-what-does-band-7-mean-anyway].
+> *Update (2026-W46): Bangladesh-only focus per brief change.* Renamed from "Young professional
+> heading for work or migration". Removed all destination-country goals and rules (Canada PR/CRS,
+> UK B2 work-route update, Australia), the migration-file worry, and a Canada-focused source on
+> Speaking. Why they need the score is their own business; content never names a country or route.
+> The persona still fits the brief's Target customer ("young professionals in Bangladesh, aged
+> 19–30, who need an IELTS score"). [brief: Target customer, geography, No-go topics]
+
+- **Who:** 25–30, employed (bank, garments, IT, NGO) in Dhaka, Chattogram or Sylhet. Needs an
+  IELTS score; may book Academic or General Training depending on what they have been asked for
+  (inferred). [brief: Target customer, geography]
+- **Goal:** A solid score on the first attempt, especially in Speaking (inferred). What a band
+  means can be explained from IDP Bangladesh's band-7 article
+  [https://ielts.idp.com/bangladesh/about/news-and-articles/article-what-does-band-7-mean-anyway]
+  or ielts.org band descriptors (brief: Approved sources), without any country requirement.
 - **Fears and pain points:** No time after office hours. Out of practice with academic English.
-  Speaking is often the weakest module (a Canada-focused prep article says this about Indian
-  applicants; seen only in a search snippet, exact page not confirmed among
-  [https://ieltsidpindia.com/blog/top-7-tips-to-score-high-ielts-band-for-canada] and
-  [https://www.pw.live/exams/ielts/ielts-preparation-tips-for-canada-immigration]; that it applies to
-  Bangladeshi applicants is inferred). Worried that one
-  missed score will delay the whole migration file (inferred).
-  - *Update (2026-W46):* for the UK, the Skilled Worker, Scale-up and HPI English requirement rose
-    from B1 to B2 for applications from 8 Jan 2026
-    [https://latitudelaw.com/news/new-english-language-threshold-for-many-uk-work-visas;
-    https://www.gov.uk/government/news/migrants-will-be-required-to-pass-a-level-standard-of-english, via search snippets].
-    Content must stay about the English level, never a visa promise. [research 2026-W46, Niche news]
-- **Words they use:** "General IELTS", "CRS score", "Canada PR er jonno koto band lage", "office er
-  pore kokhon porbo" (inferred; no sourced comments yet).
+  Speaking may be the weakest module (inferred). Worried about paying the BDT 31,100 fee twice
+  [https://ielts.idp.com/bangladesh/about/ielts-exam-fee] (inferred as a pain for this persona).
+- **Words they use:** "General IELTS", "office er pore kokhon porbo" (inferred; no sourced
+  comments yet).
 - **When they're online:** After work and after dinner, about 9pm–12am; Friday and Saturday
   daytime (inferred).
 - **Best hooks:** "Office এর পরে দিনে ৩০ মিনিটে Speaking প্রস্তুতি"; "General vs Academic: কোনটা
@@ -115,11 +110,14 @@
   source) (inferred).
 - **What makes them buy:** The 3-week Speaking and Writing crash course (BDT 3,000) fits a busy
   schedule [brief: products]. Evening live classes, recordings, and clear honest advice without
-  visa promises (inferred).
+  score promises (inferred).
 
 ## Persona 3: The retaker who missed by half a band
 
-- **Who:** 20–28, anywhere in Bangladesh or a Bangladeshi student already abroad [brief: geography].
+> *Update (2026-W46): Bangladesh-only focus per brief change.* Removed "or a Bangladeshi student
+> already abroad" from Who (geography is now Bangladesh only). [brief: geography]
+
+- **Who:** 20–28, anywhere in Bangladesh [brief: geography].
   Has taken IELTS once and got 6.0 or 6.5 with one weak module (usually Writing or Speaking) (inferred).
 - **Goal:** Lift one module by 0.5–1 band on the next attempt, fast. IDP describes paid speaking
   coaching as aimed at exactly this "boost by half a band" need
