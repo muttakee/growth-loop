@@ -9,6 +9,11 @@
 > Bangla press articles about IELTS preparation (headlines and trainer quotes), not verbatim student
 > comments. Phrases marked `(inferred)` are typical wording, not seen in a source. The Researcher
 > should replace them with real comment phrases from competitor posts as soon as possible.
+>
+> *Update (2026-W46, redo):* the first real comment phrases are now in (72 public comments on
+> Mentors' top 3 IELTS posts, via Apify; no names stored). 63 of 72 were in Latin letters (English
+> or Banglish), 4 in Bangla script. Sample is small and from one competitor.
+> [research 2026-W46, Audience questions and language]
 
 ## Persona 1: Final-year "study abroad" student (core persona from the brief)
 
@@ -36,10 +41,33 @@
     Agent guides say UK January-intake applicants should be underway by October and that the UK visa
     needs IELTS for UKVI [https://ardentoverseas.com/january-intake-in-uk/; https://www.gradding.com/blog/study-abroad/january-intake-in-the-uk, via search snippets]
     (not yet checked against gov.uk; may not apply to every degree-level offer). [research 2026-W46, Top findings #2, #3]
+  - *Update (2026-W46, redo):* **fee confirmed**, superseding the "disputed" note above. IDP's
+    Bangladesh fee page (fetched 2 Nov 2026) lists IELTS on Computer BDT 31,100 (same in every
+    city) and IELTS for UKVI BDT 34,850. The lower figures seen elsewhere (BDT 25,600–28,100) are
+    centre discount offers, not the official fee
+    [https://ielts.idp.com/bangladesh/about/ielts-exam-fee]. [research 2026-W46, Top findings #1]
+  - *Update (2026-W46, redo):* **correction on paper tests.** A British Council test centre
+    (FutureEd) posted IELTS on Paper dates for Nov 2026 to Jan 2027
+    [https://www.facebook.com/futureed.ieltsbritishcouncilbd/posts/pfbid04WELYzEEyLNJ7HD95NQxhvdQgWrNygh1YUfDNAuqis1zQ1TfF8fh4XDSeZ5zWbAVl],
+    so "paper is gone" may only apply to IDP. Don't assume every first-timer sits the computer test.
+    [research 2026-W46, Niche news]
+  - *Update (2026-W46, redo):* by 9 Nov most UK January 2027 deadlines have probably passed
+    (competitor posts said "THIS OCTOBER" [https://www.facebook.com/reel/1157260903499103/]);
+    September 2027 planning fits better (inferred). [research 2026-W46, Niche news]
+  - *Update (2026-W46, redo):* juggling university mid-terms with IELTS prep is a real, stated
+    pain: "Sir klk mid tao apnar class kortesi" (public comment on a Mentors' Live).
+    [research 2026-W46, Audience questions and language]
 - **Words they use:** "আইইএলটিএস প্রস্তুতি", "ইংরেজি বলায় জড়তা"
   [https://www.prothomalo.com/education/examination/26znz7bure]; "ঘরে বসে IELTS প্রস্তুতি"
   [book title: https://othoba.com/ghore-boshe-ielts-prostuti-by-munzereen-shahid-book-vandar-521695];
   "speaking e bhoy lage", "band 7 kivabe pabo", "UKVI lagbe?" (inferred).
+  - *Update (2026-W46, redo), real public comments on Mentors' IELTS posts* (persona match is
+    inferred; commenters' age and status unknown): "Vaiya Reading part er class sesh kore felci
+    tobuo confidence pacci nah"; "Sir how to improve my reading?"; "Sir klk mid tao apnar class
+    kortesi"; a question on "strategy for picking the best keywords" for classification questions
+    (posted twice). They address the teacher as "Vaiya", "bhai" or "Sir" ("Assalamualaikum Vaiya",
+    "Big fan bhai"). Mostly typed in Banglish or English, not Bangla script.
+    [research 2026-W46, Audience questions and language; `weeks/2026-W46/raw/apify-facebook-comments-scraper-mentors-top3.json`]
 - **When they're online:** Late evening to after midnight, about 9pm–1am, and between classes
   (inferred; no Bangladesh time-of-day data found). 18–24 is Bangladesh's largest Facebook age
   group, at 31.4M users [https://stats.napoleoncat.com/facebook-users-in-bangladesh/2024/01/].
@@ -50,6 +78,12 @@
   main offer]. Seeing peers like them improve. A price below offline centres (BDT 6,500 against a
   BDT 15,000 offline course [https://cdn.10minuteschool.com/images/Brochure_10MS_English_Centre_1715256964842.pdf]).
   Live classes that fit around university (inferred).
+  - *Update (2026-W46, redo):* free Facebook Lives by a named trainer are the niche's strongest
+    organic format (Mentors' Reading Live, 28 Oct: 198 reactions, 194 comments, 20,713 views, about
+    8x their median reactions [https://www.facebook.com/Mentorsbd/videos/1506376434660062/]).
+    Viewers value free live classes ("Bro is giving out free classes…") and follow the person, not
+    the centre (many greetings to the teacher by name). Viewers answer practice questions in the
+    comments ("1.B 2.D 3.E"). [research 2026-W46, Top findings #2; Audience questions and language]
 
 ## Persona 2: Young professional heading for work or migration
 
@@ -103,6 +137,18 @@
     [https://www.dhakatribune.com/bangladesh/326390/british-council-ielts-launches-one-skill-retake-in;
     https://en.prothomalo.com/youth/ae0152r00g;
     https://takeielts.britishcouncil.org/ielts-recognising-organisations/one-skill-retake]. [research 2026-W46, Top findings #2]
+  - *Update (2026-W46, redo):* **fees confirmed** on IDP's Bangladesh fee page (fetched 2 Nov 2026):
+    full IELTS on Computer BDT 31,100 (UKVI BDT 34,850); **One Skill Retake BDT 18,600** (UKVI One
+    Skill Retake BDT 20,900); Enquiry on Results BDT 10,500
+    [https://ielts.idp.com/bangladesh/about/ielts-exam-fee]. This supersedes the "disputed" and
+    "no Bangladesh fee found" notes above. One Skill Retake rules (60 days, computer only) were not
+    re-verified this run. [research 2026-W46, Top findings #1; Niche news]
+  - *Update (2026-W46, redo):* competitors' paid ads are aimed squarely at this persona ("stuck at
+    a band", "retaking wastes time and money"; Mentors' ad since 6 Sep, FutureEd lead-magnet ad
+    since Feb/May) [https://www.facebook.com/ads/library/?id=2018018152186517;
+    https://www.facebook.com/ads/library/?id=978762005074055]. The pain is confirmed as
+    commercially targeted; the angle is crowded, so our version must be the honest, no-promise one
+    (inferred). [research 2026-W46, Top findings #3; Active ads]
 - **Words they use:** "যোগ্যতার তুলনায় কম স্কোর" (paraphrased from
   [https://bangla.thedailystar.net/youth/education/news-500221]); "abar exam dite hobe", "writing e
   6 ashe", "0.5 er jonno atke gesi" (inferred).

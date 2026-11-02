@@ -1,104 +1,118 @@
 # Targeting: Sample IELTS Coach, 2026-W46
 
-- **Dates:** Mon 9 Nov to Sun 15 Nov 2026 (targeting run: Mon 2 Nov 2026)
-- **Inputs read:** `brief.md` (Content rules binding), `personas.md`, `memory.md`, `weeks/2026-W46/research.md`
+- **Dates:** Mon 9 Nov to Sun 15 Nov 2026 (targeting run: Mon 2 Nov 2026; **redo**, replaces the
+  version built on the earlier snippet-only research)
+- **Inputs read:** `brief.md` (Content rules binding), `personas.md`, `memory.md`,
+  `weeks/2026-W46/research.md` (Apify redo)
 
-> **Limits this week (read first).**
-> - Research has **no social data** (no Facebook/Instagram posts, comments, ads or engagement
->   numbers). All findings are from search snippets. So hooks are built from news/explainer
->   findings and the brief, not from proven competitor formats or real audience wording.
-> - `memory.md` "What works" and "Lessons learned" are empty (first weekly run). Nothing proven yet.
-> - **Test fee is disputed** (BDT 31,100 vs 28,450 vs 24,950; research Top findings #1). **No hook
->   or angle states a fee.** Retake-cost hooks use figure-free wording. **Needs human
->   confirmation** on the British Council or IDP booking page before any post quotes a number.
-> - No hook uses an audience phrase marked `(inferred)` as if it were a real quote.
+> **Read first.**
+> - Fees are now confirmed from IDP's own Bangladesh page: IELTS on Computer **BDT 31,100**, UKVI
+>   **BDT 34,850**, One Skill Retake **BDT 18,600**, UKVI One Skill Retake **BDT 20,900**
+>   (research: Top findings #1). Hooks may quote these. Cite IDP in the post body.
+> - `memory.md` "What works" and "Lessons learned" are still empty (no week has been measured).
+>   Choices lean on the three Open experiments and on competitor data from research.
+> - Competitor wording is used for **pain-point direction only**. No hook below reuses a competitor
+>   phrase (checked against the ad and post wording in research: Active ads, Audience questions).
 
 ## Focus personas
 
 | Persona | Why this week | Main pain point | Desire |
 |---------|---------------|-----------------|--------|
-| **P1: Final-year "study abroad" student** (primary) | UK January 2027 intake is in its last weeks, and agent guides warn against leaving it to November (research: Top findings #3). Paper test ended at IDP, so most will sit computer IELTS for the first time (research: Top findings #2, Niche news). Core persona in the brief. | Confusion over which test to book (UKVI vs Academic) and fear of booking late or booking the wrong one; nervous about the computer format. | Book the right test once, prepare in the little time left, and walk in calm. |
-| **P3: Retaker who missed by half a band** (primary) | One Skill Retake is a timely, no-promise explainer that fits the mission of fewer costly full retakes (research: Top findings #2). Memory open experiment 3 (retake-cost angle) targets this persona, but must run with figure-free wording this week (research: Top findings #1). | Fear of paying for and sitting the whole test again because of one weak module. | Fix just the weak module, know exactly where marks are lost before trying again. |
-| **P2: Young professional heading for work/migration** (secondary, 1–2 posts) | UK Skilled Worker / Scale-up / HPI English requirement rose from B1 to B2 from 8 Jan 2026 (research: Niche news, UK English rules). Gives a fresh, factual reason to talk to this group. | Little time after office; unsure what level or test they actually need. | A clear, honest answer on the level and test, and a prep plan that fits after work. |
+| **P3: Retaker who missed by half a band** (primary) | Fee confirmed (BDT 31,100 full test, BDT 18,600 One Skill Retake), so memory Open experiment #3 (retake-cost angle) can finally run with real numbers (research: Top findings #1). Rivals' paid ads all target this pain ("stuck at a band", "retake wastes money"), but **nobody offers a free live speaking check with personal feedback** before you pay (research: Top findings #3; Active ads, Pattern). That gap is our main offer. | Paying BDT 31,100 again and still not knowing which module is losing marks. | Find the exact weak spot first, then choose the cheapest sensible next step (full test or one skill). |
+| **P1: Final-year "study abroad" student** (primary) | Free Lives by a named trainer are the niche's best organic format (about 8x median reactions; research: Top findings #2), and our weekly free Speaking Live is the brand's core. Students are booking Nov/Dec test dates, and mid-terms squeeze their time ("klk mid" comment) (research: Occasions; Audience questions). Cambridge IELTS 21 is out, an approved source (research: Niche news). | Little time (mid-terms) and Speaking nerves, with a test date coming up. | Short, practical prep that fits around university, and a calm first attempt. |
+| **P2: Young professional, work/migration** (secondary, 1 post at most) | UK work-route English level rose from B1 to B2 (research: Niche news, UK work English level; not re-verified this run). Migration topics pull strong attention in IELTS Pages (Canada spouse post, 1,501 reactions; research: Niche news, Canada). | Unsure what level they actually need; no time after office. | A clear, honest explanation of the level, without visa talk. |
 
-Not chosen: HSC leavers applying to DU/RU/CU (research: Occasions, Top findings #3). They are
-younger than the brief's 19–30 target; side audience only.
+Not chosen: HSC passers (under the 19–30 target, and competitors are already discounting heavily
+for them; research: Occasions, 31 Oct). DU/RU/CU admissions are a side audience only.
 
 ## Hooks
 
-All hooks in Bangla per the brief; English kept only for IELTS terms. Voice: elder-brother, short
-sentences, no band or visa promises, no fee figures.
+All hooks in Bangla per the brief. English kept only for IELTS terms. Voice: elder brother, "তুমি",
+short sentences. No band or visa promises. Fee figures from IDP's page (research: Top findings #1).
 
 | # | Hook (brand language) | Persona | Pain point | Type | Source |
 |---|-----------------------|---------|------------|------|--------|
-| 1 | UK-তে January intake ধরতে চাও? আগে বলো তো, তোমার কোন IELTS লাগবে: UKVI নাকি Academic? | P1 | Booking the wrong test, late in the cycle | question | research: Top findings #3 |
-| 2 | ভুল IELTS বুক করলে টাকা আর সময় দুটোই যায়। Booking-এর আগে এই একটা জিনিস চেক করো। | P1 | Booking the wrong test | mistake | research: Top findings #3; Audience questions (UKVI or Academic) |
-| 3 | শুধু Speaking-এ আটকে গেছো? পুরো টেস্ট আবার না দিয়েও একটা উপায় আছে। চলো দেখি। | P3 | Retaking the whole test for one module | question | research: Top findings #2 |
-| 4 | "একটা module খারাপ হলেই পুরো IELTS আবার দিতে হয়।" সবসময় না। One Skill Retake কী, জেনে নাও। | P3 | Retaking the whole test for one module | myth | research: Top findings #2 |
-| 5 | আবার টেস্টের টাকা দেওয়ার আগে একবার জেনে নাও, ঠিক কোথায় নম্বর কাটছে। | P3 | Cost and fear of a second failed attempt (no figure stated) | mistake | research: Top findings #1 (fee disputed, so no number); memory: Open experiments #3 |
-| 6 | চিন্তা করো না। এই সপ্তাহের ফ্রি Speaking mock test-এ এসো, তোমার দুর্বল জায়গাটা একসাথে খুঁজে বের করি। | P3, P1 | Not knowing where marks are lost | offer | brief: Main offer; research: Top findings #2 |
-| 7 | Computer-এ IELTS প্রথমবার? টেস্টের আগের ৭ দিনে কী করবে, চলো দেখি। | P1 | Nervous about the new computer format, little time | number | research: Occasions (frequent Nov test dates); Niche news (paper test ended) |
-| 8 | "Computer IELTS বেশি কঠিন।" আসলে কী বদলায় আর কী বদলায় না, ২ মিনিটে বুঝে নাও। | P1 | Fear of the computer format | myth | research: Top findings #2; Niche news (paper test ended) |
-| 9 | UK work visa-তে ইংরেজির লেভেল B1 থেকে B2 হয়েছে। B2 মানে আসলে কতটা ইংরেজি? চলো দেখি। | P2 | Unsure what level they need | question | research: Niche news (UK English rules) |
-| 10 | আমি কোনো coaching ছাড়াই ইংরেজি শিখেছি, ঢাকার বাইরে বড় হয়ে। তাই জানি Speaking-এ জড়তা কেমন লাগে। | P1 | Speaking nerves, non-English-medium background | story | brief: Personal info; personas P1 (Prothom Alo, "ইংরেজি বলায় জড়তা") |
+| 1 | ৩১,১০০ টাকা দেওয়ার আগে একবার ফ্রি-তে Speaking চেক করে নাও। এই সপ্তাহের Live-এ আমি নিজে শুনবো। | P3, P1 | Paying the full fee again blind | offer | research: Top findings #1 and #3 (gap: no rival offers a free live speaking check); memory: Open experiments #3 |
+| 2 | পুরো test আবার ৩১,১০০ টাকায়? নাকি শুধু একটা skill ১৮,৬০০ টাকায়? চলো দেখি কোনটা তোমার জন্য। | P3 | Retaking the whole test for one weak module | number | research: Top findings #1; Niche news (One Skill Retake fee) |
+| 3 | ৬.৫ এসেছে, লাগবে ৭? নতুন date বুক করার আগে এই ভুলটা কোরো না। | P3 | Rebooking without knowing where marks were lost | mistake | research: Top findings #3 (retaker pain is the niche's top theme); personas P3 |
+| 4 | "একটা module খারাপ হলে পুরো IELTS আবার দিতে হয়।" সবসময় না। চলো দেখি। | P3 | Belief that a full retake is the only option | myth | research: Top findings #1; Niche news (One Skill Retake) |
+| 5 | Speaking-এ ভয় লাগে? Live-এ প্রশ্ন দেবো, তুমি comment-এ উত্তর লেখো, আমি সাথে সাথে আরও ভালো করে দেখাবো। | P1 | Speaking nerves, no one to give feedback | offer | research: Top findings #2 (live answers in comments); Audience questions (live participation); memory: Open experiments #2 (fear-first hook) |
+| 6 | Mid-term চলছে, IELTS-ও সামনে? দিনে ২০ মিনিটে Speaking প্র্যাকটিস, চলো দেখি কীভাবে। | P1 | No time between university exams and IELTS prep | question | research: Audience questions (little time, "klk mid"); Occasions (mid-terms) |
+| 7 | Test-এর আর ৭ দিন বাকি? কোন দিন কী করবে, এক নজরে। | P1, P3 | Last-week panic, no plan | number | research: Occasions (Nov/Dec test bookings) |
+| 8 | Cambridge IELTS 21 হাতে এসেছে। চলো, Test 1-এর Speaking Part 2 দিয়ে আজ শুরু করি। | P1 | Wants fresh, current practice | question | research: Competitor standouts (Mentors' #3, IELTS 21 out); Other niche Pages, Avoid (meets "what's coming now" demand without real exam questions) |
+| 9 | আমি ঢাকার বাইরে বড় হয়েছি, কোচিং ছাড়া ইংরেজি শিখেছি। প্রথম দিকে Speaking-এ আমিও থেমে যেতাম। | P1 | Speaking nerves, non-English-medium background | story | research: Audience questions (people follow the teacher, not the centre); brief: Personal info |
+| 10 | UK-তে কাজের জন্য এখন B2 ইংরেজি চায়। B2 মানে আসলে কতটা ইংরেজি? চলো দেখি। | P2 | Unsure what level they need | question | research: Niche news (UK work English level) |
 
-**Fact checks the Planner/Creator must do before these hooks go live** (approved source: ielts.org):
+**Fact checks before these go live** (Planner / Creator):
 
-- **Hooks 1–2:** research says agent guides claim UK visa needs IELTS for UKVI. For degree-level
-  study at a licensed university this may not always apply (some universities assess English
-  themselves) (inferred). The post body must say "check your university's requirement" and not
-  state a single rule as fact until confirmed on ielts.org / gov.uk.
-- **Hooks 3–4:** confirm One Skill Retake rules (60-day window, computer-delivered only, which test
-  centres offer it in Bangladesh) on ielts.org. No Bangladesh One Skill Retake fee was found; do not
-  quote one. Hook 3 says "একটা উপায় আছে", which is only safe if it is confirmed available in Bangladesh
-  for the student's test centre.
-- **Hook 8:** confirm on ielts.org that content and timing are the same on computer and paper and
-  that Speaking is still face-to-face.
-- **Hook 9:** B1 to B2 is from UK sources via snippets. Explain the English level only. No visa
-  promise (brief no-go). Do not map B2 to a band number unless taken from the official UKVI/gov.uk list.
-- **Hook 10:** facts from the brief are fictional (test brand). Fine for testing; replace with the
-  real coach's story for a real brand.
+- **Hooks 1, 2:** cite IDP's fee page in the post body
+  ([ielts.idp.com/bangladesh/about/ielts-exam-fee](https://ielts.idp.com/bangladesh/about/ielts-exam-fee)).
+  Say "official fee" and note that centres may offer discounts; never compare centres by name.
+- **Hooks 2, 4:** One Skill Retake rules (within 60 days, computer-delivered only) were **not
+  re-verified** this run (research: Gaps). Check on ielts.org before posting. The post must also say
+  when One Skill Retake is *not* the right choice (e.g. paper test, or more than one weak module).
+- **Hook 3:** the "mistake" is booking again without a module-by-module diagnosis. The body leads to
+  the free mock test. No promise that the next score will rise.
+- **Hook 5:** Live routine from research: announce the day before, keep the question card on screen
+  (don't block it; see research Audience questions, production feedback).
+- **Hook 8:** confirm the book's Test 1 Speaking Part 2 cue card, and cite "Cambridge IELTS 21,
+  Test 1" on the post (brief: Approved sources).
+- **Hook 9:** brief facts are fictional (test brand). Fine for testing; replace for a real brand.
+- **Hook 10:** B1 to B2 is from search snippets only (gov.uk via snippet). Verify on gov.uk. Explain
+  the English level only, no visa promise, and don't map B2 to a band number unless from an official list.
 
-**Experiment hook pair (memory: Open experiments #2, fear-first vs score-first):** hook 3
-(fear/stuck framing) can be paired with a goal variant such as "Speaking-এ আরও ০.৫ তুলতে চাও? আগে
-এটা জানো।" on the same post, if the Planner wants to start that test this week.
+**Experiment pairing (memory: Open experiments #2):** hook 5 (fear-first) can be A/B'd with a
+goal-first variant such as "Speaking-এ ভালো band চাও? এই সপ্তাহের Live-এ চলো একসাথে প্র্যাকটিস করি।"
+on the same Live promo.
 
 ## Content angles
 
 | # | Angle | Format idea | Persona | Research link |
 |---|-------|-------------|---------|---------------|
-| 1 | UKVI vs Academic: which one do you need for the UK? | Carousel, exam-style cards: "UKVI", "Academic", "General", each with who it is for; last card "check your university's page" | P1 (and P2 for General) | see research: Top findings #3; Audience questions #1 |
-| 2 | One Skill Retake explained: what it is, when it helps, when it doesn't | Reel, coach to camera, 30–45s, with an on-screen 3-point card; CTA to the free mock test to find the weak module first | P3 | see research: Top findings #2; Audience questions #3 |
-| 3 | Computer IELTS: what changes and what doesn't | Carousel "বদলায় / বদলায় না" two-column cards; facts from ielts.org | P1 | see research: Top findings #2; Niche news (paper test ended) |
-| 4 | The last 7 days before your test | Carousel, one card per day (Listening on screen, Writing typing practice, Speaking mock, rest day) | P1, P3 | see research: Occasions (frequent Nov computer test dates, reported); Niche news (November test availability) |
-| 5 | Check before you pay again: free Speaking mock test | Facebook Live promo plus a short reel cut from a previous Live answer and the coach's fix (with consent), if one exists. **No fee figure** until the human confirms it | P3, P1 | see research: Top findings #1 (fee disputed); memory: Open experiments #1 and #3 |
-| 6 | UK work routes now ask B2 English: what B2 means for you | Single image or short carousel; explain the level using official descriptors, no visa promise; CTA to the crash course for busy professionals | P2 | see research: Niche news (UK English rules) |
+| 1 | Full retake or One Skill Retake? The real costs and when each makes sense | Carousel, exam-style cards: BDT 31,100 / 34,850 UKVI / 18,600 One Skill / 20,900 UKVI One Skill; "when it fits / when it doesn't"; last card: "আগে free Speaking check" | P3 | see research: Top findings #1; Niche news (One Skill Retake fee) |
+| 2 | Weekly free Speaking Live, run as a routine: announce the day before, practice question on screen, viewers answer in comments, coach upgrades answers live | Announcement post (day before) plus the Live; afterwards a 30–60s reel cut of one upgraded answer (with consent) | P1, P3 | see research: Top findings #2; Audience questions (live participation, production feedback); memory: Open experiments #1 |
+| 3 | "Check before you pay BDT 31,100": the honest alternative to the crowded "retake wastes money" ads | Reel, coach to camera, 20–30s; CTA: book the free mock test. No score promise | P3 | see research: Top findings #3; Active ads (Pattern: no free live speaking check offered); memory: Open experiments #3 |
+| 4 | Cambridge IELTS 21 practice: one Speaking cue card, a model answer in English, explained in Bangla | Carousel (cue card, notes, model answer, 3 useful phrases); book and test number cited | P1 | see research: Competitor standouts (Mentors' #3, IELTS 21 reel); Other niche Pages, Avoid ("real exam" passages replaced by approved-source practice) |
+| 5 | One question type, A to Z, as a save-and-share reference card. Suggested: Reading **classification questions** (asked twice in comments) or Speaking Part 3 structure | Carousel, 6–8 exam-style cards, last card "save করে রাখো" | P1 | see research: Other niche Pages (Edukraft study note, 105 shares); Audience questions (classification strategy, reading confidence) |
+| 6 | The last 7 days before your test, built for busy students | Carousel, one card per day, each task under 30 minutes | P1, P3 | see research: Occasions (Nov/Dec test bookings, mid-terms) |
+| 7 | What B2 English actually means for UK work routes | Single image or short carousel explaining the level from official descriptors; CTA to the 3-week crash course | P2 | see research: Niche news (UK work English level) |
 
 ## Notes for the Planner
 
-- **Fee:** do not use any BDT test-fee number this week unless the human confirms it on the British
-  Council or IDP booking page (research: Top findings #1). `personas.md` still shows BDT 31,100 in
-  older lines; a W46 note now flags it as disputed.
-- **No-content / no-go days:** Sat 7 Nov (political holiday) and Sun 8 Nov (religious observance)
-  are both outside W46 and must get no occasion-themed content (brief no-go). Inside W46 there is no
-  political or religious occasion to use; World Diabetes Day (14 Nov) has no IELTS angle.
-- **DU admissions (11 Nov):** optional at most, side audience; not a focus.
-- **Competitor inspiration:** none available this week (no social data), so nothing to adapt and
-  nothing copied.
+- **Format priority:** the Live (angle 2) is the week's anchor. Competitors' high-view reels with
+  few interactions look paid (research: Competitor standouts, FutureEd), so judge our organic posts
+  on comments and shares, not views.
+- **Light post option:** a relatable, no-sales post (mid-term or month-end mood) in the elder-brother
+  voice fits; competitors' meme post did about 4x median (research: Competitor standouts, FutureEd).
+  Write our own joke; don't reuse theirs.
+- **Do not say "paper test is gone"** in general (research: Niche news, correction on paper tests).
+- **UK January intake:** most deadlines have likely passed; frame any UK post as "September 2027,
+  book early" (research: Niche news).
+- **Avoid:** "yesterday's exam" passages (no-go: real exam questions), the political organisation's
+  IELTS course (no-go: political), any band-speed claim like "১ মাসেই 7+" (no-go: guarantees),
+  occasion content for 7 Nov (political) and 8 Nov (religious) (research: Occasions; Gaps).
+- **Results/social-proof posts** (Mentors' results album did about 11.5x median) only with student
+  consent and a "results vary" line; no promise others will get the same score.
 
 ## Persona updates
 
-Added to `personas.md` this week (marked "Update (2026-W46)", nothing deleted):
+Added to `personas.md` this week as "Update (2026-W46, redo)" lines. Nothing deleted; the earlier
+W46 "disputed fee" notes stay in place and are marked as superseded.
 
-- **P1 and P3:** the BDT 31,100 fee is disputed by other sources (IDP pages show BDT 28,450 or
-  24,950; NextStep shows BDT 23,000–25,500). Source: research Top findings #1.
-- **P1:** IDP ended IELTS on Paper in Bangladesh after 31 Jan 2026, so first-timers will likely sit
-  the computer test. Source: research Top findings #2 / Niche news (speakshark.com, via snippet).
-  Agent guides say UK January intake applicants should be underway by October and that the UK visa
-  needs IELTS for UKVI (to be checked; may not apply to all degree-level offers). Source: research Top findings #3.
-- **P3:** One Skill Retake (British Council, Bangladesh, since Sept 2023): retake one section within
-  60 days, computer-delivered only. Source: research Top findings #2 (Dhaka Tribune, Prothom Alo,
-  British Council).
-- **P2:** UK Skilled Worker, Scale-up and HPI English requirement rose from B1 to B2 from
-  8 Jan 2026. Source: research Niche news (latitudelaw.com, gov.uk, via snippets).
-- **No new audience phrases** were added: research collected no real comments this week.
+- **Header note:** first real comment phrases collected (72 public comments, one competitor, mostly
+  Banglish/English). Source: research Audience questions and language.
+- **P1:** fee confirmed (BDT 31,100 / UKVI 34,850, IDP page). Source: research Top findings #1.
+- **P1:** correction: a British Council centre still lists paper test dates, so "paper is gone" may be
+  IDP-only. Source: research Niche news (FutureEd post).
+- **P1:** UK January 2027 deadlines have likely passed; Sept 2027 fits better (inferred). Source:
+  research Niche news.
+- **P1:** mid-term time pressure, and real comment phrases ("Vaiya Reading part er class sesh kore
+  felci tobuo confidence pacci nah", "Sir klk mid tao apnar class kortesi", classification-strategy
+  question; "Vaiya/bhai/Sir" forms of address). Source: research Audience questions; `raw/apify-facebook-comments-scraper-mentors-top3.json`.
+- **P1 (what makes them buy):** free Lives by a named trainer are the top organic format; viewers
+  follow the person and answer in comments. Source: research Top findings #2.
+- **P3:** fees confirmed: full test BDT 31,100, One Skill Retake BDT 18,600 (UKVI 20,900), Enquiry on
+  Results BDT 10,500. Source: research Top findings #1, Niche news.
+- **P3:** competitors' paid ads target this pain directly; angle is crowded. Source: research Top
+  findings #3, Active ads.
+- **P2:** no change (no new sourced persona facts; the B2 rule was already noted and is not re-verified).

@@ -1,0 +1,59 @@
+{
+ "run_id": "pXd23rywYC2mBRxvY",
+ "cost_usd": 0.06,
+ "collected": "2026-11-02",
+ "input": "5 Page URLs",
+ "note": "Public Pages only. No commenter or personal data stored.",
+ "pages": [
+  {
+   "pageUrl": "https://www.facebook.com/Mentorsbd",
+   "title": "Mentors' | Dhaka",
+   "followers": 531000,
+   "categories": [
+    "Page",
+    "Education"
+   ],
+   "creation_date": "June 25, 2012"
+  },
+  {
+   "pageUrl": "https://www.facebook.com/munzereenshahid",
+   "title": "Munzereen Shahid",
+   "followers": 338109,
+   "categories": [
+    "Profile",
+    "Public figure"
+   ],
+   "creation_date": null
+  },
+  {
+   "pageUrl": "https://www.facebook.com/10minuteielts",
+   "title": "10minute IELTS",
+   "followers": 3327,
+   "categories": [
+    "Page",
+    "Education"
+   ],
+   "creation_date": "July 23, 2020"
+  },
+  {
+   "pageUrl": "https://www.facebook.com/10minuteschool",
+   "title": "10 Minute School",
+   "followers": 4980680,
+   "categories": [
+    "Page",
+    "Education"
+   ],
+   "creation_date": "August 5, 2014"
+  },
+  {
+   "pageUrl": "https://www.facebook.com/futureed.ieltsbritishcouncilbd",
+   "title": "FutureEd English Language Institute | Dhaka",
+   "followers": 870165,
+   "categories": [
+    "Page",
+    "Education"
+   ],
+   "creation_date": "October 30, 2013"
+  }
+ ]
+}
