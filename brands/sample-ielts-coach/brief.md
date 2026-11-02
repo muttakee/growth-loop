@@ -36,8 +36,7 @@ explanations and real exam practice, so they don't waste money on retakes.
 
 ### Vision
 
-To be the most trusted Bangla-speaking IELTS teacher on Facebook for students planning to study
-or work abroad.
+To be the most trusted Bangla-speaking IELTS teacher on Facebook in Bangladesh.
 
 ### Next year goal
 
@@ -51,12 +50,11 @@ Get 300 paid students into the online IELTS batch, and grow the Facebook profile
 
 ### Target customer
 
-University students and young professionals in Bangladesh, aged 19–30, who need IELTS for higher
-study, migration or work abroad.
+University students and young professionals in Bangladesh, aged 19–30, who need an IELTS score.
 
 ### Customer persona
 
-A final-year university student in Dhaka who wants to study in Canada or the UK. They need
+A final-year university student in Dhaka who is taking IELTS for the first time. They need
 band 6.5–7. They're nervous about Speaking and Writing, have little time, and worry about the cost
 of coaching and of a retake.
 
@@ -69,7 +67,7 @@ of coaching and of a retake.
 
 ### Target customer geography
 
-Bangladesh: mainly Dhaka, Chattogram and Sylhet. Also Bangladeshi students already abroad.
+Bangladesh only: mainly Dhaka, Chattogram and Sylhet.
 
 ### Professional info (personal profile only)
 
@@ -118,3 +116,6 @@ Use: "চিন্তা করো না", "চলো দেখি". Avoid: gua
 - No criticism of other teachers or coaching centres by name.
 - No political or religious content.
 - No leaked or "real exam" questions.
+- No foreign-country content: no visa, immigration, work-route or university-intake news for any
+  country (UK, Canada, Australia or others). Posts cover IELTS preparation and the test in
+  Bangladesh only (test format, practice, fees and test dates in Bangladesh).
