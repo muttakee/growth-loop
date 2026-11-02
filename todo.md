@@ -46,6 +46,8 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   **Budget: max $5 per brand per week** (test level). Fallbacks: web search, then the week's `inputs/` folder.
 - **Weekly `inputs/` folder:** the user can drop competitor links or screenshots into
   `weeks/<week>/inputs/`. The Researcher uses them too.
+- **Apify access route:** if the Apify MCP tools can't load (the proxy blocked them in the W46 test),
+  the Researcher calls the Apify REST API with `APIFY_TOKEN`. Same actors, rules and budget.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
@@ -68,14 +70,13 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Test run: sample brand `sample-ielts-coach` created and onboarded (fictional, delete later)
 - [ ] The user adds their first real brand and confirms the summary
 
-## 3. Research and targeting ← in progress
+## 3. Research and targeting ✅ (waiting for user review)
 
 - [x] Researcher agent (instructions, good and bad examples, checklist), using Apify first
 - [x] Targeting Strategist agent (personas with fears, goals, language, online times, hooks)
 - [x] Week templates: `research.md`, `targeting.md`, `inputs/`
 - [x] `/research-week <brand>` command (Researcher, then Targeting Strategist, then summary)
-- [ ] Test on the sample brand for 2026-W46 (needs a new session so Apify and the network
-  domains load)
+- [x] Test on the sample brand for 2026-W46 (Apify Facebook data, $1.31 of $5; commit `8222f4e`)
 
 ## 4. Planning and content
 
