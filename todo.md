@@ -74,7 +74,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Targeting Strategist agent (personas with fears, goals, language, online times, hooks)
 - [x] Week templates: `research.md`, `targeting.md`, `inputs/`
 - [x] `/research-week <brand>` command (Researcher, then Targeting Strategist, then summary)
-- [ ] Test on the sample brand for 2026-W45 (needs a new session so Apify and the network
+- [ ] Test on the sample brand for 2026-W46 (needs a new session so Apify and the network
   domains load)
 
 ## 4. Planning and content
