@@ -56,7 +56,10 @@ That way the content is ready before the current week ends and posting never has
 - An agent only works from files. It reads its inputs from the brand folder and writes its output
   to the paths in the table above, so the next agent (and the user) can see exactly what was passed on.
 - Before handing off, an agent checks its own output against its checklist.
-- Slash commands live in `.claude/commands/` (for example `/setup-brand`).
+- Slash commands live in `.claude/commands/`: `/setup-brand` (add a brand) and
+  `/research-week <brand>` (Researcher, then Targeting Strategist).
+- **Apify:** the Researcher uses it for public Facebook/Instagram data only, with a budget of
+  **$5 per brand per week**. No private groups or profiles, no logins, no commenter names stored.
 
 ## Folders and naming
 
@@ -68,13 +71,15 @@ brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case
   competitors.md              competitor list and notes
   assets/                     logo.png, and photo.png for personal profiles
   weeks/<YYYY>-W<WW>/         one folder per week, ISO week number (e.g. 2026-W45)
+    inputs/                   links or screenshots the user drops in for the Researcher
+    raw/                      short summaries of Apify results (no personal data)
     research.md
     targeting.md
     plan.md                   7-day plan with a status line
     content/                  final captions, scripts and media for each post
     report.md                 the week's performance and lessons
 templates/brand/              blank brand folder, copied by /setup-brand
-templates/week/               blank week files (plan.md)
+templates/week/               blank week files (research.md, targeting.md, plan.md)
 ```
 
 - **Weeks** use ISO week numbers (Monday start), for example `2026-W45`. The real dates are written

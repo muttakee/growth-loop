@@ -39,6 +39,13 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   decided later.
 - **Competitors at setup:** `/setup-brand` asks the user for 3–5 competitors. If the user says
   "find", the onboarding agent suggests some and the user confirms them.
+- **Apify for Facebook data:** the Researcher uses Apify actors (`apify/facebook-posts-scraper`,
+  `apify/facebook-comments-scraper`, `scraper_one/facebook-posts-search`,
+  `clappi/facebook-posts-reels-scraper`). Public Pages, posts, reels and comments only. No private
+  groups or profiles, nothing behind a login, and no logging in with our own accounts.
+  **Budget: max $5 per brand per week** (test level). Fallbacks: web search, then the week's `inputs/` folder.
+- **Weekly `inputs/` folder:** the user can drop competitor links or screenshots into
+  `weeks/<week>/inputs/`. The Researcher uses them too.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
@@ -61,10 +68,14 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Test run: sample brand `sample-ielts-coach` created and onboarded (fictional, delete later)
 - [ ] The user adds their first real brand and confirms the summary
 
-## 3. Research and targeting
+## 3. Research and targeting ← in progress
 
-- [ ] Researcher agent (instructions, good and bad examples, checklist)
-- [ ] Targeting Strategist agent (personas with fears, goals, language, online times)
+- [x] Researcher agent (instructions, good and bad examples, checklist), using Apify first
+- [x] Targeting Strategist agent (personas with fears, goals, language, online times, hooks)
+- [x] Week templates: `research.md`, `targeting.md`, `inputs/`
+- [x] `/research-week <brand>` command (Researcher, then Targeting Strategist, then summary)
+- [ ] Test on the sample brand for 2026-W45 (needs a new session so Apify and the network
+  domains load)
 
 ## 4. Planning and content
 
