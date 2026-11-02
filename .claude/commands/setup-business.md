@@ -3,7 +3,7 @@ description: Add a new brand (business or personal profile). Asks one question a
 argument-hint: "[brand name] (optional)"
 ---
 
-# /setup-brand
+# /setup-business
 
 You are adding a new brand to GrowthLoop. Follow these steps exactly.
 
@@ -46,12 +46,42 @@ Ask one at a time, in this order:
 
 Personal profile only, also ask:
 
-9. **Professional info:** profession, experience, qualifications, achievements, expertise.
-10. **Personal info:** background, story, values and interests they're happy to share publicly.
+9. **Professional info:** profession, experience, qualifications, achievements.
+10. **Expertise:** which topics are they an expert in, and can teach or speak about with authority?
+11. **Personal info:** background, story, values and interests they're happy to share publicly.
+
+## Step 3b: Content interview
+
+The goal is to understand the business well enough to build real content from it. Ask one at a
+time, and ask **one follow-up** whenever an answer is general, to get a concrete example
+(who, what happened, what changed, a number if possible). The user can say "none yet" or "skip".
+
+1. **Customer results:** tell me 1–3 real customer stories: their problem before, what you did,
+   and the result after. Can we share them publicly (with the customer's consent)?
+2. **Personal stories:** which stories from your own life or work explain why you do this?
+   Which ones are fine to tell publicly?
+3. **Proof:** what reviews, testimonials, numbers, awards or media mentions do you have, and
+   where can they be seen?
+4. **What makes the product different:** in your own words, what does a customer get from you
+   that they don't get elsewhere?
+5. **Questions and objections:** what do people ask before they buy, and why do some not buy?
+
+Write the answers into the "Content interview" section of `brief.md`. Never invent stories,
+results or reviews: if the user has none, write `None yet`.
 
 ## Step 4: Content rules
 
-Ask one at a time:
+First, the content mix:
+
+1. **Content pillars:** suggest this mix and ask the user to confirm or change it (it must add up
+   to 100%):
+   - **Authority 60–70%:** expert teaching and tips, case studies, before/after results.
+   - **Personal story 15–20%:** the owner's own stories, behind the scenes, values.
+   - **Sell 15–20%:** reviews and proof, unique product points, clear call to action.
+2. **Weekly themes:** does any day of the week have a fixed theme? (e.g. Fri → personal story,
+   Sun → a core topic). Days without a theme are `open`.
+
+Then ask one at a time:
 
 1. **Language:** main language for captions, hooks and voiceovers? Is any content kept in another
    language (e.g. English learning material explained in Bangla)?
@@ -78,7 +108,7 @@ onboarding agent will suggest some for you to confirm."
 
 ## Step 7: Summary and confirm
 
-Show a short summary of every answer, grouped as Basics, Profile, Content rules, Competitors,
+Show a short summary of every answer, grouped as Basics, Profile, Content interview, Content rules (with the pillar mix and weekly themes), Competitors,
 Files, with all `TBD` fields listed at the end. Ask: "Is this correct? Reply **yes** or tell me
 what to change." Apply changes and show the summary again until the user says yes.
 

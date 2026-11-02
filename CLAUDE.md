@@ -20,12 +20,18 @@ ask before acting.
 
 - **Human approval:** nothing is created or published until a human approves the weekly 7-day
   plan. Content work only starts when the plan's status is `approved`.
-- **No hardcoded brands:** brands exist only once the user adds them with `/setup-brand`.
-  Brand-specific rules (language, voice, music, visuals, approved sources, no-go topics) live in
+- **No hardcoded brands:** brands exist only once the user adds them with `/setup-business`.
+  Brand-specific rules (content pillars, weekly themes, language, voice, music, visuals, approved
+  sources, no-go topics) live in
   the "Content rules" section of that brand's `brief.md`, never in code or in this file.
 - **Two profile types:** `business` (Mission, Vision, Next year goal, USP, Target customer,
   Customer persona, Business product, Target customer geography) and `personal` (all of those plus
-  Professional info and Personal info). The type is set in `brief.md` under Basics.
+  Professional info, Expertise and Personal info). The type is set in `brief.md` under Basics.
+- **Content interview:** `/setup-business` interviews the owner for real stories, results, proof
+  and objections, saved in the "Content interview" section of `brief.md`. Agents build from these
+  and never invent stories, results or reviews.
+- **Content pillars:** every weekly plan follows the brand's pillar mix (Authority, Personal story,
+  Sell) and weekly day themes from `brief.md`.
 - **Brand rules are binding:** every agent reads the brand's `brief.md` first and follows it.
   The Reviewer checks every post against it. If the brief is unclear, ask; don't guess.
 - **Competitors:** take inspiration from winning formats but never copy their content.
@@ -56,7 +62,7 @@ That way the content is ready before the current week ends and posting never has
 - An agent only works from files. It reads its inputs from the brand folder and writes its output
   to the paths in the table above, so the next agent (and the user) can see exactly what was passed on.
 - Before handing off, an agent checks its own output against its checklist.
-- Slash commands live in `.claude/commands/`: `/setup-brand` (add a brand) and
+- Slash commands live in `.claude/commands/`: `/setup-business` (add a brand) and
   `/research-week <brand>` (Researcher, then Targeting Strategist).
 - **Apify:** the Researcher uses it for public Facebook/Instagram data only, with a budget of
   **$5 per brand per week**. No private groups or profiles, no logins, no commenter names stored.
@@ -65,7 +71,7 @@ That way the content is ready before the current week ends and posting never has
 
 ```
 brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case (e.g. my-brand)
-  brief.md                    profile (business or personal) plus content rules (language, voice, visuals, sources, no-go)
+  brief.md                    profile, content interview, content rules (pillars, day themes, language, voice, visuals, sources, no-go)
   memory.md                   what worked, what didn't, lessons learned (updated weekly by the Analyst)
   personas.md                 audience personas
   competitors.md              competitor list and notes
@@ -78,7 +84,7 @@ brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case
     plan.md                   7-day plan with a status line
     content/                  final captions, scripts and media for each post
     report.md                 the week's performance and lessons
-templates/brand/              blank brand folder, copied by /setup-brand
+templates/brand/              blank brand folder, copied by /setup-business
 templates/week/               blank week files (research.md, targeting.md, plan.md)
 ```
 

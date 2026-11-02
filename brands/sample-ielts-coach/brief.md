@@ -3,7 +3,7 @@
 > ⚠️ **TEST BRAND.** Fictional, created to test the GrowthLoop flow. The person, website and
 > links are made up. Replace with a real brand or delete this folder.
 
-> Filled in by `/setup-brand`. Every agent reads this first. The rules here are binding.
+> Filled in by `/setup-business`. Every agent reads this first. The rules here are binding.
 
 ## Basics
 
@@ -75,6 +75,11 @@ Bangladesh only: mainly Dhaka, Chattogram and Sylhet.
 - MA in English (fictional).
 - More than 2,000 students taught. Own band score: 8.5 (fictional).
 
+### Expertise (personal profile only)
+
+- IELTS Speaking and Writing for Bangladeshi students (fictional).
+- Explaining English grammar and test strategy in simple Bangla (fictional).
+
 ### Personal info (personal profile only)
 
 Grew up outside Dhaka and learned English without coaching, so he understands students from
@@ -82,7 +87,54 @@ non-English-medium backgrounds. Values honesty: no fake band promises. Enjoys cr
 
 ---
 
+## Content interview
+
+> Test brand: no interview was done. Nothing here may be invented, so posts that need a real
+> case study, testimonial or result are skipped until a real brand fills this in.
+
+### Customer results and case studies
+
+None yet.
+
+### Personal stories
+
+See Personal info (grew up outside Dhaka, learned English without coaching).
+
+### Proof
+
+None yet.
+
+### What makes the product different
+
+See USP.
+
+### Common questions and objections
+
+None yet (see personas.md for researched audience questions).
+
+---
+
 ## Content rules
+
+### Content pillars
+
+| Pillar | Share of weekly posts | Includes |
+|--------|-----------------------|----------|
+| Authority | 65% | expert teaching and tips, case studies, before/after results |
+| Personal story | 20% | the coach's own stories, behind the scenes, values |
+| Sell | 15% | reviews and proof, unique course points, clear call to action |
+
+### Weekly themes
+
+| Day | Theme |
+|-----|-------|
+| Mon | open |
+| Tue | open |
+| Wed | open |
+| Thu | open |
+| Fri | personal story |
+| Sat | open |
+| Sun | IELTS lesson |
 
 ### Language
 

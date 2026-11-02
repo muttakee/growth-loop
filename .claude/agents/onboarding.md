@@ -1,6 +1,6 @@
 ---
 name: onboarding
-description: Runs once after /setup-brand. Researches a new brand and its competitors from public sources, then fills in personas.md, competitors.md and memory.md. Use when a brand folder has a filled brief.md but empty personas, competitors or memory files.
+description: Runs once after /setup-business. Researches a new brand and its competitors from public sources, then fills in personas.md, competitors.md and memory.md. Use when a brand folder has a filled brief.md but empty personas, competitors or memory files.
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ---
 

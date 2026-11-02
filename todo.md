@@ -18,14 +18,14 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   posted by hand. Supabase and Meta come later, because Meta isn't set up yet.
 - **Video tool:** Remotion is recommended (confirm before starting the content tools). It renders
   locally and can also make images and carousels.
-- **No hardcoded brands:** the user adds every brand with `/setup-brand`.
+- **No hardcoded brands:** the user adds every brand with `/setup-business`.
 - **Week folders:** named by calendar week number (`weeks/2026-W45`), with the dates written
   inside `plan.md`. They always sort in order and give each week one unique name.
 - **Plan status line:** `draft → approved → content-ready → posted`. No content is created
   unless the status is `approved`.
 - **File format:** Markdown for all brand files, so they're easy for the user to read and edit
   and git shows clear changes.
-- **Brand command:** `/setup-brand` (renamed from `/new-brand` in the blueprint).
+- **Brand command:** `/setup-business` (renamed from `/new-brand` in the blueprint, then from `/setup-brand`).
 - **Profile types:** `business` covers Mission, Vision, Next year goal, USP, Target customer,
   Customer persona, Business product and Target customer geography. `personal` covers all of
   those plus Professional info and Personal info.
@@ -37,7 +37,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   post time, and the user posts it by hand. The brand Page and Instagram are fully automatic.
 - **Open decision:** reminder channel for assisted posting (Telegram, WhatsApp or email). To be
   decided later.
-- **Competitors at setup:** `/setup-brand` asks the user for 3–5 competitors. If the user says
+- **Competitors at setup:** `/setup-business` asks the user for 3–5 competitors. If the user says
   "find", the onboarding agent suggests some and the user confirms them.
 - **Apify for Facebook data:** the Researcher uses Apify actors (`apify/facebook-posts-scraper`,
   `apify/facebook-comments-scraper`, `scraper_one/facebook-posts-search`,
@@ -48,6 +48,12 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   `weeks/<week>/inputs/`. The Researcher uses them too.
 - **Apify access route:** if the Apify MCP tools can't load (the proxy blocked them in the W46 test),
   the Researcher calls the Apify REST API with `APIFY_TOKEN`. Same actors, rules and budget.
+- **Content pillars:** Authority, Personal story and Sell. Setup suggests Authority 60–70%,
+  Personal story 15–20%, Sell 15–20%, and the user sets the mix for each brand in `brief.md`.
+- **Weekly day themes:** a brand can fix a theme for some days (e.g. Fri → personal story);
+  other days are `open`. Set in `brief.md`.
+- **Not now:** LinkedIn and YouTube channels, and the "Hit vs Auto" idea, are parked until the
+  user brings them back.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
@@ -63,11 +69,14 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 
 ## 2. Adding brands ← in progress (waiting for the user to add their first brand)
 
-- [x] `/setup-brand` command: asks business or personal first, then that profile's questions one at a
+- [x] `/setup-business` command: asks business or personal first, then that profile's questions one at a
   time, then the content rules, and creates the brand folder from the template
 - [x] Onboarding agent (deep research and targeting, fills in the memory files)
 - [x] Brief: channels table (personal profile, Page, Instagram) and person photo for personal profiles
 - [x] Test run: sample brand `sample-ielts-coach` created and onboarded (fictional, delete later)
+- [x] Setup flow redesign (from the user's diagram): renamed to `/setup-business`, Expertise as
+  its own question, a content interview (customer results, personal stories, proof, unique
+  points, objections), content pillars (mix set per brand) and weekly day themes
 - [ ] The user adds their first real brand and confirms the summary
 
 ## 3. Research and targeting ✅ (waiting for user review)
@@ -80,7 +89,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 
 ## 4. Planning and content
 
-- [ ] Planner agent (balanced 7-day calendar that mixes educate, trust and sell posts)
+- [ ] Planner agent (7-day calendar that follows the brand's content pillar mix and weekly day themes)
 - [ ] Approval step (the user approves the plan or sends it back with changes)
 - [ ] Content Creator agent (hooks, scripts, captions, hashtags, calls to action)
 - [ ] Reviewer agent (checks every post against the brand brief and the language rules)
