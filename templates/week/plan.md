@@ -3,26 +3,47 @@
 Status: draft
 
 - **Dates:** {{Mon DD Mon}} to {{Sun DD Mon}}
-- **Goal this week:**
-- **Lessons applied from memory:**
+- **Goal this week:** <!-- one sentence, tied to the brief's Next year goal -->
+- **Focus personas:** <!-- from targeting.md -->
+- **Lessons applied from memory:** <!-- or "none yet" -->
 
-## Mix
+## Pillar mix
 
-| Educate | Build trust | Sell |
-|---------|-------------|------|
-|         |             |      |
+| Pillar | Target (brief) | Planned | Posts |
+|--------|----------------|---------|-------|
+| Authority | | | |
+| Personal story | | | |
+| Sell | | | |
 
 ## Calendar
 
-| Day | Time | Platform | Format | Type | Persona | Hook | Idea |
-|-----|------|----------|--------|------|---------|------|------|
-| Mon |      |          |        |      |         |      |      |
-| Tue |      |          |        |      |         |      |      |
-| Wed |      |          |        |      |         |      |      |
-| Thu |      |          |        |      |         |      |      |
-| Fri |      |          |        |      |         |      |      |
-| Sat |      |          |        |      |         |      |      |
-| Sun |      |          |        |      |         |      |      |
+| Day | Date | Time | Channel | File | Pillar | Day theme | Persona | Hook |
+|-----|------|------|---------|------|--------|-----------|---------|------|
+| Mon | | | | | | | | |
+| Tue | | | | | | | | |
+| Wed | | | | | | | | |
+| Thu | | | | | | | | |
+| Fri | | | | | | | | |
+| Sat | | | | | | | | |
+| Sun | | | | | | | | |
+
+## Post details
+
+<!-- One block per post, named like the content file. Example:
+
+### mon-01-reel
+- **Pillar / theme:** Authority / open
+- **Persona and pain point:**
+- **Hook:** (brand language)
+- **Idea:** what the post shows or teaches, in 1–3 sentences
+- **Call to action:**
+- **Source:** targeting hook # / angle #, research section
+- **Facts to check before posting:** (or "none")
+-->
+
+## Needs the human
+
+<!-- Questions, facts to confirm, and anything the Planner left out and why -->
 
 ## Changes
 

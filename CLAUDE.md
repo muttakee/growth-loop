@@ -62,8 +62,9 @@ That way the content is ready before the current week ends and posting never has
 - An agent only works from files. It reads its inputs from the brand folder and writes its output
   to the paths in the table above, so the next agent (and the user) can see exactly what was passed on.
 - Before handing off, an agent checks its own output against its checklist.
-- Slash commands live in `.claude/commands/`: `/setup-business` (add a brand) and
-  `/research-week <brand>` (Researcher, then Targeting Strategist).
+- Slash commands live in `.claude/commands/`: `/setup-business` (add a brand),
+  `/research-week <brand>` (Researcher, then Targeting Strategist) and `/plan-week <brand>`
+  (Planner, then the human approves or sends the plan back).
 - **Apify:** the Researcher uses it for public Facebook/Instagram data only, with a budget of
   **$5 per brand per week**. No private groups or profiles, no logins, no commenter names stored.
 
