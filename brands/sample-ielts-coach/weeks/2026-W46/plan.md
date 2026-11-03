@@ -46,7 +46,7 @@ Fri–Sat 11:00am and 9:00pm; Sunday Live 9:30pm). File numbers follow posting t
 
 | Day | Date | Time | Channel | File | Pillar | Day theme | Persona | Hook | Post status |
 |-----|------|------|---------|------|--------|-----------|---------|------|-------------|
-| Mon | 9 Nov | 1:30pm | Facebook profile + Instagram | `mon-01-image` | Personal story | open | P1 | Mid-term, assignment, তার উপর IELTS। এই সপ্তাহটা কেমন যাচ্ছে, ১ থেকে ১০-এ বলো তো? আমার চায়ের কাপ তৈরি। | planned |
+| Mon | 9 Nov | 1:30pm | Facebook profile + Instagram | `mon-01-image` | Personal story | open | P1 | Mid-term, assignment, তার উপর IELTS। এই সপ্তাহটা কেমন যাচ্ছে, ১ থেকে ১০-এ বলো তো? আমার চায়ের কাপ তৈরি। | ready |
 | Mon | 9 Nov | 10:00pm | Facebook profile + Instagram | `mon-02-carousel` | Authority | open | P3 | "একটা module খারাপ হলে পুরো IELTS আবার দিতে হয়।" সবসময় না। চলো দেখি। | planned |
 | Tue | 10 Nov | 1:30pm | Facebook profile + Instagram | `tue-01-reel` | Authority | open | P1 | Mid-term চলছে, IELTS-ও সামনে? দিনে ২০ মিনিটে Speaking প্র্যাকটিস, চলো দেখি কীভাবে। | planned |
 | Tue | 10 Nov | 10:00pm | Facebook profile + Instagram | `tue-02-carousel` | Authority | open | P3 | Writing-এ ৬-এ আটকে আছো? একই paragraph, দুইভাবে লেখা। পার্থক্যটা চলো দেখি। | planned |

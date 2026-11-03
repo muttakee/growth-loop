@@ -106,7 +106,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   on-screen text, hashtags, call to action, visual brief)
 - [x] Reviewer agent (checks every post against the brand brief and the language rules)
 - [x] `/make-post <brand>` command: makes and reviews the next due post, sets it `ready`
-- [ ] Test `/make-post` on one post of the sample brand's W46 plan
+- [x] Test `/make-post` on one post of the sample brand's W46 plan (`mon-01-image`: failed review round 1 on fonts, fixed, passed round 2)
 - [ ] Confirm the video tool, then set up reel templates
 - [ ] Image and carousel templates
 - [ ] ElevenLabs voiceover (Bangla and English)
