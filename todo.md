@@ -93,11 +93,11 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] `/research-week <brand>` command (Researcher, then Targeting Strategist, then summary)
 - [x] Test on the sample brand for 2026-W46 (Apify Facebook data, $1.31 of $5; commit `8222f4e`)
 
-## 4. Planning and content ← in progress (4a: Planner and approval)
+## 4. Planning and content ← in progress (4a Planner and approval ✅; 4b content next)
 
 - [x] Planner agent (7-day calendar that follows the brand's content pillar mix and weekly day themes)
 - [x] Approval step: `/plan-week <brand>` (the user approves the plan or sends it back with changes)
-- [ ] Test `/plan-week` on the sample brand for 2026-W46
+- [x] Test `/plan-week` on the sample brand for 2026-W46 (14 posts, approved 3 Nov 2026)
 - [ ] Content Creator agent (hooks, scripts, captions, hashtags, calls to action)
 - [ ] Reviewer agent (checks every post against the brand brief and the language rules)
 - [ ] Confirm the video tool, then set up reel templates

@@ -1,6 +1,6 @@
 # Weekly Plan: Sample IELTS Coach, 2026-W46
 
-Status: draft
+Status: approved
 
 - **Dates:** Mon 9 Nov to Sun 15 Nov 2026
 - **Goal this week:** Fill the Sunday free Speaking Live and turn viewers into free mock-test
@@ -378,3 +378,6 @@ Spacing: every day has one daytime and one night post, 8–10 hours apart.
 - **3 Nov 2026 (2).** Human accepted the recommended posting times "for now"; the brief now has
   Posting times. All 14 posts moved into those slots (Sun–Thu 1:30pm / 10:00pm, Fri–Sat
   11:00am / 9:00pm, Sunday Live 9:30pm). Content and pillar mix unchanged.
+- **3 Nov 2026 (3).** Approved by the human ("approve"). Approved with the cautious defaults still
+  in place for the open items under "Needs the human" (no fee figures, Bangla-only replies, no
+  results or testimonials). `sat-02-image` showing the batch price (BDT 6,500) was not objected to.
