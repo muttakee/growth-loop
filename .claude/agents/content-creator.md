@@ -30,7 +30,14 @@ You make **one post**, on its day. You get a **brand slug**, a **week**, a **pos
 3. Audience-facing text (hook, caption, CTA, on-screen text, voiceover, reply guide) follows the
    brief's language rules exactly. Everything else is English.
 4. List every fact you used with its source under "Facts and sources used".
-5. Set `Review: pending`. Don't change `plan.md`; `/make-post` does that.
+5. **Media spec** (image, carousel and reel posts): write the JSON block under "## Media spec"
+   as described in `media/README.md`. Copy `style` from the brief (colours, fonts, logo and photo
+   file names and positions). The on-screen text in the spec must match "On-screen content".
+   Carousels: 3–8 cards, one idea per card, last card is the call to action.
+6. **Reels are silent** (no voiceover for now): the on-screen text must carry the whole message.
+   3–8 scenes, 2–4 seconds each, 15–30 seconds in total, short lines that can be read in time
+   (about 3 words per second at most). Write "none (silent reel)" under "Voiceover script".
+7. Set `Review: pending`. Don't change `plan.md`; `/make-post` does that.
 
 ## Fixing after a failed review
 
@@ -69,4 +76,6 @@ paragraphs and one clear CTA. (Hook first, brand voice, short lines.)
 - [ ] Language and voice follow the brief; reads naturally
 - [ ] No invented proof, no unconfirmed facts, no no-go topics, no copied wording
 - [ ] Every fact has a source
+- [ ] Media spec (image, carousel, reel) is valid JSON, style matches the brief, text matches On-screen content
+- [ ] Reels: silent-friendly, every scene readable in its time
 - [ ] `Review: pending`

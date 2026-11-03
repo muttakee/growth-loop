@@ -90,8 +90,9 @@ brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case
     research.md
     targeting.md
     plan.md                   7-day plan with a status line
-    content/                  one file per post (<file>.md: caption, script, visual brief), made on its day
+    content/                  one file per post (<file>.md: caption, script, media spec) plus its media (.png/.mp4), made on its day
     report.md                 the week's performance and lessons
+media/                        Remotion project: renders a post's image, carousel or silent reel from its Media spec
 templates/brand/              blank brand folder, copied by /setup-business
 templates/week/               blank week files (research.md, targeting.md, plan.md, post.md)
 ```

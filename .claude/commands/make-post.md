@@ -24,18 +24,25 @@ If the last word is `posted`, mark that post as posted instead (step 8).
 6. **Run the reviewer sub-agent** on the same file. If it fails, run the content-creator again
    with the review notes, then the reviewer again. **At most 2 fix rounds.** If it still fails,
    stop, show the human the failed checks, and don't mark it ready.
-7. **On pass:** set this post's `Post status` to `ready` in `plan.md`. Show the human:
+7. **Render the media** (image, carousel and reel posts):
+   `node media/render.mjs <post file>` (run `npm ci` in `media/` first if `node_modules` is missing;
+   in the cloud container set `CHROME_PATH=/opt/pw-browsers/chromium`). Look at the result: open
+   the images, and for a reel check a few frames (e.g. `ffmpeg -ss <s> -i <mp4> -frames:v 1`).
+   If text is cut off, overlaps or the Bangla looks broken, send it back to the content-creator
+   with what is wrong (counts as a fix round). Text and live posts skip this step.
+8. **When the text has passed and the media is rendered:** set this post's `Post status` to
+   `ready` in `plan.md`. Show the human:
    - posting time and channel
    - the hook, the caption (ready to copy) and the hashtags
-   - the on-screen content or script, and anything under "Facts and sources" to check
+   - the media files (send the image, carousel cards or reel to the human)
+   - anything under "Facts and sources" to check
    - for channels posted by hand (e.g. a personal profile): "Post this at <time>."
    Commit: `Post ready: <slug> <week> <file>`.
-8. **After posting:** when the human says it is posted (or `/make-post <slug> <file> posted`),
+9. **After posting:** when the human says it is posted (or `/make-post <slug> <file> posted`),
    set its `Post status` to `posted`. When every post in the week is `posted`, set the plan's
    `Status: posted`. Commit: `Posted: <slug> <week> <file>`.
 
 ## Notes
 
-- Media (video, images, voiceover) is added in a later part of section 4; until then the post
-  file has the full text and a visual brief.
+- Media is made with Remotion (`media/`). Reels are silent for now; voiceover (ElevenLabs) comes later.
 - For now this runs by hand. Section 8 adds a trigger that runs it about 2 hours before each slot.

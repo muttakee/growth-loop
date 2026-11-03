@@ -52,6 +52,12 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   post is made on its day, about 2 hours before its slot, and is ready at least 30 minutes
   before posting. Plan status is `draft → approved → posted`; each post has its own status
   `planned → ready → posted`. `/make-post` runs by hand for now; section 8 makes it run on its own.
+- **Media tool:** Remotion renders images, carousel cards and reels from a JSON "Media spec" in
+  each post file (`media/`). Free for individuals and companies of up to 3 people; a bigger
+  company needs a Remotion company licence.
+- **Silent reels for now:** no ElevenLabs key yet, so reels have no voiceover and no music; the
+  on-screen text carries the message. Music can be added from the platform's own library when
+  posting.
 - **Content pillars:** Authority, Personal story and Sell. Setup suggests Authority 60–70%,
   Personal story 15–20%, Sell 15–20%, and the user sets the mix for each brand in `brief.md`.
 - **Posting frequency:** 2 posts a day (14 a week) by default. Set per brand in `brief.md`
@@ -107,9 +113,9 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Reviewer agent (checks every post against the brand brief and the language rules)
 - [x] `/make-post <brand>` command: makes and reviews the next due post, sets it `ready`
 - [x] Test `/make-post` on one post of the sample brand's W46 plan (`mon-01-image`: failed review round 1 on fonts, fixed, passed round 2)
-- [ ] Confirm the video tool, then set up reel templates
-- [ ] Image and carousel templates
-- [ ] ElevenLabs voiceover (Bangla and English)
+- [x] Video tool confirmed: **Remotion** (`media/`); silent reel template
+- [x] Image and carousel templates (Remotion stills, from the post's Media spec)
+- [ ] ElevenLabs voiceover (Bangla and English): **later**, no API key yet; reels are silent until then
 - [ ] Test that Bangla text renders correctly in videos and images
 - [ ] Run a first full week of daily posts (each made on the day)
 

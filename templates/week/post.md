@@ -33,12 +33,17 @@
 
 ## Voiceover script
 
-<!-- Reels only, in the brand's language. Otherwise "none". -->
+<!-- Reels are silent for now (no voiceover tool yet): write "none (silent reel)". -->
 
 ## Visual brief
 
 <!-- Layout, colours and fonts from the brief, coach/person photo, logo placement, any image
      needed. Media files are made later (video and image tools); this tells them what to make. -->
+
+## Media spec
+
+<!-- Image, carousel and reel posts: the JSON that media/render.mjs turns into the media files
+     (see media/README.md). Style comes from the brief. Text and live posts: write "none". -->
 
 ## Reply guide
 

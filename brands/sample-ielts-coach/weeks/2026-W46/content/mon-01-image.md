@@ -69,6 +69,29 @@ none
 - **Logo:** `assets/logo.png`, small, bottom-right corner.
 - **Mood:** warm, light, uncluttered. Bold text, lots of space. Must read in one glance on a phone.
 
+## Media spec
+
+```json
+{
+  "format": "image",
+  "style": {
+    "background": "#1E3A5F", "text": "#FFFFFF", "accent": "#F28C28",
+    "fontMain": "Hind Siliguri", "fontLatin": "Poppins",
+    "logo": "logo.png", "logoPosition": "bottom-right",
+    "photo": "photo.png", "photoPosition": "bottom-left"
+  },
+  "cards": [
+    {"blocks": [
+      {"type": "headline", "text": "এই সপ্তাহটা\nকেমন যাচ্ছে?"},
+      {"type": "text", "text": "Mid-term *+* assignment *+* IELTS"},
+      {"type": "spacer", "height": 40},
+      {"type": "scale", "items": ["১","২","৩","৪","৫","৬","৭","৮","৯","১০"], "labels": ["আর পারছি না", "সব ঠিকঠাক"]},
+      {"type": "footer", "text": "☕ আমার চা তৈরি। তোমার *number*?"}
+    ]}
+  ]
+}
+```
+
 ## Reply guide
 
 Rules: reply in **Bangla only** (Bangla script, no Banglish), even when the comment is in Banglish

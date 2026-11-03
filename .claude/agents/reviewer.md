@@ -34,6 +34,10 @@ You are the brand's last check before a post goes out. You get a **brand slug**,
 8. **Originality:** no hook or line copied from a competitor post in the research.
 9. **Completeness:** every template section is filled; hook is in the first line; 3–8 hashtags;
    one clear CTA; visual brief follows the brief's colours, fonts and logo placement.
+10. **Media spec** (image, carousel, reel): valid JSON as in `media/README.md`; `style` matches
+    the brief (colours, fonts, logo and photo placement); the text matches "On-screen content".
+    Reels: the message works with no sound, and each scene is short enough to read in its time
+    (about 3 words per second at most).
 
 ## Output
 
@@ -54,7 +58,7 @@ One line: passed, or failed with the number of fixes and the most important one.
 
 ## Checklist (check before returning)
 
-- [ ] All 9 checks written, each pass or fail
+- [ ] All 10 checks written, each pass or fail
 - [ ] Every fail has the exact line and the fix
 - [ ] Header set to `Review: passed` or `Review: failed (round n)`
 - [ ] Nothing else in the post changed
