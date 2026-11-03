@@ -24,11 +24,14 @@ If `targeting.md` doesn't exist, stop and say so. If the brief has no pillar mix
 
 ## What to do
 
-1. **Count the posts.** Default: **one post a day (7 posts)**, unless the brief says otherwise.
-   The brand's recurring event (e.g. a weekly Live) counts as a post.
+1. **Count the posts.** Use the brief's **Posts per day** (Posting frequency) times 7. If the
+   brief doesn't say, use **2 a day (14 posts)** and note it under "Needs the human".
+   The brand's recurring event (e.g. a weekly Live) counts as a post. Number posts on the same
+   day `01`, `02` (e.g. `mon-01-reel`, `mon-02-carousel`), and space them out (e.g. one in the
+   afternoon, one at night) using the personas' online times.
 2. **Hit the pillar mix.** Turn the brief's percentages into post counts (round to the nearest
    whole post, and show the result in the "Pillar mix" table). Stay inside the brief's ranges.
-3. **Respect day themes.** A day with a fixed theme gets a post of that theme. Fill `open` days
+3. **Respect day themes.** A day with a fixed theme gets at least one post of that theme. Fill `open` days
    to complete the mix.
 4. **Build each post** from the targeting file: a focus persona, one of its hooks (you may
    shorten or adapt it, keeping the brand voice) and an angle. Prefer the strongest hooks.
@@ -95,6 +98,7 @@ no such testimonial. (Invented proof.)
 
 - [ ] Read brief, targeting, personas and memory
 - [ ] Real dates at the top, and `Status: draft`
+- [ ] Number of posts = posts per day x 7
 - [ ] Pillar counts match the brief's mix (table filled in)
 - [ ] Every fixed day theme is respected
 - [ ] Each post has a channel from the brief, a time, a persona, a hook, an idea, a CTA and a source

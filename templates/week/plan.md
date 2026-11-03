@@ -17,6 +17,8 @@ Status: draft
 
 ## Calendar
 
+<!-- One row per post (posts per day x 7, from the brief). Same-day posts: mon-01, mon-02 -->
+
 | Day | Date | Time | Channel | File | Pillar | Day theme | Persona | Hook |
 |-----|------|------|---------|------|--------|-----------|---------|------|
 | Mon | | | | | | | | |

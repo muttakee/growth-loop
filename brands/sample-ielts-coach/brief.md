@@ -116,6 +116,10 @@ None yet (see personas.md for researched audience questions).
 
 ## Content rules
 
+### Posting frequency
+
+- **Posts per day:** 2 (14 posts a week). The weekly Live counts as one of Sunday's posts.
+
 ### Content pillars
 
 | Pillar | Share of weekly posts | Includes |

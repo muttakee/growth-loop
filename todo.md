@@ -50,6 +50,8 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   the Researcher calls the Apify REST API with `APIFY_TOKEN`. Same actors, rules and budget.
 - **Content pillars:** Authority, Personal story and Sell. Setup suggests Authority 60–70%,
   Personal story 15–20%, Sell 15–20%, and the user sets the mix for each brand in `brief.md`.
+- **Posting frequency:** 2 posts a day (14 a week) by default. Set per brand in `brief.md`
+  ("Posts per day"); `/setup-business` suggests 2.
 - **Weekly day themes:** a brand can fix a theme for some days (e.g. Fri → personal story);
   other days are `open`. Set in `brief.md`.
 - **Not now:** LinkedIn and YouTube channels, and the "Hit vs Auto" idea, are parked until the

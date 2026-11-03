@@ -105,6 +105,10 @@
 
 ## Content rules
 
+### Posting frequency
+
+- **Posts per day:** <!-- default 2 -->
+
 ### Content pillars
 
 <!-- The weekly mix the Planner must follow. Shares must add up to 100%.

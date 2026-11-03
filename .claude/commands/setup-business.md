@@ -73,6 +73,7 @@ results or reviews: if the user has none, write `None yet`.
 
 First, the content mix:
 
+0. **Posts per day:** how many posts a day? (suggest **2**, i.e. 14 a week)
 1. **Content pillars:** suggest this mix and ask the user to confirm or change it (it must add up
    to 100%):
    - **Authority 60–70%:** expert teaching and tips, case studies, before/after results.
