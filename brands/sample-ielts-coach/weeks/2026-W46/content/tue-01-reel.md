@@ -87,7 +87,7 @@ none (silent reel)
   "format": "reel",
   "style": {
     "background": "#1E3A5F", "text": "#FFFFFF", "accent": "#F28C28",
-    "fontMain": "Hind Siliguri", "fontLatin": "Poppins",
+    "fontMain": "Hind Siliguri", "fontLatin": "Poppins", "theme": "glass",
     "logo": "logo.png", "logoPosition": "bottom-right",
     "photo": "photo.png", "photoPosition": "bottom-left"
   },

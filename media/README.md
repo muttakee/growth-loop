@@ -48,7 +48,9 @@ need a company licence (see remotion.dev/license).
 
 ### Reel themes
 
-`"style": {"theme": "<name>"}` picks how a reel looks. Colours and fonts still come from the brief;
+`"style": {"theme": "<name>"}` picks how a reel looks. Use `"theme": "random"` (optionally with
+`"themes": [...]` to limit the choice) and `render.mjs` picks one at random, avoiding the themes of
+the last two reels that week, then writes the pick back into the post file. Colours and fonts still come from the brief;
 a theme only changes layout, depth and motion. No theme = `classic`.
 
 | Theme | Look |

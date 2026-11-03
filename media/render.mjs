@@ -11,7 +11,7 @@
 // Brand assets (logo, person photo) are read from brands/<slug>/assets/.
 // Set CHROME_PATH to use an installed Chrome/Chromium instead of Remotion's own download.
 
-import {readFileSync, writeFileSync, mkdtempSync, existsSync} from 'node:fs';
+import {readFileSync, writeFileSync, mkdtempSync, existsSync, readdirSync, statSync} from 'node:fs';
 import {dirname, basename, resolve, join} from 'node:path';
 import {tmpdir} from 'node:os';
 import {spawnSync} from 'node:child_process';
@@ -42,6 +42,35 @@ for (const key of ['logo', 'photo']) {
 		console.error(`Missing brand asset: ${join(assets, spec.style[key])}`);
 		process.exit(1);
 	}
+}
+
+// ----- reel theme rotation -----
+// "theme": "random" picks one of the allowed themes at random, but not one used by the last two
+// reels of the same week. The pick is written back into the post file, so re-renders keep it and
+// the next reel can see what was used.
+const ALL_THEMES = ['editorial', 'glass', 'kinetic', 'examcard', 'cinematic'];
+if (spec.format === 'reel' && spec.style.theme === 'random') {
+	const allowed = (spec.style.themes && spec.style.themes.length ? spec.style.themes : ALL_THEMES).filter((t) => ALL_THEMES.includes(t));
+	const recent = readdirSync(contentDir)
+		.filter((f) => f.endsWith('.md') && f !== basename(post))
+		.map((f) => ({f, md: readFileSync(join(contentDir, f), 'utf8')}))
+		.map(({f, md: m}) => {
+			const sec = m.split(/^## Media spec\s*$/m)[1];
+			const js = sec && sec.match(/```json\s*([\s\S]*?)```/);
+			try { const sp = js && JSON.parse(js[1]); return sp && sp.format === 'reel' && ALL_THEMES.includes(sp.style.theme) ? {f, theme: sp.style.theme, mtime: statSync(join(contentDir, f)).mtimeMs} : null; } catch { return null; }
+		})
+		.filter(Boolean)
+		.sort((a, b) => b.mtime - a.mtime)
+		.slice(0, 2)
+		.map((r) => r.theme);
+	let pool = allowed.filter((t) => !recent.includes(t));
+	if (!pool.length) pool = allowed.filter((t) => t !== recent[0]);
+	if (!pool.length) pool = allowed;
+	const pick = pool[Math.floor(Math.random() * pool.length)];
+	spec.style.theme = pick;
+	const updated = md.replace(/("theme"\s*:\s*)"random"/, `$1"${pick}"`);
+	writeFileSync(post, updated);
+	console.log(`Reel theme: ${pick} (picked at random from ${pool.join(', ')}; recent reels used: ${recent.join(', ') || 'none'})`);
 }
 
 const base = basename(post, '.md');

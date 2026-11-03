@@ -35,7 +35,8 @@ You are the brand's last check before a post goes out. You get a **brand slug**,
 9. **Completeness:** every template section is filled; hook is in the first line; 3–8 hashtags;
    one clear CTA; visual brief follows the brief's colours, fonts and logo placement.
 10. **Media spec** (image, carousel, reel): valid JSON as in `media/README.md`; `style` matches
-    the brief (colours, fonts, logo and photo placement); the text matches "On-screen content".
+    the brief (colours, fonts, logo and photo placement, and reel theme per the brief's Reel themes:
+    `"random"` is correct when the brief says random); the text matches "On-screen content".
     Reels: the message works with no sound, and each scene is short enough to read in its time
     (about 3 words per second at most).
 

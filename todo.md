@@ -55,6 +55,9 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - **Media tool:** Remotion renders images, carousel cards and reels from a JSON "Media spec" in
   each post file (`media/`). Free for individuals and companies of up to 3 people; a bigger
   company needs a Remotion company licence.
+- **Reel themes:** 5 premium themes (editorial, glass, kinetic, examcard, cinematic). By default
+  each reel gets one at random, never the same as the last two reels of the week (picked in code by
+  `media/render.mjs`, written back into the post file). Set per brand under "Reel themes".
 - **Silent reels for now:** no ElevenLabs key yet, so reels have no voiceover and no music; the
   on-screen text carries the message. Music can be added from the platform's own library when
   posting.

@@ -165,6 +165,7 @@
 - **Music:** (allowed / not allowed)
 - **People and figures:** (e.g. real people, animated figures, none)
 - **Preferred visuals:**
+- **Reel themes:** random <!-- random = a different premium theme for each reel (editorial, glass, kinetic, examcard, cinematic); or name the themes to rotate between, or one fixed theme -->
 
 ### Approved sources
 

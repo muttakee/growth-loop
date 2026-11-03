@@ -175,6 +175,8 @@ Use: "চিন্তা করো না", "চলো দেখি". Avoid: gua
 - **Music:** allowed (light, low volume)
 - **People and figures:** real person (the coach). No animated figures.
 - **Preferred visuals:** clean, bold text, coach photo in the corner, exam-style cards.
+- **Reel themes:** random: each reel gets one of the 5 premium themes (editorial, glass, kinetic,
+  examcard, cinematic) at random, never the same as the last two reels. Chosen by the user on 3 Nov 2026.
 
 ### Approved sources
 

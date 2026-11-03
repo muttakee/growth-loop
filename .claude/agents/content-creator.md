@@ -34,6 +34,9 @@ You make **one post**, on its day. You get a **brand slug**, a **week**, a **pos
    as described in `media/README.md`. Copy `style` from the brief (colours, fonts, logo and photo
    file names and positions). The on-screen text in the spec must match "On-screen content".
    Carousels: 3–8 cards, one idea per card, last card is the call to action.
+   Reels: set `"theme"` from the brief's **Reel themes** (`"random"` if the brief says random,
+   plus `"themes": [...]` if it limits the list). Never pick the theme yourself; the renderer does.
+   Use `kicker`, `headline` and `text` blocks in each scene.
 6. **Reels are silent** (no voiceover for now): the on-screen text must carry the whole message.
    3–8 scenes, 2–4 seconds each, 15–30 seconds in total, short lines that can be read in time
    (about 3 words per second at most). Write "none (silent reel)" under "Voiceover script".

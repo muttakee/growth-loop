@@ -97,6 +97,8 @@ Then ask one at a time:
 4. **Music:** allowed in videos, or not?
 5. **People and figures:** real people, animated figures, or none?
 6. **Preferred visuals:** e.g. clean minimal, nature, calligraphy, bold text.
+   **Reel themes:** default `random` (a different premium theme for each reel). The user may limit
+   it to some themes, or fix one.
 7. **Logo placement:** where on posts? (default: bottom-right, small)
 8. **Approved sources:** does the brand quote sources (e.g. scripture, research, exam bodies)?
    If yes, list the only sources allowed.
