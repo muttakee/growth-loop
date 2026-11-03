@@ -116,7 +116,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Video tool confirmed: **Remotion** (`media/`); silent reel template
 - [x] Image and carousel templates (Remotion stills, from the post's Media spec)
 - [ ] ElevenLabs voiceover (Bangla and English): **later**, no API key yet; reels are silent until then
-- [ ] Test that Bangla text renders correctly in videos and images
+- [x] Test that Bangla text renders correctly in videos and images (mon-01-image PNG, tue-01-reel silent MP4: conjuncts and mixed Bangla/English render correctly)
 - [ ] Run a first full week of daily posts (each made on the day)
 
 ## 5. Supabase (later)

@@ -48,7 +48,7 @@ Fri–Sat 11:00am and 9:00pm; Sunday Live 9:30pm). File numbers follow posting t
 |-----|------|------|---------|------|--------|-----------|---------|------|-------------|
 | Mon | 9 Nov | 1:30pm | Facebook profile + Instagram | `mon-01-image` | Personal story | open | P1 | Mid-term, assignment, তার উপর IELTS। এই সপ্তাহটা কেমন যাচ্ছে, ১ থেকে ১০-এ বলো তো? আমার চায়ের কাপ তৈরি। | ready |
 | Mon | 9 Nov | 10:00pm | Facebook profile + Instagram | `mon-02-carousel` | Authority | open | P3 | "একটা module খারাপ হলে পুরো IELTS আবার দিতে হয়।" সবসময় না। চলো দেখি। | planned |
-| Tue | 10 Nov | 1:30pm | Facebook profile + Instagram | `tue-01-reel` | Authority | open | P1 | Mid-term চলছে, IELTS-ও সামনে? দিনে ২০ মিনিটে Speaking প্র্যাকটিস, চলো দেখি কীভাবে। | planned |
+| Tue | 10 Nov | 1:30pm | Facebook profile + Instagram | `tue-01-reel` | Authority | open | P1 | Mid-term চলছে, IELTS-ও সামনে? দিনে ২০ মিনিটে Speaking প্র্যাকটিস, চলো দেখি কীভাবে। | ready |
 | Tue | 10 Nov | 10:00pm | Facebook profile + Instagram | `tue-02-carousel` | Authority | open | P3 | Writing-এ ৬-এ আটকে আছো? একই paragraph, দুইভাবে লেখা। পার্থক্যটা চলো দেখি। | planned |
 | Wed | 11 Nov | 1:30pm | Facebook profile + Instagram | `wed-01-carousel` | Authority | open | P1 (also P3) | Test-এর আর ৭ দিন বাকি? কোন দিন কী করবে, এক নজরে। | planned |
 | Wed | 11 Nov | 10:00pm | Facebook profile + Instagram | `wed-02-image` | Sell | open | P3 (also P2) | Speaking আর Writing, শুধু এই দুইটাতেই আটকে আছো? পুরো test আবার দেওয়ার আগে ৩ সপ্তাহ শুধু এই দুইটায় মন দাও। | planned |

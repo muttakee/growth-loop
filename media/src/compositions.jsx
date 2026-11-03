@@ -148,8 +148,8 @@ const Scene = ({scene, style}) => {
 	return (
 		// Text sits in the middle "safe zone": Reels' own buttons and caption cover the bottom and right.
 		<AbsoluteFill style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 50,
-			padding: '260px 90px 520px', opacity: Math.min(inT, outT), transform: `translateY(${(1 - inT) * 40}px)`}}>
-			{scene.blocks.map((b, i) => <Block key={i} b={b} style={style} />)}
+			padding: '220px 70px 480px', opacity: Math.min(inT, outT), transform: `translateY(${(1 - inT) * 40}px)`}}>
+			{scene.blocks.map((b, i) => <Block key={i} b={b} style={style} scale={1.3} />)}
 		</AbsoluteFill>
 	);
 };
