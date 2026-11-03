@@ -4,33 +4,39 @@ import {AbsoluteFill, Img, staticFile, useCurrentFrame, useVideoConfig, interpol
 // ---------- fonts (names come from the brand's brief, via the media spec) ----------
 
 const fontsUrl = (style) => {
-	const fam = (name) => `family=${encodeURIComponent(name).replace(/%20/g, '+')}:wght@400;500;600;700`;
+	const fam = (name) => `family=${encodeURIComponent(name).replace(/%20/g, '+')}:wght@300;400;500;600;700`;
 	const names = [...new Set([style.fontLatin, style.fontMain].filter(Boolean))];
 	return `https://fonts.googleapis.com/css2?${names.map(fam).join('&')}&display=block`;
 };
 
 // Latin font first: it has no Bangla (or other script) glyphs, so those fall back to the main
 // font automatically. Mixed Bangla/English lines get the right font for each word.
-const family = (style) => [style.fontLatin, style.fontMain].filter(Boolean).map((f) => `'${f}'`).join(', ') + ', sans-serif';
+export const family = (style) => [style.fontLatin, style.fontMain].filter(Boolean).map((f) => `'${f}'`).join(', ') + ', sans-serif';
 
-const useFonts = (style) => {
+export const useFonts = (style) => {
 	const [handle] = useState(() => delayRender('Loading fonts'));
 	useEffect(() => {
 		const id = 'gl-fonts';
-		if (!document.getElementById(id)) {
-			const link = document.createElement('link');
+		let link = document.getElementById(id);
+		if (!link) {
+			link = document.createElement('link');
 			link.id = id; link.rel = 'stylesheet'; link.href = fontsUrl(style);
 			document.head.appendChild(link);
 		}
+		// The @font-face rules only exist once the stylesheet has loaded; asking for fonts before
+		// that resolves with nothing and frames get captured with invisible text.
+		const sheetReady = link.sheet ? Promise.resolve() : new Promise((res) => { link.addEventListener('load', res); link.addEventListener('error', res); });
 		const names = [style.fontLatin, style.fontMain].filter(Boolean);
-		const loads = names.flatMap((n) => [400, 600, 700].map((w) => document.fonts.load(`${w} 40px '${n}'`, 'অআ Aa ১২')));
-		Promise.all(loads).then(() => document.fonts.ready).then(() => continueRender(handle)).catch(() => continueRender(handle));
+		// Load every weight the layouts use, for every script subset Google serves (Latin and
+		// the brand's script), so no frame is captured before its glyphs exist.
+		const sample = 'অআকখগ্রক্ষ ১২৩ AaZz 0123 ?!.,\'"+-=/';
+		sheetReady.then(() => Promise.all(names.flatMap((n) => [300, 400, 500, 600, 700].map((w) => document.fonts.load(`${w} 40px '${n}'`, sample))))).then(() => document.fonts.ready).then(() => continueRender(handle)).catch(() => continueRender(handle));
 	}, [handle, style]);
 };
 
 // ---------- text with *accent* highlights ----------
 
-const Rich = ({text, accent}) => {
+export const Rich = ({text, accent}) => {
 	const parts = String(text).split(/(\*[^*]+\*)/g);
 	return parts.map((p, i) => (p.startsWith('*') && p.endsWith('*')
 		? <span key={i} style={{color: accent}}>{p.slice(1, -1)}</span>
@@ -148,7 +154,7 @@ const Scene = ({scene, style}) => {
 	return (
 		// Text sits in the middle "safe zone": Reels' own buttons and caption cover the bottom and right.
 		<AbsoluteFill style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 50,
-			padding: '220px 70px 480px', opacity: Math.min(inT, outT), transform: `translateY(${(1 - inT) * 40}px)`}}>
+			padding: '290px 70px 860px', opacity: Math.min(inT, outT), transform: `translateY(${(1 - inT) * 40}px)`}}>
 			{scene.blocks.map((b, i) => <Block key={i} b={b} style={style} scale={1.3} />)}
 		</AbsoluteFill>
 	);
@@ -162,7 +168,7 @@ export const Reel = ({style, scenes}) => {
 		<AbsoluteFill style={{background: style.background, color: style.text, fontFamily: family(style)}}>
 			{scenes.map((s, i) => <Scene key={i} scene={s} style={style} />)}
 			<div style={{position: 'absolute', top: 0, left: 0, height: 10, width: `${(frame / durationInFrames) * 100}%`, background: style.accent}} />
-			<Brand style={style} inset={{v: 380, h: 60}} photoSize={180} logoSize={130} />
+			<Brand style={style} inset={{v: 690, h: 70}} photoSize={150} logoSize={120} />
 		</AbsoluteFill>
 	);
 };

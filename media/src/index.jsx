@@ -1,6 +1,10 @@
 import React from 'react';
 import {registerRoot, Composition} from 'remotion';
-import {Card, Reel, reelDuration} from './compositions.jsx';
+import {Card, Reel as ClassicReel, reelDuration} from './compositions.jsx';
+import {ThemedReel} from './themes.jsx';
+
+// style.theme picks a premium reel theme (see media/README.md); no theme = classic.
+const Reel = (props) => (props.style.theme && props.style.theme !== 'classic' ? <ThemedReel {...props} /> : <ClassicReel {...props} />);
 
 // Placeholder props so the compositions open in the Remotion studio. Real props come from a
 // post's "Media spec" (see media/README.md); nothing brand-specific is hardcoded here.

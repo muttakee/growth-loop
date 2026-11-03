@@ -46,6 +46,23 @@ need a company licence (see remotion.dev/license).
 - **`scenes`:** for `reel`. Times in seconds; each scene fades and slides in, then fades out.
   Keep each scene 2–4 s and the reel 15–30 s. The video length is the last scene's `end`.
 
+### Reel themes
+
+`"style": {"theme": "<name>"}` picks how a reel looks. Colours and fonts still come from the brief;
+a theme only changes layout, depth and motion. No theme = `classic`.
+
+| Theme | Look |
+|-------|------|
+| `classic` | plain brand background, centred text, fade and slide |
+| `editorial` | light page, big left-aligned type, thin rules, chapter counter, word-by-word reveal |
+| `glass` | deep gradient with soft moving glow, frosted glass panel, glowing accent words |
+| `kinetic` | words pop in one by one, accent words in solid pills, giant outlined scene number |
+| `examcard` | exam-style card on a grid; the kicker becomes the card header, with `01/08` |
+| `cinematic` | dark with vignette and grain, slow push-in, blur-in type |
+
+All themes keep text inside Meta's Reels safe zone (about 270px top, 670px bottom, 65px sides).
+For themes, use `kicker` (small label), `headline` and `text` blocks in each scene.
+
 ### Blocks
 
 | `type` | Fields | Use |
