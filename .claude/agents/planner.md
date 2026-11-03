@@ -53,7 +53,7 @@ If `targeting.md` doesn't exist, stop and say so. If the brief has no pillar mix
 
 ## Output: `brands/<slug>/weeks/<week>/plan.md`
 
-Use `templates/week/plan.md`. Write the real dates (Mon to Sun of the ISO week) at the top.
+Use `templates/week/plan.md`. Set every post's `Post status` to `planned`. Write the real dates (Mon to Sun of the ISO week) at the top.
 **Always write `Status: draft`.** Never set any other status: only the human approves.
 
 ## Rules

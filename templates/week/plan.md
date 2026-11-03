@@ -19,15 +19,15 @@ Status: draft
 
 <!-- One row per post (posts per day x 7, from the brief). Same-day posts: mon-01, mon-02 -->
 
-| Day | Date | Time | Channel | File | Pillar | Day theme | Persona | Hook |
-|-----|------|------|---------|------|--------|-----------|---------|------|
-| Mon | | | | | | | | |
-| Tue | | | | | | | | |
-| Wed | | | | | | | | |
-| Thu | | | | | | | | |
-| Fri | | | | | | | | |
-| Sat | | | | | | | | |
-| Sun | | | | | | | | |
+| Day | Date | Time | Channel | File | Pillar | Day theme | Persona | Hook | Post status |
+|-----|------|------|---------|------|--------|-----------|---------|------|-------------|
+| Mon | | | | | | | | | planned |
+| Tue | | | | | | | | | planned |
+| Wed | | | | | | | | | planned |
+| Thu | | | | | | | | | planned |
+| Fri | | | | | | | | | planned |
+| Sat | | | | | | | | | planned |
+| Sun | | | | | | | | | planned |
 
 ## Post details
 

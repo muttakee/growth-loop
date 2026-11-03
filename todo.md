@@ -21,7 +21,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - **No hardcoded brands:** the user adds every brand with `/setup-business`.
 - **Week folders:** named by calendar week number (`weeks/2026-W45`), with the dates written
   inside `plan.md`. They always sort in order and give each week one unique name.
-- **Plan status line:** `draft → approved → content-ready → posted`. No content is created
+- **Plan status line:** `draft → approved → posted`. Each post also has `planned → ready → posted`. No content is created
   unless the status is `approved`.
 - **File format:** Markdown for all brand files, so they're easy for the user to read and edit
   and git shows clear changes.
@@ -48,6 +48,10 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   `weeks/<week>/inputs/`. The Researcher uses them too.
 - **Apify access route:** if the Apify MCP tools can't load (the proxy blocked them in the W46 test),
   the Researcher calls the Apify REST API with `APIFY_TOKEN`. Same actors, rules and budget.
+- **Daily content, not batches:** the weekly plan (the outline) is approved in advance; each
+  post is made on its day, about 2 hours before its slot, and is ready at least 30 minutes
+  before posting. Plan status is `draft → approved → posted`; each post has its own status
+  `planned → ready → posted`. `/make-post` runs by hand for now; section 8 makes it run on its own.
 - **Content pillars:** Authority, Personal story and Sell. Setup suggests Authority 60–70%,
   Personal story 15–20%, Sell 15–20%, and the user sets the mix for each brand in `brief.md`.
 - **Posting frequency:** 2 posts a day (14 a week) by default. Set per brand in `brief.md`
@@ -71,7 +75,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Empty `brands/` folder
 - [x] `templates/brand/`: `brief.md`, `memory.md`, `personas.md`, `competitors.md`, `weeks/README.md`
 - [x] Name week folders by calendar week (`2026-W45`)
-- [x] Add a status line to each plan: `draft → approved → content-ready → posted` (`templates/week/plan.md`)
+- [x] Add a status line to each plan: `draft → approved → posted` (`templates/week/plan.md`)
 
 ## 2. Adding brands ← in progress (waiting for the user to add their first brand)
 
@@ -98,13 +102,16 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Planner agent (7-day calendar that follows the brand's content pillar mix and weekly day themes)
 - [x] Approval step: `/plan-week <brand>` (the user approves the plan or sends it back with changes)
 - [x] Test `/plan-week` on the sample brand for 2026-W46 (14 posts, approved 3 Nov 2026)
-- [ ] Content Creator agent (hooks, scripts, captions, hashtags, calls to action)
-- [ ] Reviewer agent (checks every post against the brand brief and the language rules)
+- [x] Content Creator agent: makes **one post at a time** from the approved plan (caption, script,
+  on-screen text, hashtags, call to action, visual brief)
+- [x] Reviewer agent (checks every post against the brand brief and the language rules)
+- [x] `/make-post <brand>` command: makes and reviews the next due post, sets it `ready`
+- [ ] Test `/make-post` on one post of the sample brand's W46 plan
 - [ ] Confirm the video tool, then set up reel templates
 - [ ] Image and carousel templates
 - [ ] ElevenLabs voiceover (Bangla and English)
 - [ ] Test that Bangla text renders correctly in videos and images
-- [ ] Produce the first full 7-day content pack
+- [ ] Run a first full week of daily posts (each made on the day)
 
 ## 5. Supabase (later)
 
@@ -124,5 +131,5 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 ## 8. Pilot and automation (later)
 
 - [ ] One supervised pilot week
-- [ ] Weekly trigger (manual, cron or GitHub Actions)
+- [ ] Weekly trigger for research and planning, plus a trigger before each posting slot for `/make-post`
 - [ ] Approval reminder by email or WhatsApp

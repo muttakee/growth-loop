@@ -44,22 +44,22 @@ Status: approved
 All times are Bangladesh time, from the brief's Posting times (Sun–Thu 1:30pm and 10:00pm;
 Fri–Sat 11:00am and 9:00pm; Sunday Live 9:30pm). File numbers follow posting time.
 
-| Day | Date | Time | Channel | File | Pillar | Day theme | Persona | Hook |
-|-----|------|------|---------|------|--------|-----------|---------|------|
-| Mon | 9 Nov | 1:30pm | Facebook profile + Instagram | `mon-01-image` | Personal story | open | P1 | Mid-term, assignment, তার উপর IELTS। এই সপ্তাহটা কেমন যাচ্ছে, ১ থেকে ১০-এ বলো তো? আমার চায়ের কাপ তৈরি। |
-| Mon | 9 Nov | 10:00pm | Facebook profile + Instagram | `mon-02-carousel` | Authority | open | P3 | "একটা module খারাপ হলে পুরো IELTS আবার দিতে হয়।" সবসময় না। চলো দেখি। |
-| Tue | 10 Nov | 1:30pm | Facebook profile + Instagram | `tue-01-reel` | Authority | open | P1 | Mid-term চলছে, IELTS-ও সামনে? দিনে ২০ মিনিটে Speaking প্র্যাকটিস, চলো দেখি কীভাবে। |
-| Tue | 10 Nov | 10:00pm | Facebook profile + Instagram | `tue-02-carousel` | Authority | open | P3 | Writing-এ ৬-এ আটকে আছো? একই paragraph, দুইভাবে লেখা। পার্থক্যটা চলো দেখি। |
-| Wed | 11 Nov | 1:30pm | Facebook profile + Instagram | `wed-01-carousel` | Authority | open | P1 (also P3) | Test-এর আর ৭ দিন বাকি? কোন দিন কী করবে, এক নজরে। |
-| Wed | 11 Nov | 10:00pm | Facebook profile + Instagram | `wed-02-image` | Sell | open | P3 (also P2) | Speaking আর Writing, শুধু এই দুইটাতেই আটকে আছো? পুরো test আবার দেওয়ার আগে ৩ সপ্তাহ শুধু এই দুইটায় মন দাও। |
-| Thu | 12 Nov | 1:30pm | Facebook profile | `thu-01-text` | Personal story | open | P1 (also P3) | আমি কাউকে band-এর guarantee দিই না। কেন দিই না, আজ একটু বলি। |
-| Thu | 12 Nov | 10:00pm | Facebook profile + Instagram | `thu-02-reel` | Authority | open | P3 | ৬.৫ এসেছে, লাগবে ৭? নতুন date বুক করার আগে এই ভুলটা কোরো না। |
-| Fri | 13 Nov | 11:00am | Facebook profile + Instagram | `fri-01-carousel` | Authority | personal story (met by `fri-02-reel`) | P2 (also P1) | Speaking-এ Band 7 মানে আসলে কী? ielts.org-এর band descriptor, সহজ বাংলায়। |
-| Fri | 13 Nov | 9:00pm | Facebook profile + Instagram | `fri-02-reel` | Personal story | personal story | P1 | আমি ঢাকার বাইরে বড় হয়েছি, কোচিং ছাড়া ইংরেজি শিখেছি। প্রথম দিকে Speaking-এ আমিও থেমে যেতাম। |
-| Sat | 14 Nov | 11:00am | Facebook profile + Instagram | `sat-01-reel` | Authority | open | P1 | Part 3-এ এসে কথা থেমে যায়? Cambridge IELTS 21, Test 1-এর একটা প্রশ্ন দিয়ে চলো দেখি কীভাবে উত্তর বাড়াবে। |
-| Sat | 14 Nov | 9:00pm | Facebook profile + Instagram | `sat-02-image` | Sell | open | P3 (also P1) | পুরো test আবার দেওয়ার খরচ গোনার আগে, একবার ফ্রি-তে Speaking চেক করে নাও। কাল রাতের Live-এ আমি নিজে শুনবো। |
-| Sun | 15 Nov | 1:30pm | Facebook profile + Instagram | `sun-01-carousel` | Authority | IELTS lesson | P1 | Reading-এ classification প্রশ্ন দেখলেই গুলিয়ে যায়? A থেকে Z, এক carousel-এ। Save করে রাখো। |
-| Sun | 15 Nov | 9:30pm | Facebook profile (Live) | `sun-02-live` | Authority | IELTS lesson | P1, P3 | Speaking-এ ভয় লাগে? Live-এ প্রশ্ন দেবো, তুমি comment-এ উত্তর লেখো, আমি সাথে সাথে আরও ভালো করে দেখাবো। |
+| Day | Date | Time | Channel | File | Pillar | Day theme | Persona | Hook | Post status |
+|-----|------|------|---------|------|--------|-----------|---------|------|-------------|
+| Mon | 9 Nov | 1:30pm | Facebook profile + Instagram | `mon-01-image` | Personal story | open | P1 | Mid-term, assignment, তার উপর IELTS। এই সপ্তাহটা কেমন যাচ্ছে, ১ থেকে ১০-এ বলো তো? আমার চায়ের কাপ তৈরি। | planned |
+| Mon | 9 Nov | 10:00pm | Facebook profile + Instagram | `mon-02-carousel` | Authority | open | P3 | "একটা module খারাপ হলে পুরো IELTS আবার দিতে হয়।" সবসময় না। চলো দেখি। | planned |
+| Tue | 10 Nov | 1:30pm | Facebook profile + Instagram | `tue-01-reel` | Authority | open | P1 | Mid-term চলছে, IELTS-ও সামনে? দিনে ২০ মিনিটে Speaking প্র্যাকটিস, চলো দেখি কীভাবে। | planned |
+| Tue | 10 Nov | 10:00pm | Facebook profile + Instagram | `tue-02-carousel` | Authority | open | P3 | Writing-এ ৬-এ আটকে আছো? একই paragraph, দুইভাবে লেখা। পার্থক্যটা চলো দেখি। | planned |
+| Wed | 11 Nov | 1:30pm | Facebook profile + Instagram | `wed-01-carousel` | Authority | open | P1 (also P3) | Test-এর আর ৭ দিন বাকি? কোন দিন কী করবে, এক নজরে। | planned |
+| Wed | 11 Nov | 10:00pm | Facebook profile + Instagram | `wed-02-image` | Sell | open | P3 (also P2) | Speaking আর Writing, শুধু এই দুইটাতেই আটকে আছো? পুরো test আবার দেওয়ার আগে ৩ সপ্তাহ শুধু এই দুইটায় মন দাও। | planned |
+| Thu | 12 Nov | 1:30pm | Facebook profile | `thu-01-text` | Personal story | open | P1 (also P3) | আমি কাউকে band-এর guarantee দিই না। কেন দিই না, আজ একটু বলি। | planned |
+| Thu | 12 Nov | 10:00pm | Facebook profile + Instagram | `thu-02-reel` | Authority | open | P3 | ৬.৫ এসেছে, লাগবে ৭? নতুন date বুক করার আগে এই ভুলটা কোরো না। | planned |
+| Fri | 13 Nov | 11:00am | Facebook profile + Instagram | `fri-01-carousel` | Authority | personal story (met by `fri-02-reel`) | P2 (also P1) | Speaking-এ Band 7 মানে আসলে কী? ielts.org-এর band descriptor, সহজ বাংলায়। | planned |
+| Fri | 13 Nov | 9:00pm | Facebook profile + Instagram | `fri-02-reel` | Personal story | personal story | P1 | আমি ঢাকার বাইরে বড় হয়েছি, কোচিং ছাড়া ইংরেজি শিখেছি। প্রথম দিকে Speaking-এ আমিও থেমে যেতাম। | planned |
+| Sat | 14 Nov | 11:00am | Facebook profile + Instagram | `sat-01-reel` | Authority | open | P1 | Part 3-এ এসে কথা থেমে যায়? Cambridge IELTS 21, Test 1-এর একটা প্রশ্ন দিয়ে চলো দেখি কীভাবে উত্তর বাড়াবে। | planned |
+| Sat | 14 Nov | 9:00pm | Facebook profile + Instagram | `sat-02-image` | Sell | open | P3 (also P1) | পুরো test আবার দেওয়ার খরচ গোনার আগে, একবার ফ্রি-তে Speaking চেক করে নাও। কাল রাতের Live-এ আমি নিজে শুনবো। | planned |
+| Sun | 15 Nov | 1:30pm | Facebook profile + Instagram | `sun-01-carousel` | Authority | IELTS lesson | P1 | Reading-এ classification প্রশ্ন দেখলেই গুলিয়ে যায়? A থেকে Z, এক carousel-এ। Save করে রাখো। | planned |
+| Sun | 15 Nov | 9:30pm | Facebook profile (Live) | `sun-02-live` | Authority | IELTS lesson | P1, P3 | Speaking-এ ভয় লাগে? Live-এ প্রশ্ন দেবো, তুমি comment-এ উত্তর লেখো, আমি সাথে সাথে আরও ভালো করে দেখাবো। | planned |
 
 Channels are only those the brief uses: Facebook personal profile (assisted: prepared, reminder,
 posted by hand) and Instagram ("automatic, later via Meta"; see Needs the human). The brief's free
