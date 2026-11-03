@@ -73,13 +73,19 @@ results or reviews: if the user has none, write `None yet`.
 
 First, the content mix:
 
-0. **Posts per day:** how many posts a day? (suggest **2**, i.e. 14 a week)
-1. **Content pillars:** suggest this mix and ask the user to confirm or change it (it must add up
+1. **Posts per day:** how many posts a day? (suggest **2**, i.e. 14 a week)
+2. **Posting times:** recommend a time slot for each daily post, based on this brand's
+   audience: the target geography and its time zone, its work week and weekend (e.g. Bangladesh
+   works Sun–Thu), and the target customer's routine (students, office workers, parents, etc.).
+   Show it as a small table (days → post 01 time, post 02 time) with one line on why. Keep slots
+   the same every week, and put any recurring Live at a fixed day and time. The user confirms or
+   changes it. Say it can be changed any time later.
+3. **Content pillars:** suggest this mix and ask the user to confirm or change it (it must add up
    to 100%):
    - **Authority 60–70%:** expert teaching and tips, case studies, before/after results.
    - **Personal story 15–20%:** the owner's own stories, behind the scenes, values.
    - **Sell 15–20%:** reviews and proof, unique product points, clear call to action.
-2. **Weekly themes:** does any day of the week have a fixed theme? (e.g. Fri → personal story,
+4. **Weekly themes:** does any day of the week have a fixed theme? (e.g. Fri → personal story,
    Sun → a core topic). Days without a theme are `open`.
 
 Then ask one at a time:

@@ -21,7 +21,7 @@ ask before acting.
 - **Human approval:** nothing is created or published until a human approves the weekly 7-day
   plan. Content work only starts when the plan's status is `approved`.
 - **No hardcoded brands:** brands exist only once the user adds them with `/setup-business`.
-  Brand-specific rules (posts per day, content pillars, weekly themes, language, voice, music, visuals, approved
+  Brand-specific rules (posts per day, posting times, content pillars, weekly themes, language, voice, music, visuals, approved
   sources, no-go topics) live in
   the "Content rules" section of that brand's `brief.md`, never in code or in this file.
 - **Two profile types:** `business` (Mission, Vision, Next year goal, USP, Target customer,

@@ -120,6 +120,21 @@ None yet (see personas.md for researched audience questions).
 
 - **Posts per day:** 2 (14 posts a week). The weekly Live counts as one of Sunday's posts.
 
+### Posting times
+
+- **Time zone:** Bangladesh (Asia/Dhaka, UTC+6)
+- **Why these times:** Bangladesh works Sun–Thu, weekend Fri–Sat. Students and young
+  professionals are free at lunch and online late at night; retakers (P3) mostly 10pm–1am.
+  Recommended by Claude on 3 Nov 2026 and accepted by the user "for now"; to be checked against
+  Insights once Meta is connected.
+
+| Days | Post 01 | Post 02 | Note |
+|------|---------|---------|------|
+| Sun–Thu | 1:30pm | 10:00pm | lunch break; night peak |
+| Fri | 11:00am | 9:00pm | weekend morning, before Jumma prayer |
+| Sat | 11:00am | 9:00pm | weekend; night post announces Sunday's Live |
+| Sun (Live) | 1:30pm | 9:30pm Live | the weekly Live keeps the same day and time every week |
+
 ### Content pillars
 
 | Pillar | Share of weekly posts | Includes |

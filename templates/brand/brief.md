@@ -109,6 +109,19 @@
 
 - **Posts per day:** <!-- default 2 -->
 
+### Posting times
+
+<!-- Recommended by /setup-business from this brand's audience (geography, work week, routine),
+     then confirmed or changed by the user. The Planner uses these slots. The user can change
+     them any time (edit this table, or ask Claude). All times in the audience's local time zone. -->
+
+- **Time zone:**
+- **Why these times:**
+
+| Days | Post 01 | Post 02 | Note |
+|------|---------|---------|------|
+| | | | |
+
 ### Content pillars
 
 <!-- The weekly mix the Planner must follow. Shares must add up to 100%.

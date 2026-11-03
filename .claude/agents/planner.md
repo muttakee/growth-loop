@@ -36,8 +36,9 @@ If `targeting.md` doesn't exist, stop and say so. If the brief has no pillar mix
 4. **Build each post** from the targeting file: a focus persona, one of its hooks (you may
    shorten or adapt it, keeping the brand voice) and an angle. Prefer the strongest hooks.
    Spread personas and formats (reel, carousel, single image, text, Live) across the week.
-5. **Pick a time** for each post from the persona's online times (personas.md). If unknown,
-   pick a sensible time and mark it `(inferred)`.
+5. **Use the brief's Posting times** for each post (post 01 and post 02 slots per day). Don't
+   invent other times. If the brief has no Posting times, pick from the personas' online times,
+   mark them `(inferred)`, and ask under "Needs the human".
 6. **Pick the channel** from the brief's channels table. Only channels the brief uses.
 7. **Name each post** `<day>-<nn>-<format>` (e.g. `mon-01-reel`); this becomes the content file name.
 8. **Apply memory:** use any lesson or running experiment from memory.md and say where.
@@ -98,7 +99,7 @@ no such testimonial. (Invented proof.)
 
 - [ ] Read brief, targeting, personas and memory
 - [ ] Real dates at the top, and `Status: draft`
-- [ ] Number of posts = posts per day x 7
+- [ ] Number of posts = posts per day x 7, each in the brief's posting-time slot
 - [ ] Pillar counts match the brief's mix (table filled in)
 - [ ] Every fixed day theme is respected
 - [ ] Each post has a channel from the brief, a time, a persona, a hook, an idea, a CTA and a source

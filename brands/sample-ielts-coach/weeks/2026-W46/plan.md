@@ -41,33 +41,32 @@ Status: draft
 
 ## Calendar
 
-All times are Bangladesh time. Personas' online times are themselves `(inferred)`, so every time
-below is `(inferred)`. File numbers follow posting time: `01` is the day's earlier post, `02` the later one.
+All times are Bangladesh time, from the brief's Posting times (Sun–Thu 1:30pm and 10:00pm;
+Fri–Sat 11:00am and 9:00pm; Sunday Live 9:30pm). File numbers follow posting time.
 
 | Day | Date | Time | Channel | File | Pillar | Day theme | Persona | Hook |
 |-----|------|------|---------|------|--------|-----------|---------|------|
-| Mon | 9 Nov | 1:30pm (inferred) | Facebook profile + Instagram | `mon-01-image` | Personal story | open | P1 | Mid-term, assignment, তার উপর IELTS। এই সপ্তাহটা কেমন যাচ্ছে, ১ থেকে ১০-এ বলো তো? আমার চায়ের কাপ তৈরি। |
-| Mon | 9 Nov | 10:00pm (inferred) | Facebook profile + Instagram | `mon-02-carousel` | Authority | open | P3 | "একটা module খারাপ হলে পুরো IELTS আবার দিতে হয়।" সবসময় না। চলো দেখি। |
-| Tue | 10 Nov | 9:30pm (inferred) | Facebook profile + Instagram | `tue-01-reel` | Authority | open | P1 | Mid-term চলছে, IELTS-ও সামনে? দিনে ২০ মিনিটে Speaking প্র্যাকটিস, চলো দেখি কীভাবে। |
-| Tue | 10 Nov | 11:45pm (inferred) | Facebook profile + Instagram | `tue-02-carousel` | Authority | open | P3 | Writing-এ ৬-এ আটকে আছো? একই paragraph, দুইভাবে লেখা। পার্থক্যটা চলো দেখি। |
-| Wed | 11 Nov | 9:00pm (inferred) | Facebook profile + Instagram | `wed-01-carousel` | Authority | open | P1 (also P3) | Test-এর আর ৭ দিন বাকি? কোন দিন কী করবে, এক নজরে। |
-| Wed | 11 Nov | 11:30pm (inferred) | Facebook profile + Instagram | `wed-02-image` | Sell | open | P3 (also P2) | Speaking আর Writing, শুধু এই দুইটাতেই আটকে আছো? পুরো test আবার দেওয়ার আগে ৩ সপ্তাহ শুধু এই দুইটায় মন দাও। |
-| Thu | 12 Nov | 1:30pm (inferred) | Facebook profile | `thu-01-text` | Personal story | open | P1 (also P3) | আমি কাউকে band-এর guarantee দিই না। কেন দিই না, আজ একটু বলি। |
-| Thu | 12 Nov | 10:30pm (inferred) | Facebook profile + Instagram | `thu-02-reel` | Authority | open | P3 | ৬.৫ এসেছে, লাগবে ৭? নতুন date বুক করার আগে এই ভুলটা কোরো না। |
-| Fri | 13 Nov | 11:00am (inferred) | Facebook profile + Instagram | `fri-01-carousel` | Authority | personal story (met by `fri-02-reel`) | P2 (also P1) | Speaking-এ Band 7 মানে আসলে কী? ielts.org-এর band descriptor, সহজ বাংলায়। |
-| Fri | 13 Nov | 9:00pm (inferred) | Facebook profile + Instagram | `fri-02-reel` | Personal story | personal story | P1 | আমি ঢাকার বাইরে বড় হয়েছি, কোচিং ছাড়া ইংরেজি শিখেছি। প্রথম দিকে Speaking-এ আমিও থেমে যেতাম। |
-| Sat | 14 Nov | 3:00pm (inferred) | Facebook profile + Instagram | `sat-01-reel` | Authority | open | P1 | Part 3-এ এসে কথা থেমে যায়? Cambridge IELTS 21, Test 1-এর একটা প্রশ্ন দিয়ে চলো দেখি কীভাবে উত্তর বাড়াবে। |
-| Sat | 14 Nov | 9:30pm (inferred) | Facebook profile + Instagram | `sat-02-image` | Sell | open | P3 (also P1) | পুরো test আবার দেওয়ার খরচ গোনার আগে, একবার ফ্রি-তে Speaking চেক করে নাও। কাল রাতের Live-এ আমি নিজে শুনবো। |
-| Sun | 15 Nov | 2:00pm (inferred) | Facebook profile + Instagram | `sun-01-carousel` | Authority | IELTS lesson | P1 | Reading-এ classification প্রশ্ন দেখলেই গুলিয়ে যায়? A থেকে Z, এক carousel-এ। Save করে রাখো। |
-| Sun | 15 Nov | 9:30pm (inferred) | Facebook profile (Live) | `sun-02-live` | Authority | IELTS lesson | P1, P3 | Speaking-এ ভয় লাগে? Live-এ প্রশ্ন দেবো, তুমি comment-এ উত্তর লেখো, আমি সাথে সাথে আরও ভালো করে দেখাবো। |
+| Mon | 9 Nov | 1:30pm | Facebook profile + Instagram | `mon-01-image` | Personal story | open | P1 | Mid-term, assignment, তার উপর IELTS। এই সপ্তাহটা কেমন যাচ্ছে, ১ থেকে ১০-এ বলো তো? আমার চায়ের কাপ তৈরি। |
+| Mon | 9 Nov | 10:00pm | Facebook profile + Instagram | `mon-02-carousel` | Authority | open | P3 | "একটা module খারাপ হলে পুরো IELTS আবার দিতে হয়।" সবসময় না। চলো দেখি। |
+| Tue | 10 Nov | 1:30pm | Facebook profile + Instagram | `tue-01-reel` | Authority | open | P1 | Mid-term চলছে, IELTS-ও সামনে? দিনে ২০ মিনিটে Speaking প্র্যাকটিস, চলো দেখি কীভাবে। |
+| Tue | 10 Nov | 10:00pm | Facebook profile + Instagram | `tue-02-carousel` | Authority | open | P3 | Writing-এ ৬-এ আটকে আছো? একই paragraph, দুইভাবে লেখা। পার্থক্যটা চলো দেখি। |
+| Wed | 11 Nov | 1:30pm | Facebook profile + Instagram | `wed-01-carousel` | Authority | open | P1 (also P3) | Test-এর আর ৭ দিন বাকি? কোন দিন কী করবে, এক নজরে। |
+| Wed | 11 Nov | 10:00pm | Facebook profile + Instagram | `wed-02-image` | Sell | open | P3 (also P2) | Speaking আর Writing, শুধু এই দুইটাতেই আটকে আছো? পুরো test আবার দেওয়ার আগে ৩ সপ্তাহ শুধু এই দুইটায় মন দাও। |
+| Thu | 12 Nov | 1:30pm | Facebook profile | `thu-01-text` | Personal story | open | P1 (also P3) | আমি কাউকে band-এর guarantee দিই না। কেন দিই না, আজ একটু বলি। |
+| Thu | 12 Nov | 10:00pm | Facebook profile + Instagram | `thu-02-reel` | Authority | open | P3 | ৬.৫ এসেছে, লাগবে ৭? নতুন date বুক করার আগে এই ভুলটা কোরো না। |
+| Fri | 13 Nov | 11:00am | Facebook profile + Instagram | `fri-01-carousel` | Authority | personal story (met by `fri-02-reel`) | P2 (also P1) | Speaking-এ Band 7 মানে আসলে কী? ielts.org-এর band descriptor, সহজ বাংলায়। |
+| Fri | 13 Nov | 9:00pm | Facebook profile + Instagram | `fri-02-reel` | Personal story | personal story | P1 | আমি ঢাকার বাইরে বড় হয়েছি, কোচিং ছাড়া ইংরেজি শিখেছি। প্রথম দিকে Speaking-এ আমিও থেমে যেতাম। |
+| Sat | 14 Nov | 11:00am | Facebook profile + Instagram | `sat-01-reel` | Authority | open | P1 | Part 3-এ এসে কথা থেমে যায়? Cambridge IELTS 21, Test 1-এর একটা প্রশ্ন দিয়ে চলো দেখি কীভাবে উত্তর বাড়াবে। |
+| Sat | 14 Nov | 9:00pm | Facebook profile + Instagram | `sat-02-image` | Sell | open | P3 (also P1) | পুরো test আবার দেওয়ার খরচ গোনার আগে, একবার ফ্রি-তে Speaking চেক করে নাও। কাল রাতের Live-এ আমি নিজে শুনবো। |
+| Sun | 15 Nov | 1:30pm | Facebook profile + Instagram | `sun-01-carousel` | Authority | IELTS lesson | P1 | Reading-এ classification প্রশ্ন দেখলেই গুলিয়ে যায়? A থেকে Z, এক carousel-এ। Save করে রাখো। |
+| Sun | 15 Nov | 9:30pm | Facebook profile (Live) | `sun-02-live` | Authority | IELTS lesson | P1, P3 | Speaking-এ ভয় লাগে? Live-এ প্রশ্ন দেবো, তুমি comment-এ উত্তর লেখো, আমি সাথে সাথে আরও ভালো করে দেখাবো। |
 
 Channels are only those the brief uses: Facebook personal profile (assisted: prepared, reminder,
 posted by hand) and Instagram ("automatic, later via Meta"; see Needs the human). The brief's free
 weekly mock test is a **Facebook** Live, so `sun-02-live` runs on the Facebook profile only.
 `thu-01-text` is a plain text post, so it runs on the Facebook profile only.
 
-Spacing: on Mon, Thu, Fri, Sat and Sun the `01` post is in the morning or afternoon, 6–10 hours before the night `02` post. On Tue and Wed
-both posts are at night (P3's online window is 10pm–1am only), about 2h15 and 2h30 apart.
+Spacing: every day has one daytime and one night post, 8–10 hours apart.
 
 ## Post details
 
@@ -319,7 +318,7 @@ both posts are at night (P3's online window is 10pm–1am only), about 2h15 and 
 2. **Comment replies: Bangla only (no Banglish)** for now. Most commenters write in Banglish
    (personas: Words they use); confirm this is what you want. The light post (`mon-01-image`) and
    the values post (`thu-01-text`) will likely draw many Banglish comments.
-3. **Confirm Live day/time.** Placed on Sunday 15 Nov, 9:30pm (inferred from personas' online
+3. **Live day/time:** Sunday 9:30pm, now set in the brief's Posting times (accepted "for now"). (Earlier note: inferred from personas' online
    times). `sat-02-image` (announcement) and every "রবিবার রাতের Live" / "কাল রাতের Live" / "আজ রাতের
    Live" CTA depend on it (`tue-01`, `fri-01`, `fri-02`, `sat-01`, `sat-02`, `sun-02`).
 4. **No results or testimonial posts.** The Content interview has no student results,
@@ -376,3 +375,6 @@ both posts are at night (P3's online window is 10pm–1am only), about 2h15 and 
   - Updated: Lessons applied, Pillar mix, Calendar, Needs the human (#2, #3, #4, #10–#14 new or
     changed; old "left out" items for angle 5, P2 and the light post removed).
   - Status kept as `draft`.
+- **3 Nov 2026 (2).** Human accepted the recommended posting times "for now"; the brief now has
+  Posting times. All 14 posts moved into those slots (Sun–Thu 1:30pm / 10:00pm, Fri–Sat
+  11:00am / 9:00pm, Sunday Live 9:30pm). Content and pillar mix unchanged.
