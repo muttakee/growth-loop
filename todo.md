@@ -93,7 +93,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   time, then the content rules, and creates the brand folder from the template
 - [x] Onboarding agent (deep research and targeting, fills in the memory files)
 - [x] Brief: channels table (personal profile, Page, Instagram) and person photo for personal profiles
-- [x] Test run: sample brand `sample-ielts-coach` created and onboarded (fictional, delete later)
+- [x] Test run: sample brand `sample-ielts-coach` created and onboarded (fictional; deleted 4 Nov 2026, still in git history)
 - [x] Setup flow redesign (from the user's diagram): renamed to `/setup-business`, Expertise as
   its own question, a content interview (customer results, personal stories, proof, unique
   points, objections), content pillars (mix set per brand) and weekly day themes
@@ -122,7 +122,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [ ] ElevenLabs voiceover (Bangla and English): **later**, no API key yet; reels are silent until then
 - [x] Test that Bangla text renders correctly in videos and images (mon-01-image PNG, tue-01-reel silent MP4: conjuncts and mixed Bangla/English render correctly)
 - [x] `/make-week <brand>` command: makes the whole week's content pack after plan approval, then asks the human to approve it
-- [ ] Test `/make-week` on the sample brand's W46 (all remaining posts) and approve the pack
+- [ ] Test `/make-week` on the first real brand's first week and approve the pack
 
 ## 5. Supabase (later)
 
