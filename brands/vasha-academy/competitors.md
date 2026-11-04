@@ -2,7 +2,7 @@
 
 > Public data only, collected within platform rules. Inspiration only, never copy.
 
-**Status: all five competitors below are suggested, awaiting confirmation by the user.**
+**Status: all five competitors confirmed by the user on 2026-11-04.** Facebook links for FutureEd, OnMock and Bandscore9 are still missing.
 The user asked us to find competitors (onboarding, 2026-11-04). Nothing here has been confirmed yet.
 
 **Access limits during onboarding (2026-11-04):** facebook.com pages, the Meta Ad Library
@@ -14,15 +14,15 @@ public pages only).
 
 | Competitor | Facebook | Instagram | Followers | Notes |
 |------------|----------|-----------|-----------|-------|
-| Banglay IELTS (suggested, awaiting confirmation) | https://web.facebook.com/BanglayIELTS [listed on banglayielts.com pages, via search: https://banglayielts.com/?p=47826] | unknown | unknown | Largest search footprint for "IELTS mock test Bangladesh"; centres plus online; computer-based mock tests |
-| 10 Minute School, IELTS Course by Munzereen Shahid (suggested, awaiting confirmation) | https://www.facebook.com/10minuteschool [listed as official profile: https://affsignal.com/merchant/10minuteschool] | unknown | unknown (main page); instructor's own page passed 700k within 9 months of April 2020 [https://en.prothomalo.com/amp/story/bangladesh/good-day-bangladesh/munzereen-studies-english-and-teaches-english-too] | Mass-market recorded IELTS course with Reading/Listening mock tests |
-| FutureEd (suggested, awaiting confirmation) | not found; needs a link from the user | unknown | unknown | Banani, Dhaka; British Council test venue plus coaching; free mock test |
-| OnMock (suggested, awaiting confirmation) | not found; needs a link from the user | unknown | unknown | AI-marked mock tests for all four modules, aimed at Bangladeshi learners; closest product match |
-| Bandscore9 (suggested, awaiting confirmation) | not found; needs a link from the user | unknown | unknown | AI-powered IELTS prep platform launched in Gulshan, Dhaka (July 2024) |
+| Banglay IELTS | https://web.facebook.com/BanglayIELTS [listed on banglayielts.com pages, via search: https://banglayielts.com/?p=47826] | unknown | unknown | Largest search footprint for "IELTS mock test Bangladesh"; centres plus online; computer-based mock tests |
+| 10 Minute School, IELTS Course by Munzereen Shahid | https://www.facebook.com/10minuteschool [listed as official profile: https://affsignal.com/merchant/10minuteschool] | unknown | unknown (main page); instructor's own page passed 700k within 9 months of April 2020 [https://en.prothomalo.com/amp/story/bangladesh/good-day-bangladesh/munzereen-studies-english-and-teaches-english-too] | Mass-market recorded IELTS course with Reading/Listening mock tests |
+| FutureEd | not found; needs a link from the user | unknown | unknown | Banani, Dhaka; British Council test venue plus coaching; free mock test |
+| OnMock | not found; needs a link from the user | unknown | unknown | AI-marked mock tests for all four modules, aimed at Bangladeshi learners; closest product match |
+| Bandscore9 | not found; needs a link from the user | unknown | unknown | AI-powered IELTS prep platform launched in Gulshan, Dhaka (July 2024) |
 
 ## Notes per competitor
 
-### 1. Banglay IELTS (suggested, awaiting confirmation)
+### 1. Banglay IELTS
 
 - **Why it's relevant:** direct competitor on both the mock-test and course offers. It publishes a lot of
   SEO articles on "IELTS computer based mock test in BD", "online mock test" and "IELTS writing test
@@ -36,7 +36,7 @@ public pages only).
 - **Typical course length:** 2–4 months [https://admin.banglayielts.com/?p=46221]. Mock-test price: unknown.
 - **Formats, engagement, active ads:** unknown (Facebook and Ad Library not accessible).
 
-### 2. 10 Minute School, IELTS Course by Munzereen Shahid (suggested, awaiting confirmation)
+### 2. 10 Minute School, IELTS Course by Munzereen Shahid
 
 - **Why it's relevant:** the biggest Bangla-language online education brand. Its IELTS course competes for
   the same self-study, phone-first audience.
@@ -49,7 +49,7 @@ public pages only).
   Vasha's AI Writing/Speaking marking may fill a gap for this audience.
 - **Formats, engagement, active ads:** unknown.
 
-### 3. FutureEd (suggested, awaiting confirmation)
+### 3. FutureEd
 
 - **Why it's relevant:** a British Council test venue and coaching centre that uses a **free mock test** as
   its lead offer.
@@ -61,7 +61,7 @@ public pages only).
 - **Note for the brief's no-go rules:** FutureEd *is* an official test venue. Vasha must not imply the same status.
 - **Facebook page, formats, engagement, active ads:** unknown.
 
-### 4. OnMock (suggested, awaiting confirmation)
+### 4. OnMock
 
 - **Why it's relevant:** the closest product match. It sells AI-evaluated IELTS mock tests across all four modules,
   "designed for Bangladeshi learners", with instant band-score feedback [https://uk.trustpilot.com/review/onmock.com].
@@ -70,7 +70,7 @@ public pages only).
   [https://suhan.vercel.app/project-OnMock.html]. Unverified.
 - **Facebook page, formats, engagement, active ads:** unknown.
 
-### 5. Bandscore9 (suggested, awaiting confirmation)
+### 5. Bandscore9
 
 - **Why it's relevant:** an AI-led IELTS prep platform in Dhaka, with an "AI Speaking Teacher", hundreds of tests,
   a website plus app, low pricing and hybrid 1-on-1 mentorship
