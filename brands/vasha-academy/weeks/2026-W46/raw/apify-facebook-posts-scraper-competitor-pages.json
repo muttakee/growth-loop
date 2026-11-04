@@ -1,0 +1,249 @@
+{
+ "actor": "apify/facebook-posts-scraper",
+ "target": "competitor-pages",
+ "runId": "zSdQJu7muOzKBK2pq",
+ "status": "SUCCEEDED",
+ "costUsd": 0.169,
+ "items": 24,
+ "collected": "2026-11-04",
+ "errors": [
+  {
+   "url": "https://www.facebook.com/BanglayIELTS",
+   "error": "not_available"
+  },
+  {
+   "url": "https://www.facebook.com/onmock",
+   "error": "no_items"
+  },
+  {
+   "url": "https://www.facebook.com/bandscore9",
+   "error": "no_items"
+  },
+  {
+   "url": "https://www.facebook.com/bandscores9",
+   "error": "no_items"
+  }
+ ],
+ "posts": [
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/videos/1508566611203863/",
+   "date": "2026-11-03",
+   "reactions": 192,
+   "comments": 948,
+   "shares": 21,
+   "views": 5984,
+   "isVideo": true,
+   "hook": "এক ক্লাসে Physics, Chemistry ফুল প্রস্তুতির জন্য সাজেশন এবং বিষয়ভিত্তিক গাইডলাইন!\nShare the LIVE! 🔥"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/videos/1772549593826044/",
+   "date": "2026-11-03",
+   "reactions": 144,
+   "comments": 221,
+   "shares": 5,
+   "views": 5543,
+   "isVideo": true,
+   "hook": "🔴 Live: Class 7 বার্ষিক পরীক্ষার ফাইনাল সাজেশন \n\nএক ক্লাসে Bangla, BGS, English ফুল প্রস্তুতির জন্য সাজেশন এবং বিষয়ভিত্তিক গাইডলাইন!\nShare "
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/posts/pfbid0KiDFWy7EKh3RKh2MGiAhxXX88C2g9TpoXevBNLHkabitCNcMi7ncCSmsQX48T6cUl",
+   "date": "2026-11-03",
+   "reactions": 3967,
+   "comments": 107,
+   "shares": 30,
+   "views": null,
+   "isVideo": false,
+   "hook": "আজ থেকে শুরু হলো ক্লাস ৬-৯ এর বার্ষিক পরীক্ষার ফাইনাল সাজেশন লাইভ! পাবে পুরো বইয়ের সাজেশন ও রিভিশন প্ল্যান। 🔥\nক্লাস রুটিন কমেন্টে! 👇"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/posts/pfbid02PE79BMwPzpivB3BQz2hCAqu6ZRPc1oW5ysPfFNDSUYEdEbu7R138zhQ6M1fBvj6Nl",
+   "date": "2026-11-02",
+   "reactions": 253,
+   "comments": 114,
+   "shares": 10,
+   "views": null,
+   "isVideo": false,
+   "hook": "🔥 Class 6-9 | বার্ষিক পরীক্ষার Final সাজেশন Ready! 🎯\n\nবার্ষিক পরীক্ষায় ভালো রেজাল্ট করতে চাও? তাহলে তোমাদের জন্য রয়েছে একদম FREE Final সাজেশ"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/posts/pfbid0XaLz1DLFpUW3VZvXgL7szaujv7q4zqb1i45USH2cS6h22Ahw1wjRC6FM9pHNwdSVl",
+   "date": "2026-11-01",
+   "reactions": 279,
+   "comments": 25,
+   "shares": 6,
+   "views": null,
+   "isVideo": false,
+   "hook": "🔥 Class 6–9 | বার্ষিক পরীক্ষার ফ্রি গাইডলাইন লাইভ ক্লাসের রুটিন!\n\nপ্রতিটি লাইভে থাকছে ফুল সাজেশন, গুরুত্বপূর্ণ টপিকের রিভিশন এবং কীভাবে, কোথ"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/4613873192229972/",
+   "date": "2026-11-01",
+   "reactions": 348,
+   "comments": 3,
+   "shares": 4,
+   "views": 62078,
+   "isVideo": true,
+   "hook": "দুর্জয় ভাইয়া যেভাবে Grandma-কে বাঁচালেন 😮"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/posts/pfbid02GoNZff2bUNhf8mBBjfZtZMt1sYN4HzS8uPLku7ftXuC8u9LuwHY3oxcyXBc4mztKl",
+   "date": "2026-11-01",
+   "reactions": 285,
+   "comments": 21,
+   "shares": 9,
+   "views": null,
+   "isVideo": false,
+   "hook": "HSC 28 এর জন্য সকল বিষয়ের Exclusive Free ক্লাস! 😍\n\nএক নজরে দেখে নাও নভেম্বরে কী কী ক্লাস থাকছে কোন কোন টপিকের ওপর। \n\nক্লাসগুলো করতে ক্লিক ক"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/videos/1117938741126840/",
+   "date": "2026-11-01",
+   "reactions": 303,
+   "comments": 4214,
+   "shares": 147,
+   "views": 15180,
+   "isVideo": true,
+   "hook": "🔴 LIVE: HSC 27 Test প্রস্তুতি ও A+ Roadmap! 📚\n\nTest পরীক্ষায় ভালো Result করতে এবং HSC-তে A+ লক্ষ্য করে পরবর্তী ৬ মাসের subject-wise roadmap"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/1182603084194009/",
+   "date": "2026-10-31",
+   "reactions": 384,
+   "comments": 2,
+   "shares": 10,
+   "views": 76091,
+   "isVideo": true,
+   "hook": "উচ্চতর গণিতে কোন চ্যাপ্টারটা বেশি কঠিন লাগে? 🤔"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/1848088636606140/",
+   "date": "2026-10-31",
+   "reactions": 160,
+   "comments": 1,
+   "shares": 1,
+   "views": 100814,
+   "isVideo": true,
+   "hook": "পিৎজা দেখে আদিত্য ভাইয়া ও তার বন্ধু দিলো দৌড় 🏃‍♂️"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/2059945508041049/",
+   "date": "2026-10-30",
+   "reactions": 256,
+   "comments": 6,
+   "shares": 5,
+   "views": 59368,
+   "isVideo": true,
+   "hook": "প্রতিবেদনে ১০ এ ১০ পাওয়ার নিয়ম! 🔥"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/1146393961100137/",
+   "date": "2026-10-30",
+   "reactions": 8894,
+   "comments": 118,
+   "shares": 115,
+   "views": 580685,
+   "isVideo": true,
+   "hook": "রিফাত ভাইয়া দৌড়াচ্ছে কেন? 😲"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/2150110122260986/",
+   "date": "2026-10-30",
+   "reactions": 1527,
+   "comments": 13,
+   "shares": 25,
+   "views": 155606,
+   "isVideo": true,
+   "hook": "তোমার টার্গেট কি ট্যালেন্টপুল নাকি সাধারণ বৃত্তি? 🎯"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/1740291123733064/",
+   "date": "2026-10-30",
+   "reactions": 44,
+   "comments": 2,
+   "shares": 0,
+   "views": 60215,
+   "isVideo": true,
+   "hook": "কোন প্রাণী দাঁড়িয়ে দাঁড়িয়েই ঘুমায়? 🧐"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/1446185924368342/",
+   "date": "2026-10-29",
+   "reactions": 901,
+   "comments": 37,
+   "shares": 13,
+   "views": 93357,
+   "isVideo": true,
+   "hook": "বার্ষিক পরীক্ষায় কোন বিষয়ে কত নম্বর পাবে? 🤔"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/videos/1860460478460794/",
+   "date": "2026-10-29",
+   "reactions": 978,
+   "comments": 927,
+   "shares": 28,
+   "views": 63315,
+   "isVideo": true,
+   "hook": "৫ম শ্রেণির বার্ষিক ও বৃত্তি পরীক্ষার প্রস্তুতি কতটুকু হয়েছে এবং বাকি সময়ে ভালো প্রস্তুতির জন্য করণীয় কী, জেনে নিন"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/1857668422257984/",
+   "date": "2026-10-29",
+   "reactions": 6841,
+   "comments": 108,
+   "shares": 75,
+   "views": 328733,
+   "isVideo": true,
+   "hook": "বৃষ্টিতে না ভিজে জাকি ভাইয়া কি পৌঁছাতে পারবে? 🧐☔"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/10minuteschool/posts/pfbid02nfE6BZcdZNZy6Sw5r3NByZdcpyvNMEfRhpXuMbWfrEfxi2sQWE7yMfL65kJsvXzPl",
+   "date": "2026-10-29",
+   "reactions": 597,
+   "comments": 20,
+   "shares": 3,
+   "views": null,
+   "isVideo": false,
+   "hook": "ক্লাস ৫ বার্ষিক ও বৃত্তি পরীক্ষা প্রস্তুতিতে প্যারেন্টসদের এখন কী কী করলে ভালো বা ভুল হবে? 🤔\n\nবিস্তারিত গাইডলাইন নিয়ে আজ রাত ৮টায় আসছি লাইভে"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/999342403222479/",
+   "date": "2026-10-29",
+   "reactions": 123,
+   "comments": 3,
+   "shares": 2,
+   "views": 46219,
+   "isVideo": true,
+   "hook": "Kids English ক্লাসরুমে বাচ্চারা আজ কী শিখছে? 🤔"
+  },
+  {
+   "page": "10minuteschool",
+   "url": "https://www.facebook.com/reel/1601404031176318/",
+   "date": "2026-10-28",
+   "reactions": 609,
+   "comments": 14,
+   "shares": 11,
+   "views": 66307,
+   "isVideo": true,
+   "hook": "পদার্থবিজ্ঞানের ফুল সাজেশন পেতে কমেন্ট চেক করো👇"
+  }
+ ]
+}

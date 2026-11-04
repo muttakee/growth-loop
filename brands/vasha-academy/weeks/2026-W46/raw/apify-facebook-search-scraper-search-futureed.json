@@ -1,0 +1,18 @@
+{
+ "actor": "apify/facebook-search-scraper",
+ "target": "search-futureed",
+ "runId": "Ri82ojBolavvQ0w6M",
+ "status": "SUCCEEDED",
+ "costUsd": 0.001,
+ "items": 12,
+ "collected": "2026-11-04",
+ "pageUrls": [
+  "https://www.facebook.com/futureed.ieltsbritishcouncilbd",
+  "https://www.facebook.com/dailybdbulletin",
+  "https://www.facebook.com/mytvbangladeshonline",
+  "https://www.facebook.com/bwotweather.org",
+  "https://www.facebook.com/BangladeshPratidinVideo",
+  "https://www.facebook.com/nextgenbd2.0"
+ ],
+ "note": "Results under facebook.com/people/ omitted (may be personal profiles)."
+}

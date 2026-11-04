@@ -1,0 +1,20 @@
+{
+ "actor": "apify/facebook-search-scraper",
+ "target": "search-pages",
+ "runId": "90Fh32dFZ2jylBx51",
+ "status": "SUCCEEDED",
+ "costUsd": 0.001,
+ "items": 15,
+ "collected": "2026-11-04",
+ "pageUrls": [
+  "https://www.facebook.com/8.0.ielts.oi.ten",
+  "https://www.facebook.com/inikachamdich8.0ielts",
+  "https://www.facebook.com/inikaluyenthiielts",
+  "https://www.facebook.com/Online8.0IELTS",
+  "https://www.facebook.com/bandscores9",
+  "https://www.facebook.com/bandscore9",
+  "https://www.facebook.com/onmock",
+  "https://www.facebook.com/onthewagonmocktails"
+ ],
+ "note": "Results under facebook.com/people/ omitted (may be personal profiles)."
+}

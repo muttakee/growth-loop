@@ -1,0 +1,13 @@
+{
+ "actor": "apify/facebook-search-scraper",
+ "target": "search-munzereen",
+ "runId": "OO85jFvs4HKFFYtjR",
+ "status": "SUCCEEDED",
+ "costUsd": 0.031,
+ "items": 5,
+ "collected": "2026-11-04",
+ "pageUrls": [
+  "https://www.facebook.com/mscourses19"
+ ],
+ "note": "Results under facebook.com/people/ omitted (may be personal profiles)."
+}
