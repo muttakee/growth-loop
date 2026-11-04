@@ -7,9 +7,9 @@ weeks/2026-W45/
   research.md     Researcher findings, with sources
   targeting.md    personas and hooks for this week
   plan.md         7-day plan with status line (from templates/week/plan.md)
-  content/        one file per post, made on its day: mon-01-reel.md, tue-01-carousel.md, ...
+  content/        one file per post plus its media: mon-01-reel.md + .mp4, tue-01-carousel.md + -1.png ...
   report.md       performance and lessons (written by the Analyst)
 ```
 
-Plan status: `draft → approved → posted`. Each post: `planned → ready → posted`.
-No content is created before `approved`. Each post is made on its own day, ready 30 minutes before posting.
+Plan status: `draft → approved → content-ready → content-approved → posted`. Each post: `planned → ready → posted`.
+No content is created before `approved`. The whole week's content is made right after approval, then approved by the human.

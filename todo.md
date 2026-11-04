@@ -48,10 +48,11 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   `weeks/<week>/inputs/`. The Researcher uses them too.
 - **Apify access route:** if the Apify MCP tools can't load (the proxy blocked them in the W46 test),
   the Researcher calls the Apify REST API with `APIFY_TOKEN`. Same actors, rules and budget.
-- **Daily content, not batches:** the weekly plan (the outline) is approved in advance; each
-  post is made on its day, about 2 hours before its slot, and is ready at least 30 minutes
-  before posting. Plan status is `draft → approved → posted`; each post has its own status
-  `planned → ready → posted`. `/make-post` runs by hand for now; section 8 makes it run on its own.
+- **Weekly content pack (changed 4 Nov 2026):** replaces the earlier "daily content" rule. As soon
+  as the plan is approved, all the week's posts are made in one go (`/make-week`), then the human
+  reviews the pack and approves it (or sends posts back). Plan status is
+  `draft → approved → content-ready → content-approved → posted`; each post is
+  `planned → ready → posted`. `/make-post` remakes a single post.
 - **Media tool:** Remotion renders images, carousel cards and reels from a JSON "Media spec" in
   each post file (`media/`). Free for individuals and companies of up to 3 people; a bigger
   company needs a Remotion company licence.
@@ -120,7 +121,8 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Image and carousel templates (Remotion stills, from the post's Media spec)
 - [ ] ElevenLabs voiceover (Bangla and English): **later**, no API key yet; reels are silent until then
 - [x] Test that Bangla text renders correctly in videos and images (mon-01-image PNG, tue-01-reel silent MP4: conjuncts and mixed Bangla/English render correctly)
-- [ ] Run a first full week of daily posts (each made on the day)
+- [x] `/make-week <brand>` command: makes the whole week's content pack after plan approval, then asks the human to approve it
+- [ ] Test `/make-week` on the sample brand's W46 (all remaining posts) and approve the pack
 
 ## 5. Supabase (later)
 
@@ -140,5 +142,5 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 ## 8. Pilot and automation (later)
 
 - [ ] One supervised pilot week
-- [ ] Weekly trigger for research and planning, plus a trigger before each posting slot for `/make-post`
+- [ ] Weekly trigger for research and planning; `/make-week` right after the plan is approved; a reminder at each posting slot
 - [ ] Approval reminder by email or WhatsApp

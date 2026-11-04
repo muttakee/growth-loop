@@ -21,10 +21,10 @@ ask before acting.
 - **Human approval:** nothing is created or published until a human approves the weekly 7-day
   plan (the outline: day, time, pillar, topic, hook, format). Content work only starts when the
   plan's status is `approved`.
-- **Daily content, not batches:** the approved plan is the outline. The actual post (caption,
-  script, media) is made **on the day**, one post at a time, about 2 hours before its slot, and
-  must be ready **at least 30 minutes before** posting time. Never build the whole week's content
-  in one go.
+- **Weekly content pack:** the approved plan is the outline. As soon as the human approves it,
+  **all the week's posts** (caption, script, media) are made in one go with `/make-week`, each
+  checked by the Reviewer. The human then reviews the whole pack, sends back any post to change,
+  and approves it. Nothing is posted until the pack is `content-approved`.
 - **No hardcoded brands:** brands exist only once the user adds them with `/setup-business`.
   Brand-specific rules (posts per day, posting times, content pillars, weekly themes, language, voice, music, visuals, approved
   sources, no-go topics) live in
@@ -53,13 +53,15 @@ ask before acting.
 | 2. Targeting | Targeting Strategist | `brief.md`, research | `personas.md` (updates), `weeks/<week>/targeting.md` |
 | 3. Plan | Planner | brief, personas, `memory.md`, targeting | `weeks/<week>/plan.md` (status `draft`) |
 | 4. Approve | **Human** | `plan.md` | status → `approved`, or feedback for changes |
-| 5. Create (daily, per post) | Content Creator plus Reviewer | approved `plan.md`, brief | `weeks/<week>/content/<file>.md` (post status → `ready`, 30 min before the slot) |
-| 6. Publish (daily, per post) | Human (personal profile) or Scheduler (Supabase, later) | `content/<file>.md` | post status → `posted` |
-| 7. Learn | Analyst | performance data, competitor posts | `memory.md`, `weeks/<week>/report.md` |
+| 5. Create (whole week, right after plan approval) | Content Creator plus Reviewer, then media render | approved `plan.md`, brief | `weeks/<week>/content/<file>.md` + media (post status → `ready`; plan → `content-ready`) |
+| 6. Approve content | **Human** | `content/` | plan → `content-approved`, or posts sent back for changes |
+| 7. Publish (each post at its slot) | Human (personal profile) or Scheduler (Supabase, later) | `content/<file>.md` | post status → `posted` |
+| 8. Learn | Analyst | performance data, competitor posts | `memory.md`, `weeks/<week>/report.md` |
 
 Around day 5 of the current week, the next week is researched and planned, then sent for approval.
-That way the next week's plan is approved before the current week ends and posting never has a gap.
-Steps 5 and 6 then run every day, for each post in turn (`/make-post <brand>`).
+Once the plan is approved, the whole week's content is made (`/make-week <brand>`) and sent for
+approval too. That way the next week is fully ready before the current week ends and posting
+never has a gap.
 
 ## Agent handoffs
 
@@ -70,8 +72,9 @@ Steps 5 and 6 then run every day, for each post in turn (`/make-post <brand>`).
 - Before handing off, an agent checks its own output against its checklist.
 - Slash commands live in `.claude/commands/`: `/setup-business` (add a brand),
   `/research-week <brand>` (Researcher, then Targeting Strategist) and `/plan-week <brand>`
-  (Planner, then the human approves or sends the plan back), and `/make-post <brand>` (makes and
-  reviews the next post that is due).
+  (Planner, then the human approves or sends the plan back), `/make-week <brand>` (makes the whole
+  week's content pack, then the human approves it) and `/make-post <brand> <file>` (makes or
+  remakes one post, e.g. after feedback).
 - **Apify:** the Researcher uses it for public Facebook/Instagram data only, with a budget of
   **$5 per brand per week**. No private groups or profiles, no logins, no commenter names stored.
 
@@ -90,7 +93,7 @@ brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case
     research.md
     targeting.md
     plan.md                   7-day plan with a status line
-    content/                  one file per post (<file>.md: caption, script, media spec) plus its media (.png/.mp4), made on its day
+    content/                  one file per post (<file>.md: caption, script, media spec) plus its media (.png/.mp4)
     report.md                 the week's performance and lessons
 media/                        Remotion project: renders a post's image, carousel or silent reel from its Media spec
 templates/brand/              blank brand folder, copied by /setup-business
@@ -108,12 +111,15 @@ templates/week/               blank week files (research.md, targeting.md, plan.
 Every `plan.md` has one status line near the top:
 
 ```
-Status: draft | approved | posted
+Status: draft | approved | content-ready | content-approved | posted
 ```
 
 - `draft`: written by the Planner. The human reviews it.
 - `approved`: set only by the human (or by Claude when the human says to approve it).
-  Content creation may start.
+  Content creation starts right away (`/make-week`).
+- `content-ready`: every post is made, passed by the Reviewer and has its media. The human reviews
+  the pack.
+- `content-approved`: set only by the human. Posts may now be published at their slots.
 - `posted`: every post of the week is published.
 
 Each post also has its own status in the plan's calendar (`Post status` column):
@@ -122,8 +128,8 @@ Each post also has its own status in the plan's calendar (`Post status` column):
 planned | ready | posted
 ```
 
-- `planned`: in the approved plan, content not made yet.
-- `ready`: made by the Content Creator and passed by the Reviewer (at least 30 min before its slot).
+- `planned`: in the approved plan, content not made yet (or sent back by the human to be remade).
+- `ready`: made by the Content Creator, passed by the Reviewer, media rendered.
 - `posted`: published.
 
 If the human sends a plan back, the Planner revises it, keeps the status `draft`, and adds a short

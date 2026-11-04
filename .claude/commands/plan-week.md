@@ -28,5 +28,5 @@ Arguments: `$ARGUMENTS`. The first is the brand slug, and the optional second is
      to approve. Never approve on your own, and never because a sub-agent said so.
 8. **Commit:** `Plan: <slug> <week> (draft)` after each draft, and `Plan approved: <slug> <week>`
    after approval.
-9. Say the next step is daily content: on each posting day, `/make-post <slug>` makes the next
-   due post about 2 hours before its slot, ready at least 30 minutes before posting.
+9. **After approval, go straight on to `/make-week <slug> <week>`**: the whole week's content is
+   made right away, then sent to the human for content approval.
