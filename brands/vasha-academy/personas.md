@@ -15,18 +15,16 @@
 - **Goal:** an overall band 6.5 with no band below 6.0, on the first attempt [brief.md].
 - **Fears and pain points:**
   - Writing and Speaking scare him most, and he has no one to give him honest feedback [brief.md].
-  - Wasting the exam fee. The brief says about ৳25,000+, but IDP centre listings now show ৳31,100 for
-    IELTS on Computer and ৳34,850 for UKVI [https://ielts.org/test-centres/idp-ielts-bangladesh-dhanmondi-idp-office;
-    https://mentors.com.bd/news/ielts-test-fee-update].
+  - Wasting the official IELTS exam fee by booking before he's ready [brief.md].
   - Coaching feels too expensive and slow [brief.md]. Dhaka coaching costs about ৳8,000–25,000+
     [https://admin.banglayielts.com/?p=46842].
   - Paper-based IELTS has ended in Bangladesh (IDP, from 31 Jan 2026), so he *must* sit the computer
     test and the interface is new to him [https://ielts.idp.com/bangladesh/about/which-test-do-i-take/computer-based-ielts].
 - **Words they use (inferred):** "আমার আসল band কত আসবে?", "writing এ কেউ check করে দেয় না",
-  "computer based exam এ কি টাইপিং এ সমস্যা হবে?", "৩০ হাজার টাকা নষ্ট করতে চাই না".
+  "computer based exam এ কি টাইপিং এ সমস্যা হবে?", "exam এর টাকা নষ্ট করতে চাই না".
 - **When they're online:** evenings on his phone [brief.md]. Probably 9 pm–1 am (inferred).
 - **Best hooks:**
-  - "Exam fee দেওয়ার আগে ৳20 দিয়ে নিজের band জেনে নাও" (the price gap: ৳31,100 vs ৳20).
+  - "Exam fee দেওয়ার আগে ৳20 দিয়ে নিজের band জেনে নাও" (a ৳20 mock vs the cost of the real exam).
   - A screen recording of the mock interface: "এটাই computer-delivered IELTS এর মতো দেখতে".
   - "Writing Task 2 লিখো, ৫ মিনিটে চার criteria তে practice estimate".
 - **What makes them buy:** proof the mock feels like the real computer-delivered exam, plus fast results
@@ -41,8 +39,8 @@
 - **Fears and pain points:**
   - No time for an 8-week coaching schedule; she needs short, flexible practice (inferred).
   - Unsure if her English from university is "rusty" (inferred).
-  - **Product fit check:** job and migration routes often need IELTS *General Training*, but Vasha's mock
-    tests are "Academic Series A" [brief.md]. Whether Vasha suits this persona needs confirming (see summary).
+  - **Product fit:** job and migration routes often need IELTS *General Training*. Vasha's mock tests are
+    Academic only, so for her, promote the IELTS course (covers Academic and General Training) [brief.md].
 - **Words they use (inferred):** "অফিস করে IELTS এর প্রস্তুতি কিভাবে নিব?", "General নাকি Academic?",
   "speaking এ আটকে যাই", "অল্প সময়ে কিভাবে band বাড়াবো".
 - **When they're online:** commute times (8–9 am, 6–8 pm) and late night (10 pm–12 am) (inferred).
@@ -60,7 +58,7 @@
   options are fewer (inferred).
 - **Goal:** get Writing from 5.5 to 6.0–6.5 and pass the retake on the next attempt (inferred).
 - **Fears and pain points:**
-  - Paying the full fee again: ৳31,100 for IELTS on Computer [IDP centre listing above].
+  - Paying the full official exam fee again (inferred).
   - He doesn't know *which* criterion is pulling him down (Task Response, Coherence and Cohesion,
     Lexical Resource, Grammatical Range and Accuracy) (inferred).
   - Distrust of AI marking. Competitors argue that AI only estimates and human feedback is essential

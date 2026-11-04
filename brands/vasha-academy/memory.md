@@ -43,10 +43,10 @@ the competitors' websites and press coverage, not from their posts. No engagemen
 
 <!-- Ideas being tested and what result would confirm them -->
 
-1. **Exam fee vs mock price hook** (from onboarding, 2026-11-04). Post a Reel or carousel contrasting the real exam fee
-   (৳31,100 per IDP centre listings) with a ৳20 mock: "exam এর আগে নিজের band জেনে নাও".
+1. **Exam fee vs mock price hook** (from onboarding, 2026-11-04). Post a Reel or carousel contrasting the cost of the real exam
+   with a ৳20 mock (no fee figure in posts; the user chose not to quote one): "exam এর আগে নিজের band জেনে নাও".
    *Confirmed if* it gets at least 1.5x the page's median reach and more link clicks to /en/ielts-mock than the
-   week's other posts. (Check the fee figure with the user first; the brief says ৳25,000+.)
+   week's other posts.
 2. **Interface screen-recording vs talking-head instructor Reel.** Run one of each in the same week on the
    same topic (for example, what a computer-delivered Reading test looks like).
    *Confirmed if* the screen recording gets higher saves plus shares per reach, and more mock-test clicks.

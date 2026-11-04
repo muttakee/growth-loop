@@ -57,9 +57,8 @@ the UK, Canada or Australia.
 **Rafi, 22, final-year university student in Dhaka.** Needs an overall band 6.5 (no band below
 6.0) for a UK master's admission. Writing and Speaking worry him most because he has no one to
 give honest feedback. He studies mostly on his phone in the evenings and watches free IELTS
-videos on Facebook and YouTube. Coaching centres feel too expensive and slow. Before he pays for
-the official exam (about ৳25,000+), he wants to know his real band score so he doesn't waste the
-fee. He buys when he sees proof the mock test feels like the real computer-delivered exam, and
+videos on Facebook and YouTube. Coaching centres feel too expensive and slow. Before he books
+the official IELTS exam, he wants to know his real band score so he doesn't waste the fee. He buys when he sees proof the mock test feels like the real computer-delivered exam, and
 when results come fast.
 
 ### Business product
@@ -72,6 +71,9 @@ across all four modules:
 - Listening, Reading and Writing tests: **৳20 each** (marked down from ৳50)
 - Speaking tests: **৳50 each**
 - Some tests are free (e.g. Listening Tests 01–02)
+- All mock tests are **Academic** only for now (no General Training mock). For General Training
+  candidates (mainly job seekers), promote the IELTS course, which covers both Academic and
+  General Training.
 - **Reading Bundle** (10 tests): **৳150** (marked down from ৳500, 70% off)
 
 **Upsell: courses** (https://vasha.ac/en/courses):
