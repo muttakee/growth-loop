@@ -29,6 +29,10 @@
   - "Writing Task 2 লিখো, ৫ মিনিটে চার criteria তে practice estimate".
 - **What makes them buy:** proof the mock feels like the real computer-delivered exam, plus fast results
   [brief.md]. Free Listening Tests 01–02 lower the risk of trying [brief.md, Business product].
+- **Update (2026-W46):** nerves about the computer-delivered interface and typing are now a live paid-ad theme
+  for two large advertisers, which confirms this pain point is active in the market. The wording in those ads is
+  advertiser copy, not audience language [https://www.facebook.com/ads/library/?id=1433183992073593],
+  [https://www.facebook.com/ads/library/?id=1072603158685673].
 
 ## Persona 2: Tania, the job seeker going abroad for work
 
@@ -73,3 +77,36 @@
   - The "Nishi & Kamil" live course as the next step after the mocks (৳15,000, target band 6.5–8) [brief.md].
 - **What makes them buy:** a breakdown by criterion that shows exactly what to fix, plus the cheap
   per-test price (৳20 for Writing) so he can test, fix and test again [brief.md].
+- **Update (2026-W46), words they use (sourced):** a real user doubt about AI marking, quoted by a competitor:
+  "আমি ভেবেছিলাম ফ্ল্যাটার করছে ইউজারকে খুশি করতে..." (OnMock page, 22 Sep 2026) [https://www.facebook.com/onmock].
+  Answer it with the honest "practice estimate" framing from the brief, never with an accuracy claim.
+
+## Persona 4: Mim, the HSC 2026 graduate (added 2026-W46)
+
+- **Who:** 18–19, just passed HSC 2026 (results published 31 Oct 2026; pass rate 52.12%, 40,084 GPA-5)
+  [https://en.prothomalo.com/youth/education/hdjdl19opa], [https://bdnews24.com/education/wyevx1rrka].
+  Inside the brief's 18–30 target range [brief.md, Target customer]. Thinking about a bachelor's abroad (inferred).
+- **Goal:** work out the next step after HSC and, if IELTS is part of it, start without wasting money (inferred).
+- **Fears and pain points:**
+  - Doesn't know what IELTS involves or where to start (inferred).
+  - Worries their English isn't good enough to begin (inferred).
+  - Family pressure and post-result stress; about half of candidates did not pass this year, so the tone must be kind
+    [https://en.prothomalo.com/youth/education/hdjdl19opa] (tone rule inferred).
+  - **Market context:** competitors target this group right now with HSC discounts
+    [https://www.facebook.com/ads/library/?id=2151950825356808], [https://www.facebook.com/reel/961700186623610/].
+- **Words they use (sourced, comments on a competitor's HSC reel, names not stored):** "Ami nijei HSC-2026...peray asi...😅",
+  "4.33 এ যাত্রায় বেঁচে গেছি", "কে কে পাস করছেন হাত তোলেন🙂" [https://www.facebook.com/reel/2466899444071263/].
+  Playful, often Banglish (Bangla in Latin script).
+- **When they're online:** not measured yet. Probably late evening and night (inferred).
+- **Best hooks:** a free first step (IELTS 101 class, free Listening Tests 01–02), "3 easy steps to start IELTS"
+  explainers, and light, kind humour with a tag-a-friend CTA [weeks/2026-W46/targeting.md].
+- **What makes them buy:** free or very low-cost entry, and a clear plan. Mock tests are Academic, which fits
+  undergraduate admission (inferred).
+
+## Shared audience signals
+
+- **(2026-W46) Price is the first question.** In comments on competitor course posts, 5 of 9 were about the fee:
+  "কোর্স ফি কত", "কোর্স ফি?", "Course fee koto?", plus "ডিটেলস টা জানান+ কবে থেকে শুরু"
+  [https://www.facebook.com/BanglayIELTSDhaka/posts/pfbid0ZxPPsPKPHEKSrtRz3McsaAj1jpEkfR2JXNtPq19hzjGMPq7EHbY7Xd1ogMxxPcpfl],
+  [https://www.facebook.com/BanglayIELTSDhaka/posts/pfbid02dSCuphAjUYqz3pt5N4cdUoyiQbe5obDc12EgP2ttxujAntwTm9j2MYizj5AzVtQcl].
+  Put the price in the creative itself.
