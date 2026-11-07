@@ -48,6 +48,9 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   `weeks/<week>/inputs/`. The Researcher uses them too.
 - **Posting frequency:** 2 posts a day, 14 a week, per brand (set in the brief's "Posting frequency").
   Mix about 50% educate, 25% trust, 25% sell. Commands: `/plan-week` and `/approve-plan`.
+- **Content files:** one Markdown file per post, `weeks/<week>/content/<id>.md` (template
+  `templates/week/content-post.md`), plus `content/review.md` from the Reviewer. Text first; media
+  rendering comes with the video tool.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
@@ -83,8 +86,8 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 
 - [x] Planner agent (balanced 7-day calendar, 14 posts, educate/trust/sell mix) and `/plan-week`
 - [x] Approval step `/approve-plan` (the user approves the plan or sends it back with changes)
-- [ ] Content Creator agent (hooks, scripts, captions, hashtags, calls to action)
-- [ ] Reviewer agent (checks every post against the brand brief and the language rules)
+- [x] Content Creator agent (hooks, scripts, captions, hashtags, calls to action) and `/create-week`
+- [x] Reviewer agent (checks every post against the brand brief and the language rules)
 - [ ] Confirm the video tool, then set up reel templates
 - [ ] Image and carousel templates
 - [ ] ElevenLabs voiceover (Bangla and English)
