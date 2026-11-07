@@ -16,7 +16,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 
 - **Content first:** build everything needed to produce a full 7-day content pack that can be
   posted by hand. Supabase and Meta come later, because Meta isn't set up yet.
-- **Video tool:** Remotion is recommended (confirm before starting the content tools). It renders
+- **Video tool: Remotion (confirmed by the user).** It renders
   locally and can also make images and carousels.
 - **No hardcoded brands:** the user adds every brand with `/setup-brand`.
 - **Week folders:** named by calendar week number (`weeks/2026-W45`), with the dates written
@@ -88,10 +88,10 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Approval step `/approve-plan` (the user approves the plan or sends it back with changes)
 - [x] Content Creator agent (hooks, scripts, captions, hashtags, calls to action) and `/create-week`
 - [x] Reviewer agent (checks every post against the brand brief and the language rules)
-- [ ] Confirm the video tool, then set up reel templates
-- [ ] Image and carousel templates
+- [x] Confirm the video tool (Remotion), then set up reel templates (`studio/`, `Reel` composition)
+- [x] Image and carousel templates (`Slide` still, 1080×1350; brand theme in `assets/theme.json`)
 - [ ] ElevenLabs voiceover (Bangla and English)
-- [ ] Test that Bangla text renders correctly in videos and images
+- [x] Test that Bangla text renders correctly in videos and images (Hind Siliguri; conjuncts checked)
 - [ ] Produce the first full 7-day content pack (text done: vasha-academy 2026-W46 is content-ready; media still to make)
 
 ## 5. Supabase (later)

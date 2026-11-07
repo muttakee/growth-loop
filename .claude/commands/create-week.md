@@ -16,6 +16,8 @@ Arguments: `$ARGUMENTS`. The first is the brand slug, and the optional second is
 3. **Run the reviewer sub-agent** with the slug and week.
 4. If any post is `needs-changes`, run the content-creator again with only those post IDs, then the
    reviewer again. At most 2 rounds; after that, show the user what's still failing.
-5. **Show the user:** the review table, what they must supply (recordings, screenshots), and where
+5. **Render media:** `cd studio && node render.mjs <slug> <week>` (run `npm install` first if
+   `node_modules` is missing). Note which inputs are still missing.
+6. **Show the user:** the review table, what they must supply (recordings, screenshots), and where
    the files are.
-6. **Commit:** `Content: <slug> <week>` and push.
+7. **Commit:** `Content: <slug> <week>` and push.

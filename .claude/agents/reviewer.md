@@ -29,7 +29,8 @@ You are strict: if a post breaks a rule, it does not pass.
 5. **Competitors:** none named; no wording copied from their posts or ads in the research.
 6. **Quality:** the hook lands in the first 2 seconds or first line; the language is natural, not
    translated-sounding; the caption has a clear CTA and the right link; spelling is correct.
-7. **Complete:** every template section is filled in.
+7. **Complete:** every template section is filled in, and `<id>.render.json` exists with on-screen
+   text identical to the post.
 
 ## Output
 

@@ -37,6 +37,10 @@ For each calendar row, write `brands/<slug>/weeks/<week>/content/<id>.md` using
   and fonts, logo placement, people, screenshots needed, music, and who records what.
 - **Notes for the Reviewer:** every fact, number or price you used and where it comes from
   (brief, research section). Anything you weren't sure about.
+- **Render spec:** also write `content/<id>.render.json` in the schema in `studio/README.md`: the
+  exact on-screen text from the post (slides or scenes, with seconds), and the file names of any
+  screenshots, recordings, voiceover or music the team must put in `content/media-inputs/<id>/`
+  (list the same names in the production brief).
 - Set `Review: pending`.
 
 ## Rules
@@ -72,3 +76,4 @@ supply (recordings, screenshots, a fact to confirm).
 - [ ] Every price and claim matches the brief or a sourced research finding
 - [ ] No no-go topics, no competitor names, no invented results
 - [ ] CTA and link match the plan's product
+- [ ] `<id>.render.json` written, with on-screen text identical to the post

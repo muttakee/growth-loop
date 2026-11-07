@@ -1,0 +1,12 @@
+{
+  "format": "carousel",
+  "slides": [
+    { "variant": "cover", "kicker": "৩ ধাপ", "headline": "HSC-র রেজাল্ট যেমনই হোক, সামনের রাস্তা খোলা।", "body": "IELTS শুরু করার ৩টা সহজ ধাপ, আজকেই 👉" },
+    { "kicker": "IELTS আসলে কী?", "headline": "IELTS = ইংরেজি দক্ষতার একটা আন্তর্জাতিক পরীক্ষা", "body": "তুমি কতটা ইংরেজি বোঝো, পড়ো, লেখো আর বলো, সেটা মাপা হয় band দিয়ে। পাস-ফেলের পরীক্ষা না।" },
+    { "kicker": "৪টা module", "headline": "Listening · Reading · Writing · Speaking", "body": "দুই ধরনের IELTS আছে। পড়াশোনার জন্য সাধারণত Academic, আর কাজের জন্য অনেক সময় General Training। তোমার প্রতিষ্ঠান কোনটা চায়, আগে দেখে নাও।" },
+    { "kicker": "ধাপ ১", "headline": "free IELTS 101 live class-এ যোগ দাও", "body": "পুরো পরীক্ষাটা কেমন, কোথা থেকে শুরু করবে, সব এক জায়গায় বুঝে নাও। টাকা লাগবে না।" },
+    { "kicker": "ধাপ ২", "headline": "free Listening Test 01 দিয়ে দেখো", "body": "কোচিংয়ে ভর্তির আগে জেনে নাও তুমি এখন কোথায় আছো। শেষ হতেই band score দেখতে পাবে।", "image": "listening-screen.png" },
+    { "kicker": "ধাপ ৩", "headline": "ছোট একটা study plan বানাও", "body": "প্রতিদিন অল্প সময়, একবারে একটা module। ধীরে শুরু করলেও নিয়মিত থাকাটাই আসল।" },
+    { "variant": "cta", "headline": "আজকেই প্রথম ধাপটা নাও", "bullets": ["Free IELTS 101 class: vasha.ac/en/courses/26/ielts-101", "Free Listening Test 01: vasha.ac/en/ielts-mock"] }
+  ]
+}

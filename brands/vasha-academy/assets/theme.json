@@ -1,0 +1,13 @@
+{
+  "_source": "brief.md, Content rules > Visuals and audio. Update both together.",
+  "colors": {
+    "primary": "#FA4542",
+    "primaryDark": "#8C0000",
+    "accent": "#02302B",
+    "background": "#FFFFFF",
+    "text": "#1F1F1F"
+  },
+  "fonts": { "latin": "Plus Jakarta Sans", "main": "Hind Siliguri" },
+  "logo": { "position": "top-left", "size": 84 },
+  "handle": "vasha.ac"
+}

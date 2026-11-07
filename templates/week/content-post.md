@@ -31,6 +31,9 @@ Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
 <!-- Format and size, brand colours and fonts, logo placement, people, screenshots needed,
      music, who records what. Follow the brief's Visuals and audio rules. -->
 
+<!-- Render spec for media: <id>.render.json next to this file (schema: studio/README.md).
+     Team-supplied files go in media-inputs/<id>/ -->
+
 ## Notes for the Reviewer
 
 <!-- Anything checked or uncertain: claims, numbers, sources -->

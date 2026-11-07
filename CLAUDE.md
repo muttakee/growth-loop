@@ -81,6 +81,7 @@ brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case
     plan.md                   7-day plan with a status line
     content/                  final captions, scripts and media for each post
     report.md                 the week's performance and lessons
+studio/                       Remotion renderer: node render.mjs <brand> <week> (see studio/README.md)
 templates/brand/              blank brand folder, copied by /setup-brand
 templates/week/               blank week files (research.md, targeting.md, plan.md)
 ```
