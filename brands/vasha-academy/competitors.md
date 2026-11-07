@@ -2,8 +2,9 @@
 
 > Public data only, collected within platform rules. Inspiration only, never copy.
 
-**Status: all five competitors confirmed by the user on 2026-11-04.** Facebook links for FutureEd, OnMock and Bandscore9 are still missing.
-The user asked us to find competitors (onboarding, 2026-11-04). Nothing here has been confirmed yet.
+**Status:** the five onboarding competitors were confirmed by the user on 2026-11-04. Facebook links
+were found by the Researcher in 2026-W46 [weeks/2026-W46/research.md] and confirmed by the user on
+2026-11-07, when IELTSly was also added.
 
 **Access limits during onboarding (2026-11-04):** facebook.com pages, the Meta Ad Library
 (HTTP 403), banglayielts.com, 10minuteschool.com, unb.com.bd and vasha.ac could not be opened
@@ -14,11 +15,12 @@ public pages only).
 
 | Competitor | Facebook | Instagram | Followers | Notes |
 |------------|----------|-----------|-----------|-------|
-| Banglay IELTS | https://web.facebook.com/BanglayIELTS [listed on banglayielts.com pages, via search: https://banglayielts.com/?p=47826] | unknown | unknown | Largest search footprint for "IELTS mock test Bangladesh"; centres plus online; computer-based mock tests |
+| Banglay IELTS | https://www.facebook.com/BanglayIELTSDhaka (new official page since 23 Sep 2026; the old web.facebook.com/BanglayIELTS is unavailable) [weeks/2026-W46/research.md] | unknown | unknown | Largest search footprint for "IELTS mock test Bangladesh"; centres plus online; computer-based mock tests |
 | 10 Minute School, IELTS Course by Munzereen Shahid | https://www.facebook.com/10minuteschool [listed as official profile: https://affsignal.com/merchant/10minuteschool] | unknown | unknown (main page); instructor's own page passed 700k within 9 months of April 2020 [https://en.prothomalo.com/amp/story/bangladesh/good-day-bangladesh/munzereen-studies-english-and-teaches-english-too] | Mass-market recorded IELTS course with Reading/Listening mock tests |
-| FutureEd | not found; needs a link from the user | unknown | unknown | Banani, Dhaka; British Council test venue plus coaching; free mock test |
-| OnMock | not found; needs a link from the user | unknown | unknown | AI-marked mock tests for all four modules, aimed at Bangladeshi learners; closest product match |
-| Bandscore9 | not found; needs a link from the user | unknown | unknown | AI-powered IELTS prep platform launched in Gulshan, Dhaka (July 2024) |
+| FutureEd | https://www.facebook.com/futureed.ieltsbritishcouncilbd [weeks/2026-W46/research.md] | unknown | unknown | Banani, Dhaka; British Council test venue plus coaching; free mock test |
+| OnMock | https://www.facebook.com/onmock (last post 18 Oct 2026, no active ads in W46) [weeks/2026-W46/research.md] | unknown | unknown | AI-marked mock tests for all four modules, aimed at Bangladeshi learners; closest product match |
+| Bandscore9 | https://www.facebook.com/bandscores9 (with an "s"; facebook.com/bandscore9 is an unrelated page) [weeks/2026-W46/research.md] | unknown | unknown | AI-powered IELTS prep platform launched in Gulshan, Dhaka (July 2024). **Inactive since Aug 2025**; low priority |
+| IELTSly | not found yet (seen via Meta Ad Library) | unknown | unknown | New AI mock-test platform, ads since 17 Sep 2026: unlimited mocks with instant results for ৳990, AI speaking partner, AI coach [https://www.facebook.com/ads/library/?id=1083304344668822]. Closest match to Vasha's offer. Added 2026-11-07 |
 
 ## Notes per competitor
 
@@ -79,6 +81,15 @@ public pages only).
   preparation" platform, which competes directly with Vasha's AI marking USP.
 - **Current activity:** unknown. The latest coverage found is from 2024, so check whether it is still active.
 - **Facebook page, formats, engagement, active ads:** unknown.
+
+### 6. IELTSly (added 2026-11-07)
+
+- **Why it's relevant:** an AI mock-test platform advertising on "IELTS mock test" in Bangladesh; the
+  closest product match to Vasha's mock tests.
+- **Offer seen in ads:** "Unlimited Mock Test সাথে Instant Result এখন মাত্র ৯৯০ টাকায়"
+  [https://www.facebook.com/ads/library/?id=28793465407008455]; a free full-length mock to learn "আসল band
+  score" [https://www.facebook.com/ads/library/?id=1083304344668822].
+- **To do:** find its Facebook Page in the next research week.
 
 ### Also seen, not suggested
 

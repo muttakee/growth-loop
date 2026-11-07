@@ -81,7 +81,7 @@
   "আমি ভেবেছিলাম ফ্ল্যাটার করছে ইউজারকে খুশি করতে..." (OnMock page, 22 Sep 2026) [https://www.facebook.com/onmock].
   Answer it with the honest "practice estimate" framing from the brief, never with an accuracy claim.
 
-## Persona 4: Mim, the HSC 2026 graduate (added 2026-W46)
+## Persona 4: Mim, the HSC 2026 graduate (added 2026-W46, kept by the user on 2026-11-07)
 
 - **Who:** 18–19, just passed HSC 2026 (results published 31 Oct 2026; pass rate 52.12%, 40,084 GPA-5)
   [https://en.prothomalo.com/youth/education/hdjdl19opa], [https://bdnews24.com/education/wyevx1rrka].

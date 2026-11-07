@@ -59,25 +59,25 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Name week folders by calendar week (`2026-W45`)
 - [x] Add a status line to each plan: `draft → approved → content-ready → posted` (`templates/week/plan.md`)
 
-## 2. Adding brands ← in progress (waiting for the user to add their first brand)
+## 2. Adding brands ✅
 
 - [x] `/setup-brand` command: asks business or personal first, then that profile's questions one at a
   time, then the content rules, and creates the brand folder from the template
 - [x] Onboarding agent (deep research and targeting, fills in the memory files)
 - [x] Brief: channels table (personal profile, Page, Instagram) and person photo for personal profiles
 - [x] Test run: sample brand `sample-ielts-coach` created and onboarded (fictional, delete later)
-- [ ] The user adds their first real brand and confirms the summary
+- [x] The user adds their first real brand and confirms the summary (`vasha-academy`, 2026-11-04)
 
-## 3. Research and targeting ← in progress
+## 3. Research and targeting ✅
 
 - [x] Researcher agent (instructions, good and bad examples, checklist), using Apify first
 - [x] Targeting Strategist agent (personas with fears, goals, language, online times, hooks)
 - [x] Week templates: `research.md`, `targeting.md`, `inputs/`
 - [x] `/research-week <brand>` command (Researcher, then Targeting Strategist, then summary)
-- [ ] Test on the sample brand for 2026-W46 (needs a new session so Apify and the network
-  domains load)
+- [x] Test run for 2026-W46, done on the real brand `vasha-academy` instead of the sample
+  (Apify via its API, $1.34 of $5)
 
-## 4. Planning and content
+## 4. Planning and content ← next (plan to be agreed)
 
 - [ ] Planner agent (balanced 7-day calendar that mixes educate, trust and sell posts)
 - [ ] Approval step (the user approves the plan or sends it back with changes)
