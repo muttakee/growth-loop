@@ -1,0 +1,11 @@
+{
+  "format": "carousel",
+  "slides": [
+    { "variant": "cover", "kicker": "ভুল ধারণা ❌", "headline": "\"IELTS দিতে হলে আগে ইংরেজিতে একদম পাকা হতে হবে\"", "body": "IELTS-এর একটা নির্দিষ্ট format আছে, আর সেটা শেখা যায় 👉" },
+    { "headline": "IELTS-এ পাস-ফেল নেই", "body": "Band 0 থেকে 9 পর্যন্ত একটা মাপকাঠি। এটা দেখায় তোমার ইংরেজি এখন কোথায় আছে, তোমাকে বাদ দেয় না।" },
+    { "headline": "প্রতিটা module-এর format নির্দিষ্ট", "body": "Listening, Reading, Writing, Speaking: প্রতিটার প্রশ্নের ধরন, সময় আর ধাপ আগে থেকেই জানা।" },
+    { "headline": "প্রশ্নের ধরন চিনলে অর্ধেক ভয় কমে যায়", "body": "যেমন Reading-এ True / False / Not Given, Matching, Sentence completion। কোন ধরনে কী চায়, সেটা প্র্যাকটিসে শেখা যায়।" },
+    { "headline": "\"Perfect\" হওয়ার অপেক্ষা না, প্রতিদিন একটু", "body": "প্রতিদিন অল্প সময়ের নিয়মিত অনুশীলন, এক মাস পরে \"পুরো রেডি হয়ে\" শুরু করার চেয়ে অনেক বেশি কাজে দেয়।" },
+    { "variant": "cta", "headline": "শুরুটা করো free IELTS 101 class দিয়ে", "body": "Format কেমন, কোথা থেকে শুরু করবে, সহজ করে বুঝে নাও। কোনো টাকা লাগবে না।", "button": "vasha.ac/en/courses/26/ielts-101" }
+  ]
+}

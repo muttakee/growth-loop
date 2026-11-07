@@ -132,6 +132,9 @@ Only after "yes":
 3. Write the competitors the user named into `brands/<slug>/competitors.md`.
 4. Copy the logo to `brands/<slug>/assets/logo.<ext>` and the photo to
    `brands/<slug>/assets/photo.<ext>`. Update the paths in `brief.md` if the extension isn't `.png`.
+5. Write `brands/<slug>/assets/theme.json` from the colour, font and logo-placement answers
+   (schema in `studio/README.md`). Fonts must be registered in `studio/src/fonts.ts`; if one isn't,
+   tell the user and note it as TBD.
 
 ## Step 9: Onboarding
 

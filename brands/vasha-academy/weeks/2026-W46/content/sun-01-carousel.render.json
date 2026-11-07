@@ -1,0 +1,12 @@
+{
+  "format": "carousel",
+  "slides": [
+    { "variant": "cover", "kicker": "4", "headline": "Task 2-এ ভালো ideas, তবুও Coherence and Cohesion-এ নাম্বার কম?", "body": "এই ৪টা জিনিস চেক করো।" },
+    { "headline": "Coherence and Cohesion আসলে কী?", "body": "তোমার essay কতটা গুছানো, আর একটা idea থেকে আরেকটায় কতটা সহজে যাওয়া যায়। Ideas ভালো হলেও, এলোমেলো হলে এখানে নাম্বার যায়।" },
+    { "headline": "১. এক paragraph = এক main idea", "bullets": ["❌ Before: \"Online learning saves time. Also, pollution in cities is increasing, and students need more sports.\"", "✅ After: \"Online learning saves time. Students no longer need to travel, so they can spend those hours studying.\""], "note": "এক paragraph-এ তিনটা আলাদা কথা ঢুকিও না।" },
+    { "headline": "২. Paragraph-এর প্রথম লাইনেই main idea", "bullets": ["❌ Before: \"There are many things to say about this topic.\"", "✅ After: \"The main benefit of online learning is flexibility.\""], "note": "প্রথম লাইন পড়েই যেন বোঝা যায় paragraph-টা কী নিয়ে।" },
+    { "headline": "৩. Linking words: দরকারমতো, অতিরিক্ত না", "bullets": ["❌ Before: \"Firstly, cars are useful. Moreover, they are fast. Furthermore, they are comfortable. In addition, they are popular.\"", "✅ After: \"Cars are useful because they are fast and comfortable. However, they also cause traffic jams.\""], "note": "প্রতি বাক্যে linking word বসালে লেখা যান্ত্রিক লাগে।" },
+    { "headline": "৪. Referencing: this / these / it", "bullets": ["❌ Before: \"Many students use smartphones. Smartphones help students learn. Smartphones can also distract students.\"", "✅ After: \"Many students use smartphones. These devices help them learn, but they can also be a distraction.\""], "note": "একই শব্দ বারবার না লিখে this, these, it দিয়ে আগের কথায় ফিরে যাও।" },
+    { "variant": "cta", "headline": "Fix-টা কাজ করলো কি না, test করে দেখো", "body": "৳২০-এ একটা Writing mock দাও। প্রায় ৫ মিনিটে চারটা criteria ধরে practice estimate পাবে, Coherence and Cohesion আলাদা করে।", "image": "writing-breakdown.png", "button": "vasha.ac/en/ielts-mock" }
+  ]
+}

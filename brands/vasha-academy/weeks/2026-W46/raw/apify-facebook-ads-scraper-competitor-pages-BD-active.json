@@ -1,0 +1,733 @@
+{
+ "actor": "apify/facebook-ads-scraper",
+ "target": "competitor-pages-BD-active",
+ "runId": "SWadDMjewvboONcDS",
+ "status": "ABORTED",
+ "costUsd": 0.2958,
+ "items": 52,
+ "collected": "2026-11-04",
+ "note": "Run hit its $0.30 max-charge cap and was aborted; 52 items saved.",
+ "ads": [
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=978762005074055",
+   "started": "2026-05-21",
+   "format": "VIDEO",
+   "cta": "Download",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK"
+   ],
+   "copyStart": "IELTS Writing-এ যত চেষ্টা করছেন, score কি এখনও 5–5.5-এ আটকে আছে?\n\nTask 1 ও Task 2-এর structure, timing, idea generation—সবকিছুই কি জটিল লাগছে?\n\nএই কারণেই আমরা দ"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1104079839173629",
+   "started": "2026-10-18",
+   "format": "VIDEO",
+   "cta": null,
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "[redacted: names a private individual]"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2034984017136270",
+   "started": "2026-09-09",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "মাত্র ২৫,৬০০ টাকায় IELTS রেজিস্ট্রেশন করুন!\n\n🔥 সিট শেষ হবার আগেই Registration করুন\n📞 Call Us: 01329737053, 01335134978, 01324736686\n📍Visit: FutureEd, Ahmed Towe"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1329245535915213",
+   "started": "2026-02-17",
+   "format": "VIDEO",
+   "cta": "Download",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK"
+   ],
+   "copyStart": "IELTS Writing-এ যত চেষ্টা করছেন, score কি এখনও 5–5.5-এ আটকে আছে?\n\nTask 1 ও Task 2-এর structure, timing, idea generation—সবকিছুই কি জটিল লাগছে?\n\nএই কারণেই আমরা দ"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=896962716692463",
+   "started": "2026-04-25",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "Stop Asking \"What's Special?\" 🤫 Time to Achieve Band 7+! \"Shortcut IELTS!\" নিয়ে এত কথা কেন? The reason is simple: Band 7+ পাওয়ার জন্য এটাই smarter way। Future"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=28550739707888712",
+   "started": "2026-09-20",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "❓ Why is everyone saying \"Shortcut IELTS!\"? ❓\n\nIt’s time to stop asking \"what's so special about it?\" and discover the smarter way to a Band 7+! 🎯\nAt FutureEd, "
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2545510622589703",
+   "started": "2026-10-18",
+   "format": "VIDEO",
+   "cta": null,
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "Study Abroad Fair 2026-এ শিক্ষার্থীদের ছিল উপচে পড়া ভিড়! 🎓✨\n\nমেলায় অংশগ্রহণ করে অনেকেই FutureEd-এর মাধ্যমে Study Abroad Service গ্রহণের পাশাপাশি তাঁদের IELTS Re"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2470425503383674",
+   "started": "2026-08-08",
+   "format": "VIDEO",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "👯‍♂️ ১ জনের খরচে ২ জনের PTE প্রস্তুতি!\n\nPTE কোর্স ফ্রি অফার নিয়ে এলো FutureEd! এখন একজন এনরোল করলেই সাথে আরও একজন ফ্রি PTE প্রিপারেশন নেওয়ার সুযোগ পাচ্ছেন! 🚀✨\n\n"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1881000976643455",
+   "started": "2026-09-06",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🎉 Unlock your dream with a HUGE 4,600 TK Discount on IELTS! 🎓\n\nThinking about your IELTS? This weekend, we make it easier for you to achieve your goals with a 4"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1181309951136856",
+   "started": "2026-10-02",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "⏳ IELTS পরীক্ষা খুব কাছে? টেনশন না করে ঝটপট প্রস্তুতি নিন!⚡   \n\nপরীক্ষার আর মাত্র কয়েকদিন বাকি? ভয় না পেয়ে এখনই যুক্ত হন FutureEd-এর \"ঝটপট IELTS\" কোর্সে! 🚀   \n\n"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1112454495073785",
+   "started": "2026-10-05",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "চাকরি করছেন, কিন্তু English improve করার জন্য নিয়মিত সময় বের করতে পারছেন না?\n\nদিনের ব্যস্ততার কারণে Course শুরু করেও শেষ করা হয় না। তাই Working Professionals-এর"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1492632732779796",
+   "started": "2026-10-05",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "চাকরি করছেন, কিন্তু English improve করার জন্য নিয়মিত সময় বের করতে পারছেন না?\n\nদিনের ব্যস্ততার কারণে Course শুরু করেও শেষ করা হয় না। তাই Working Professionals-এর"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1075869065444853",
+   "started": "2026-09-28",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "আর কতদিন “হয়তো পারবো না” ভেবে নিজেকে আটকে রাখবেন? 😥\n\nইংরেজিতে কথা বলা কোনো ট্যালেন্ট না—\nএটা সঠিক প্র্যাক্টিস + সঠিক গাইডের ফল।\n\n📍 Uttara Offline Spoken English"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1821926445664149",
+   "started": "2026-10-25",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "বিদেশে পড়ার স্বপ্ন আছে,\nকিন্তু IELTS নামটা শুনলেই বুকটা কেমন ভারী হয়ে যায়?\n\n“Listening ধরতে পারি না”\n“Speaking বলতে গেলে মাথা ব্ল্যাংক”\n“Writing-এ বারবার একই"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1102281196124095",
+   "started": "2026-10-25",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "এই মুহূর্তে হাজারো স্টুডেন্ট UK, Canada, Australia, US, New Zealand, Europe-এ পড়ছে।\n\nতাদের সবার এক কমন সিক্রেট? রাশেদ ভাইয়ের IELTS ক্লাস!\n\nআপনি কি এই সুযোগ হা"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1403776357971631",
+   "started": "2026-10-04",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "“সময় কম, এখন কী করবো?”\nএই প্রশ্নটাই করে প্রায় সব IELTS পরীক্ষার্থী।\n\nআমাদের IELTS Crash Course বানানো হয়েছে ঠিক এই পরিস্থিতির জন্য।\n১.৫ মাসে ৩১টি ফোকাসড ক্লাস, "
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=3723497491133648",
+   "started": "2026-10-04",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "IELTS-এর জন্য প্রস্তুতি নিতে হলে\nশুরুটা ঠিক জায়গা থেকে করাটাই সবচেয়ে জরুরি।\n\nBasic to IELTS (Offline) কোর্সে আপনাকে শেখানো হয়\nএকদম বেসিক থেকে ধাপে ধাপে IELTS পর"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2372060700286811",
+   "started": "2026-10-25",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "এই মুহূর্তে হাজারো স্টুডেন্ট UK, Canada, Australia, US, New Zealand, Europe-এ পড়ছে।\n\nতাদের সবার এক কমন সিক্রেট? রাশেদ ভাইয়ের IELTS ক্লাস!\n\nআপনি কি এই সুযোগ হা"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=4088405577956154",
+   "started": "2026-10-04",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "“সময় কম, এখন কী করবো?”\nএই প্রশ্নটাই করে প্রায় সব IELTS পরীক্ষার্থী।\n\nআমাদের IELTS Crash Course বানানো হয়েছে ঠিক এই পরিস্থিতির জন্য।\n১.৫ মাসে ৩১টি ফোকাসড ক্লাস, "
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1779311539882306",
+   "started": "2026-10-04",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "IELTS-এর জন্য প্রস্তুতি নিতে হলে\nশুরুটা ঠিক জায়গা থেকে করাটাই সবচেয়ে জরুরি।\n\nBasic to IELTS (Offline) কোর্সে আপনাকে শেখানো হয়\nএকদম বেসিক থেকে ধাপে ধাপে IELTS পর"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1079248111739705",
+   "started": "2026-09-11",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "মাত্র ২৫,৬০০ টাকায় IELTS রেজিস্ট্রেশন করুন!\n\n🔥 সিট শেষ হবার আগেই Registration করুন\n📞 Call Us: 01329737053, 01335134978, 01324736686\n📍Visit: FutureEd, Ahmed Towe"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2861827494216422",
+   "started": "2026-09-06",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "📢IELTS Update📢\n4th September থেকে IELTS Exam Registration Fee বেড়ে হবে ৩১,১০০ টাকা!"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2151950825356808",
+   "started": "2026-11-01",
+   "format": "VIDEO",
+   "cta": null,
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "HSC পাস করার পর এবার কি লক্ষ্য বিদেশে উচ্চশিক্ষা কিংবা দেশের সেরা জায়গায় নিজেকে প্রমাণ করা? 🎓✈️\n\n🔥 ইংরেজি দক্ষতা ছাড়া এই জার্নি অসম্পূর্ণ! আর তাই তোমাদের স্বপ্ন"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=28850310021325118",
+   "started": "2026-09-25",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🎯 IELTS Exam Registration Offers Are Here!\n\n🎯 October, November অথবা December 2026-এ IELTS দিতে চান? FutureEd-এর সাথে Registration করলেই পাচ্ছেন Special Discoun"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2460155991122057",
+   "started": "2026-04-27",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🚨 FutureEd ঝটপট IELTS: Exam Ready in Just 7 Days! 🏃‍♂️\n\nStuck on time? Maximize your score in minimal time with our expertly-designed course:\n\n⏱️ 16 Hours of In"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1688985459015148",
+   "started": "2026-07-15",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🎉Great News for PTE Aspirants!\n\nFutureEd is now an Official PTE Registration Partner.\n\nYou can now complete your PTE Academic registration directly through Futu"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1741926086847635",
+   "started": "2026-06-13",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "ইংরেজি নিয়ে আর কত CONFUSION? It’s time to stop worrying and start learning!\n\nNo matter your current level, FutureEd is here to help you upgrade your skills. মাত"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1547429483275667",
+   "started": "2026-09-06",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "মাত্র ২৭,০০০ টাকায় ব্রিটিশ কাউন্সিলের অফিসিয়াল টেস্টিং ভেন্যু FutureEd-এ IELTS Exam রেজিস্ট্রেশন করুন আর সাথে পেয়ে যান আকর্ষণীয় সব ফ্রি Preparation টুলস! 🌟\n\nরেজ"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2209154719663471",
+   "started": "2026-10-02",
+   "format": "VIDEO",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "⏳ মাত্র ১ মাসে IELTS প্রিপারেশন নিতে চান? \n\n🎯কম সময়ে সেরা ও কার্যকর প্রস্তুতির জন্য FutureEd-এর Shortcut IELTS কোর্সটি আপনার জন্যই perfect choice! \n\n💡 কোর্সে কী"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1342024284669731",
+   "started": "2026-09-06",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🚨 IELTS Registration Fee Update!\nIELTS-এর নতুন Registration Fee এখন ৩১,১০০ টাকা। \n\n☺️কিন্তু চিন্তার কোনো কারণ নেই!\n\nএখনও FutureEd-এ রেজিস্ট্রেশন করলে পাচ্ছেন ৪,"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1041368355081745",
+   "started": "2026-07-15",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🚑✨ Your Next Step in Healthcare Starts Here! ✨🚑\n\nAre you a doctor, nurse, or healthcare professional dreaming of working abroad? 🌍\nThe OET exam is your gateway—"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1078793427808902",
+   "started": "2026-07-24",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "PTE-তে Desired Score পাওয়া কঠিন কিছু না, যদি সঠিক Strategy জানা থাকে! 🎯\n\n📅 Join our upcoming PTE Preparation Batch at FutureEd and get trained by Pearson-certif"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2250004612468812",
+   "started": "2026-07-17",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "একই জায়গায় PTE Registration, Preparation এবং Practice—সবকিছু!\nআপনার লক্ষ্য অনুযায়ী বেছে নিন FutureEd-এর ৩টি PTE Package\n\n📦 Choose the package that suits you:"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=943622248559852",
+   "started": "2026-04-25",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🚨 FutureEd ঝটপট IELTS: Exam Ready in Just 7 Days! 🏃‍♂️\n\nStuck on time? Maximize your score in minimal time with our expertly-designed course:\n\n⏱️ 16 Hours of In"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1433183992073593",
+   "started": "2026-10-02",
+   "format": "VIDEO",
+   "cta": "Like Page",
+   "platforms": [
+    "FACEBOOK"
+   ],
+   "copyStart": "CD IELTS মানেই কি অনেক ভয়ের কিছু?\nCD IELTS মানেই কি কঠিন? \n\nএকদমই না! আমাদের আজকের ভিডিওতে ইন্সট্রাক্টর S M Samiul Haq শেয়ার করছেন কেন CD IELTS আপনার জন্য বেশি "
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=27480754841606046",
+   "started": "2026-07-24",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "Book Your PTE Exam with Zero Hassle! 🎯⚡\n\nPlanning to take the Pearson PTE exam? Skip the stress and register directly through FutureEd—your official Pearson PTE"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1615915603347999",
+   "started": "2026-10-28",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "🚨 IELTS Registration Fee Update!\nIELTS-এর নতুন Registration Fee এখন ৩১,১০০ টাকা।\n\n☺️কিন্তু চিন্তার কোনো কারণ নেই!\n\nএখনও FutureEd-এ রেজিস্ট্রেশন করলে পাচ্ছেন ৪,০"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1407869331158727",
+   "started": "2026-07-16",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🩺🌍 Become a UK, Australia & International Healthcare Professional!\nYour OET Score Can Open the Door to Your Dream Career! 🇬🇧🇦🇺🇳🇿\n\n🚨 Still preparing for OET on y"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2484806748596102",
+   "started": "2026-10-26",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "হাতে সময় মাত্র ১ সপ্তাহ? \nFor all the ঝটপট candidates, FutureEd নিয়ে এলো Jhotpot IELTS! ⚡🎓\n\nপরীক্ষা খুব কাছে অথচ প্রিপারেশন নিয়ে নার্ভাস? \nকোয়ালিটির সাথে আপস না"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2152109335396825",
+   "started": "2026-10-30",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "🚨 IELTS Registration Fee এখন ৩১,১০০ টাকা।\n\n☺️কিন্তু চিন্তার কোনো কারণ নেই!\n\nএখনও FutureEd-এ রেজিস্ট্রেশন করলে পাচ্ছেন ৪,০০০ টাকা instant Discount! অর্থাৎ, মাত্র"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1898193937826658",
+   "started": "2026-10-05",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "Interview board-এ সব প্রশ্নের উত্তর জানা ছিল। কিন্তু ইংরেজিতে গুছিয়ে বলতে না পারায় চাকরিটা আর হলো না।\n\nএমন ঘটনা অনেকের সঙ্গেই ঘটে। Knowledge ও skill থাকা সত্ত্ব"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1740290127259749",
+   "started": "2026-10-04",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "পরীক্ষা একদম সামনে, কিন্তু প্রস্তুতি এখনও অসম্পূর্ণ?\nএই মুহূর্তের জন্যই তৈরি করা হয়েছে আমাদের IELTS Crash Course (Offline)।\n\nমাত্র ১.৫ মাসে ৩১টি intensive ক্লাস"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1764261874856057",
+   "started": "2026-10-04",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "পরীক্ষা একদম সামনে, কিন্তু প্রস্তুতি এখনও অসম্পূর্ণ?\nএই মুহূর্তের জন্যই তৈরি করা হয়েছে আমাদের IELTS Crash Course (Offline)।\n\nমাত্র ১.৫ মাসে ৩১টি intensive ক্লাস"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1932922271216316",
+   "started": "2026-10-27",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "কর্মব্যস্ততার কারণে English Speaking improve করার সময়ই পাচ্ছেন না? 😓\n\nসারাদিন অফিস, meeting আর কাজের চাপের কারণে অনেক professionals-ই English শেখার সময় বের করতে"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=4636195186600217",
+   "started": "2026-10-04",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "IELTS-এর জন্য প্রস্তুতি নিতে হলে\nশুরুটা ঠিক জায়গা থেকে করাটাই সবচেয়ে জরুরি।\n\nBasic to IELTS (Offline) কোর্সে আপনাকে শেখানো হয়\nএকদম বেসিক থেকে ধাপে ধাপে IELTS পর"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1852147242803785",
+   "started": "2026-10-25",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "বিদেশে পড়ার স্বপ্ন আছে,\nকিন্তু IELTS নামটা শুনলেই বুকটা কেমন ভারী হয়ে যায়?\n\n“Listening ধরতে পারি না”\n“Speaking বলতে গেলে মাথা ব্ল্যাংক”\n“Writing-এ বারবার একই"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1104363455562823",
+   "started": "2026-11-01",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "আর কতদিন “হয়তো পারবো না” ভেবে নিজেকে আটকে রাখবেন? 😥\n\nইংরেজিতে কথা বলা কোনো ট্যালেন্ট না—\nএটা সঠিক প্র্যাক্টিস + সঠিক গাইডের ফল।\n\n📍 Uttara Offline Spoken English"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1083986304441272",
+   "started": "2026-10-04",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "IELTS-এর জন্য প্রস্তুতি নিতে হলে\nশুরুটা ঠিক জায়গা থেকে করাটাই সবচেয়ে জরুরি।\n\nBasic to IELTS (Offline) কোর্সে আপনাকে শেখানো হয়\nএকদম বেসিক থেকে ধাপে ধাপে IELTS পর"
+  },
+  {
+   "advertiser": "Banglay IELTS Dhaka",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1116368951145478",
+   "started": "2026-11-03",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "English বলতে গেলেই কি grammar নিয়ে বারবার আটকে যান? 😓\n\nTense, verb, article বা sentence structure—ছোট ছোট grammar ভুলের কারণে English বলতে ও লিখতে hesitation তৈ"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=972272235910114",
+   "started": "2026-10-02",
+   "format": "VIDEO",
+   "cta": "Like Page",
+   "platforms": [
+    "FACEBOOK"
+   ],
+   "copyStart": "🎧💻 Free Mock Test. Real Experience. Honest Feedback.\n\nLast month, we offered FREE Computer-Delivered IELTS mock tests, and here’s what our students had to say a"
+  }
+ ]
+}

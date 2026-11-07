@@ -1,0 +1,45 @@
+{
+ "actor": "apify/facebook-posts-scraper",
+ "target": "mscourses19-check",
+ "runId": "Umo9ipvelb4De93US",
+ "status": "SUCCEEDED",
+ "costUsd": 0.001,
+ "items": 3,
+ "collected": "2026-11-04",
+ "errors": [],
+ "posts": [
+  {
+   "page": "mscourses19",
+   "url": "https://www.facebook.com/mscourses19/videos/418996633790589/",
+   "date": "2024-01-19",
+   "reactions": 0,
+   "comments": null,
+   "shares": 1,
+   "views": 19,
+   "isVideo": true,
+   "hook": "ইংরেজি গ্রামারের ভয়কে জয় করো ঘরে বসেই!! কোর্সটি কিনতে চলে যাও আমার লিংকে - https://10ms.io/Oax5hB"
+  },
+  {
+   "page": "mscourses19",
+   "url": "https://www.facebook.com/mscourses19/videos/994693552219431/",
+   "date": "2024-01-12",
+   "reactions": 0,
+   "comments": null,
+   "shares": 0,
+   "views": 10,
+   "isVideo": true,
+   "hook": "কোর্সটি কেনার লিংক - https://10ms.io/FapQ2x\nআজই GBEG1050 প্রোমোকোডটি ব্যবহার করে ১২৫০ টাকার কোর্সটি কিনুন মাত্র ১০৫০ টাকায়!!"
+  },
+  {
+   "page": "mscourses19",
+   "url": "https://www.facebook.com/mscourses19/posts/241307642248813:241307642248813",
+   "date": "2024-01-12",
+   "reactions": 0,
+   "comments": null,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": ""
+  }
+ ]
+}

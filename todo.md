@@ -16,7 +16,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 
 - **Content first:** build everything needed to produce a full 7-day content pack that can be
   posted by hand. Supabase and Meta come later, because Meta isn't set up yet.
-- **Video tool:** Remotion is recommended (confirm before starting the content tools). It renders
+- **Video tool: Remotion (confirmed by the user).** It renders
   locally and can also make images and carousels.
 - **No hardcoded brands:** the user adds every brand with `/setup-business`.
 - **Week folders:** named by calendar week number (`weeks/2026-W45`), with the dates written
@@ -53,15 +53,16 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   reviews the pack and approves it (or sends posts back). Plan status is
   `draft → approved → content-ready → content-approved → posted`; each post is
   `planned → ready → posted`. `/make-post` remakes a single post.
-- **Media tool:** Remotion renders images, carousel cards and reels from a JSON "Media spec" in
-  each post file (`media/`). Free for individuals and companies of up to 3 people; a bigger
-  company needs a Remotion company licence.
-- **Reel themes:** 5 premium themes (editorial, glass, kinetic, examcard, cinematic). By default
-  each reel gets one at random, never the same as the last two reels of the week (picked in code by
-  `media/render.mjs`, written back into the post file). Set per brand under "Reel themes".
-- **Silent reels for now:** no ElevenLabs key yet, so reels have no voiceover and no music; the
-  on-screen text carries the message. Music can be added from the platform's own library when
-  posting.
+- **Media tool (merged 7 Nov 2026):** Remotion in `studio/` renders images, carousels and reels from
+  each post's `<file>.render.json`, with the brand's look in `assets/theme.json`. It replaced the
+  parallel `media/` project when the branches were merged. Free for individuals and companies of up
+  to 3 people; a bigger company needs a Remotion company licence.
+- **Reels (7 Nov 2026):** premium look with an ElevenLabs voiceover (eleven_v4, male voice, set in
+  `theme.json`) and captions synced word by word to the voice. No empty space: every scene has
+  footage, a screenshot or an animated SVG illustration. Rules in `docs/video-rules.md`.
+  (The earlier "5 random reel themes" from `media/` are not in `studio/` yet; to be ported.)
+- **Brand-site facts:** a post that describes the brand's own product uses facts from the brief
+  or the brand's website, never general category knowledge (e.g. official exam timings).
 - **Content pillars:** Authority, Personal story and Sell. Setup suggests Authority 60–70%,
   Personal story 15–20%, Sell 15–20%, and the user sets the mix for each brand in `brief.md`.
 - **Posting frequency:** 2 posts a day (14 a week) by default. Set per brand in `brief.md`
@@ -87,7 +88,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Name week folders by calendar week (`2026-W45`)
 - [x] Add a status line to each plan: `draft → approved → posted` (`templates/week/plan.md`)
 
-## 2. Adding brands ← in progress (waiting for the user to add their first brand)
+## 2. Adding brands ✅
 
 - [x] `/setup-business` command: asks business or personal first, then that profile's questions one at a
   time, then the content rules, and creates the brand folder from the template
@@ -97,32 +98,34 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Setup flow redesign (from the user's diagram): renamed to `/setup-business`, Expertise as
   its own question, a content interview (customer results, personal stories, proof, unique
   points, objections), content pillars (mix set per brand) and weekly day themes
-- [ ] The user adds their first real brand and confirms the summary
+- [x] The user adds their first real brand and confirms the summary (`vasha-academy`, 2026-11-04;
+  set up before the pillars/day-themes redesign, so its brief still needs those fields)
 
-## 3. Research and targeting ✅ (waiting for user review)
+## 3. Research and targeting ✅
 
 - [x] Researcher agent (instructions, good and bad examples, checklist), using Apify first
 - [x] Targeting Strategist agent (personas with fears, goals, language, online times, hooks)
 - [x] Week templates: `research.md`, `targeting.md`, `inputs/`
 - [x] `/research-week <brand>` command (Researcher, then Targeting Strategist, then summary)
 - [x] Test on the sample brand for 2026-W46 (Apify Facebook data, $1.31 of $5; commit `8222f4e`)
+- [x] First real run: `vasha-academy` 2026-W46 (Apify via its API, $1.34 of $5)
 
-## 4. Planning and content ← in progress (4a Planner and approval ✅; 4b content next)
+## 4. Planning and content ← in progress
 
 - [x] Planner agent (7-day calendar that follows the brand's content pillar mix and weekly day themes)
 - [x] Approval step: `/plan-week <brand>` (the user approves the plan or sends it back with changes)
 - [x] Test `/plan-week` on the sample brand for 2026-W46 (14 posts, approved 3 Nov 2026)
-- [x] Content Creator agent: makes **one post at a time** from the approved plan (caption, script,
-  on-screen text, hashtags, call to action, visual brief)
+- [x] Content Creator agent (caption, script, on-screen text, spoken lines, hashtags, CTA, render spec)
 - [x] Reviewer agent (checks every post against the brand brief and the language rules)
-- [x] `/make-post <brand>` command: makes and reviews the next due post, sets it `ready`
-- [x] Test `/make-post` on one post of the sample brand's W46 plan (`mon-01-image`: failed review round 1 on fonts, fixed, passed round 2)
-- [x] Video tool confirmed: **Remotion** (`media/`); silent reel template
-- [x] Image and carousel templates (Remotion stills, from the post's Media spec)
-- [ ] ElevenLabs voiceover (Bangla and English): **later**, no API key yet; reels are silent until then
-- [x] Test that Bangla text renders correctly in videos and images (mon-01-image PNG, tue-01-reel silent MP4: conjuncts and mixed Bangla/English render correctly)
+- [x] `/make-post <brand>` command: makes or remakes one post
+- [x] Video tool confirmed: **Remotion** (`studio/`): image, carousel and reel templates
+- [x] ElevenLabs voiceover (`studio/voiceover.mjs`; eleven_v4, male voice set per brand in `theme.json`)
+- [x] Test that Bangla text renders correctly in videos and images (Hind Siliguri; conjuncts checked)
 - [x] `/make-week <brand>` command: makes the whole week's content pack after plan approval, then asks the human to approve it
-- [ ] Test `/make-week` on the first real brand's first week and approve the pack
+- [x] First full 7-day content pack: `vasha-academy` 2026-W46 (14 posts written, reviewed and rendered)
+- [ ] Premium reels with animated SVG illustrations in every empty space (`docs/video-rules.md`)
+- [ ] The user approves the `vasha-academy` 2026-W46 content pack
+- [ ] Add content pillars, day themes and posting times to the `vasha-academy` brief (new setup fields)
 
 ## 5. Supabase (later)
 

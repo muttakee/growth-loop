@@ -1,0 +1,11 @@
+{
+  "format": "carousel",
+  "slides": [
+    { "variant": "cover", "headline": "Paper আর computer IELTS-এর ৩টা পার্থক্য", "body": "যেগুলো না জেনে exam hall-এ যেও না।" },
+    { "headline": "এখন IELTS মানেই computer", "body": "Bangladesh-এ paper-based IELTS আর নেই। তাই প্রশ্ন একই থাকলেও, উত্তর দেওয়ার নিয়মটা একটু আলাদা।" },
+    { "headline": "১. Listening: শুনতে শুনতেই টাইপ", "body": "Paper test-এ শেষে answer sheet-এ উত্তর তোলার জন্য ১০ মিনিট পাওয়া যায়। Computer-এ সেই ১০ মিনিট নেই। উত্তর শুনতে শুনতেই টাইপ করবে, শেষে শুধু অল্প একটু সময় চেক করার জন্য।", "note": "টিপ: spelling আগে থেকেই ঠিক রাখো।", "image": "listening-typed-answer.png" },
+    { "headline": "২. Reading: স্ক্রিনেই highlight আর note", "body": "কলম দিয়ে দাগ দেওয়ার বদলে mouse দিয়ে লাইন select করে highlight করবে, দরকার হলে note-ও রাখতে পারবে।", "note": "টিপ: keyword highlight করার অভ্যাস আগে থেকেই করো।", "image": "reading-highlight.png" },
+    { "headline": "৩. Writing: টাইপ করে লেখা, word count স্ক্রিনেই", "body": "Essay হাতে না লিখে টাইপ করবে। কত word হলো, সেটা স্ক্রিনেই দেখা যায়, গুনতে হয় না। কিন্তু টাইপিং-এর গতি না থাকলে সময়ে টান পড়ে।", "note": "টিপ: timed essay টাইপ করে practice করো।", "image": "writing-word-count.png" },
+    { "variant": "cta", "headline": "স্ক্রিনটা আগে নিজে চালিয়ে দেখো", "body": "Free Listening Test 01 দাও। Vasha-র mock দেখতে real computer-delivered IELTS-এর মতোই, আর শেষ হলেই band score।", "image": "listening-start.png", "button": "vasha.ac/en/ielts-mock" }
+  ]
+}

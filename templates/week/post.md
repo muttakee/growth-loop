@@ -33,17 +33,19 @@
 
 ## Voiceover script
 
-<!-- Reels are silent for now (no voiceover tool yet): write "none (silent reel)". -->
+<!-- Reels: the spoken line for each scene (same as each scene's "say" in the render spec), in the
+     brief's language rules. Images and carousels: write "none". -->
 
 ## Visual brief
 
 <!-- Layout, colours and fonts from the brief, coach/person photo, logo placement, any image
      needed. Media files are made later (video and image tools); this tells them what to make. -->
 
-## Media spec
+## Media
 
-<!-- Image, carousel and reel posts: the JSON that media/render.mjs turns into the media files
-     (see media/README.md). Style comes from the brief. Text and live posts: write "none". -->
+<!-- Image, carousel and reel posts: the render spec is <file>.render.json next to this file
+     (schema: studio/README.md; reels also follow docs/video-rules.md). List the files the team must
+     put in media-inputs/<file>/ (screenshots, footage). Text and live posts: write "none". -->
 
 ## Reply guide
 

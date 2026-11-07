@@ -75,6 +75,9 @@ never has a gap.
   (Planner, then the human approves or sends the plan back), `/make-week <brand>` (makes the whole
   week's content pack, then the human approves it) and `/make-post <brand> <file>` (makes or
   remakes one post, e.g. after feedback).
+- **Media:** rendered with Remotion in `studio/` (see `studio/README.md`). Reels get an ElevenLabs
+  voiceover (`studio/voiceover.mjs`, voice set per brand in `assets/theme.json`) with captions synced
+  to it. Every video follows `docs/video-rules.md`.
 - **Apify:** the Researcher uses it for public Facebook/Instagram data only, with a budget of
   **$5 per brand per week**. No private groups or profiles, no logins, no commenter names stored.
 
@@ -93,9 +96,9 @@ brands/<brand-slug>/          one folder per brand; slug is lowercase-kebab-case
     research.md
     targeting.md
     plan.md                   7-day plan with a status line
-    content/                  one file per post (<file>.md: caption, script, media spec) plus its media (.png/.mp4)
+    content/                  one file per post (<file>.md: caption, script) plus <file>.render.json, media-inputs/ and media/
     report.md                 the week's performance and lessons
-media/                        Remotion project: renders a post's image, carousel or silent reel from its Media spec
+studio/                       Remotion renderer: voiceover.mjs and render.mjs <brand> <week> (see studio/README.md)
 templates/brand/              blank brand folder, copied by /setup-business
 templates/week/               blank week files (research.md, targeting.md, plan.md, post.md)
 ```

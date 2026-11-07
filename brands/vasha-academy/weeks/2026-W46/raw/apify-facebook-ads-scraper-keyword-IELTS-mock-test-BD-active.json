@@ -1,0 +1,420 @@
+{
+ "actor": "apify/facebook-ads-scraper",
+ "target": "keyword-IELTS-mock-test-BD-active",
+ "runId": "FXz8awSB46BhkTygB",
+ "status": "SUCCEEDED",
+ "costUsd": 0.058,
+ "items": 30,
+ "collected": "2026-11-04",
+ "ads": [
+  {
+   "advertiser": "IELTS - British Council Bangladesh",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=960666116830200",
+   "started": "2026-05-07",
+   "format": "DCO",
+   "cta": "Learn more",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "THREADS"
+   ],
+   "copyStart": "On track for your target IELTS score? Find out with our free mock test with feedback on all four IELTS skills."
+  },
+  {
+   "advertiser": "Mentors'",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=4455036178148293",
+   "started": "2026-07-18",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "IELTS-এ 7+ Band Score অর্জন করতে প্রয়োজন সঠিক strategy, নিয়মিত practice এবং Expert Guidelines।\n\nMentors’-এর IELTS Course আপনার preparation-কে আরও effective করে "
+  },
+  {
+   "advertiser": "FutureEd Dhanmondi",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=949686690910739",
+   "started": "2026-09-24",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "🎯 IELTS main পরীক্ষার আগে নিজের প্রস্তুতি যাচাই করতে চান? 📊\n\nদেশের ১ম ও সর্ববৃহৎ অফিশিয়াল IELTS টেস্টিং সেন্টার FutureEd-এ ১৫ বছরের অভিজ্ঞতার সাথে অংশ নিন আমাদে"
+  },
+  {
+   "advertiser": "British Council Bangladesh",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1072603158685673",
+   "started": "2026-09-10",
+   "format": "VIDEO",
+   "cta": "Book now",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "Computer Delivered IELTS-টেস্ট নিয়ে কনফিডেন্স পাচ্ছেন না ?\n\nব্রিটিশ কাউন্সিল IELTS -এর  সহ-স্বত্বাধিকারী , আর তাই ব্রিটিশ কাউন্সিলের সাথে Computer Delivered IEL"
+  },
+  {
+   "advertiser": "ATM Sir",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1108972574995419",
+   "started": "2026-09-10",
+   "format": "VIDEO",
+   "cta": "Contact us",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "THREADS"
+   ],
+   "copyStart": "#HSC / আলিমের পরেই অনেক #বড়_সাফল্য যা দেশে বসে ৫০ বছর বয়সেও সম্ভব হয় না সাধারণত !\n\nভর্তি যুদ্ধে হতাশ না হয়ে, IELTS দিয়ে #ইউরোপে স্কলারশিপ নিয়ে অথবা ছাড়াই সুযোগ "
+  },
+  {
+   "advertiser": "IELTS Excellence Bangladesh",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2228911357862415",
+   "started": "2026-04-28",
+   "format": "CAROUSEL",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "UK | Australia | New Zealand এ পড়ার স্বপ্ন পূরণ করুন IELTS এর চেয়ে অনেক শর্ট, ফাস্ট এবং সহজ টেস্ট PTE এর মাধ্যমে।\n\nPTE এবং বেসিক ইংলিশ এর সেরা প্রিপারেশন নিতে"
+  },
+  {
+   "advertiser": "Amlotus, LLC",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=863592712843050",
+   "started": "2026-05-29",
+   "format": "DCO",
+   "cta": "See details",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "THREADS"
+   ],
+   "copyStart": "Your American Dream Starts Here at Amlotus! 🇺🇸 Join a diverse community of students from 89 nationalities 🌍 and master your English with our 25 years of ESL exp"
+  },
+  {
+   "advertiser": "IELTS Excellence Bangladesh",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=3465428413626456",
+   "started": "2026-04-28",
+   "format": "CAROUSEL",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "বিদেশে পড়ার স্বপ্ন পূরণ করুন সেরা IELTS Score এর মাধ্যমে।\n\nIELTS এবং বেসিক ইংলিশ এর Best প্রিপারেশন নিতে আজই জয়েন করুন - IELTS Excellence Bangladesh এর Online"
+  },
+  {
+   "advertiser": "Penston Academy Chattogram",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=891473933928002",
+   "started": "2026-04-09",
+   "format": "IMAGE",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "চট্টগ্রামে IELTS দিতে যাচ্ছেন? আগে Main Exam Venue-তে নিজের Preparation যাচাই করে নিন!\n \nPenston-এর Premium Mock Test আপনাকে বুঝতে সাহায্য করবে আপনি Main Exam-এ"
+  },
+  {
+   "advertiser": "Take IELTS Official",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2093745058196018",
+   "started": "2026-09-15",
+   "format": "IMAGE",
+   "cta": "Book now",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "On track for your target IELTS score? Find out with our free mock test with feedback on all four IELTS skills."
+  },
+  {
+   "advertiser": "British American Resource Center",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1051941850698799",
+   "started": "2026-08-03",
+   "format": "CAROUSEL",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "From Basic English to IELTS—A Trusted Name in IELTS Preparation in Bangladesh. ✅"
+  },
+  {
+   "advertiser": "Scholars Zone Academy",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2787166141684661",
+   "started": "2026-07-16",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🎯 Want to achieve IELTS Band 7.5 despite your busy professional schedule?\n\nJoin the IELTS Executive Course at Scholars Zone Academy—specially designed for worki"
+  },
+  {
+   "advertiser": "Fast Progress Exam Center",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1769180944424343",
+   "started": "2026-09-04",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+   ],
+   "copyStart": "🎯 বারবার পরীক্ষা দিয়েও কাঙ্ক্ষিত English Test Score পাচ্ছেন না?\n🤔 কোথা থেকে শুরু করবেন বুঝতে পারছেন না?\n\nআমাদের Score-Focused Preparation Program আপনাকে দেবে স"
+  },
+  {
+   "advertiser": "BrightSpeak English Center",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1063596776047260",
+   "started": "2026-08-27",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+   ],
+   "copyStart": "🎯 বারবার পরীক্ষা দিয়েও কাঙ্ক্ষিত English Test Score পাচ্ছেন না?\n🤔 কোথা থেকে শুরু করবেন বুঝতে পারছেন না?\n\nআমাদের Score-Focused Preparation Program আপনাকে দেবে স"
+  },
+  {
+   "advertiser": "AdvanceEd",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1424547749639878",
+   "started": "2026-09-28",
+   "format": "VIDEO",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP"
+   ],
+   "copyStart": "🔥 একজনের Fee-তে দু’জনের IELTS Preparation—এমন সুযোগ আবার কবে আসবে?\n\nAdvanceED-এর Buy 1 Get 1 IELTS Offer-এ মাত্র ১৬,০০০ টাকায় ভর্তি হবেন দু’জন! আপনার বন্ধু, ভাই"
+  },
+  {
+   "advertiser": "IELTSly",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1083304344668822",
+   "started": "2026-09-17",
+   "format": "VIDEO",
+   "cta": "Sign up",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "Meet IELTSly.\nThe Most Advanced Ai Powered IELTS Prep Platform in Bangladesh🔥\n\nIELTSly শুধু একটি প্ল্যাটফর্ম নয়—\nএটী একটি intelligent ecosystem, যা আপনার IELTS"
+  },
+  {
+   "advertiser": "ATM's",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2274910833353299",
+   "started": "2026-09-10",
+   "format": "VIDEO",
+   "cta": "Contact us",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "THREADS"
+   ],
+   "copyStart": "#HSC / আলিমের পরেই অনেক #বড়_সাফল্য যা দেশে বসে ৫০ বছর বয়সেও সম্ভব হয় না সাধারণত !\n\nভর্তি যুদ্ধে হতাশ না হয়ে, IELTS দিয়ে #ইউরোপে স্কলারশিপ নিয়ে অথবা ছাড়াই সুযোগ "
+  },
+  {
+   "advertiser": "FutureEd Dhanmondi",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1677798529987642",
+   "started": "2026-08-14",
+   "format": "VIDEO",
+   "cta": null,
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "🎧 Experience the Real IELTS Exam Environment at FutureEd! 🖥️✨\n\nBoost your confidence and overcome exam nerves before the big day! Our state-of-the-art computer "
+  },
+  {
+   "advertiser": "10 Minute School",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=980002841602435",
+   "started": "2026-06-10",
+   "format": "IMAGE",
+   "cta": "Call now",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "IELTS পার করার একটাই rule ঃ যত বেশি মক টেস্ট তত বেশি IELTS Success ! ✅\n\n👉 তাই বেশি বেশি মক টেস্ট দিয়ে বার বার নিজেকে যাচাই করে নিতে, জয়েন করুন আমাদের IELTS Live"
+  },
+  {
+   "advertiser": "Banglay IELTS Chittagong",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1529850948899778",
+   "started": "2026-10-22",
+   "format": "VIDEO",
+   "cta": null,
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "THREADS"
+   ],
+   "copyStart": "Every success story begins with a dream, backed by hard work and the right guidance! 🌟\n\nCongratulations on achieving an impressive IELTS Band Score of 7.0! 🎉👏\n\n"
+  },
+  {
+   "advertiser": "Banglay IELTS Sylhet",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1584244436680984",
+   "started": "2026-08-12",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "“IELTS দিতাম… কিন্তু শুরু করতাম কিতা দিয়া?” 😓\n\n অউ ছিন্তায় অনেক রে ফিছাইয়া রাখে!\n\nGrammar clear নায়,\nSpeaking-এ confidence নাই,\n যার কারণে IELTS অনেক কঠিন লাগে।"
+  },
+  {
+   "advertiser": "IELTSly",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1743582156689223",
+   "started": "2026-09-17",
+   "format": "VIDEO",
+   "cta": "Sign up",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "Speaking এ ভয়? Writing এ কম score? Band score বাড়াতে চান? \n\nচলে এসেছে আপনার One Stop Solution – IELTSly\n\nIELTS প্রস্তুতির সবকিছু এবার এক জায়গায়। IELTSly – আপনার"
+  },
+  {
+   "advertiser": "IELTSly",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=28793465407008455",
+   "started": "2026-09-17",
+   "format": "IMAGE",
+   "cta": "Sign up",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "IELTS প্রস্তুতির Unlimited Mock Test সাথে Instant Result এখন মাত্র ৯৯০ টাকায়\n\nIELTS প্রস্তুতির সবকিছু এবার এক জায়গায়। \n\nIELTSly – আপনার স্মার্ট প্রস্তুতির শুরু।"
+  },
+  {
+   "advertiser": "IELTSly",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1742247173674051",
+   "started": "2026-09-17",
+   "format": "VIDEO",
+   "cta": "Sign up",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "Trending IELTS Prep Platform in Bangladesh (Ai Powered )🔥\n\nIELTSly শুধু একটি প্ল্যাটফর্ম নয়—\nএটী একটি intelligent ecosystem, যা আপনার IELTS preparation কে নিয়ে"
+  },
+  {
+   "advertiser": "gurully.com",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1424076335750745",
+   "started": "2026-09-22",
+   "format": "DCO",
+   "cta": "Sign up",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "Prepare for IELTS with GURULLY \n\nGet\n🖥️Real exam experience\n📚 Updated IELTS Content\n📊 Smarter Performance Insights\n\nWhat are you waiting for? Take a FREE Mock T"
+  },
+  {
+   "advertiser": "IELTS ESSENCE",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1441116194707944",
+   "started": "2026-08-19",
+   "format": "IMAGE",
+   "cta": "Send message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER"
+   ],
+   "copyStart": "IELTS EXAM নিয়ে ভয় পাচ্ছেন? 😰\nপড়ছেন, Practice করছেন—\nতবুও বুঝতে পারছেন না আসলে কোথায় ভুল করছেন? আর কেনই বা আপনার Score বারবার Band 5 / 5.5 -এ আটকে যাচ্ছে? 🎯\n\nআর"
+  },
+  {
+   "advertiser": "Mentors'",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2018018152186517",
+   "started": "2026-09-06",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "IELTS পরীক্ষা বারবার দিচ্ছেন, কিন্তু desired Band Score আসছে না?\n\nHigher Study-এর জন্য English proficiency prove করতে IELTS গুরুত্বপূর্ণ। কিন্তু সঠিক preparatio"
+  },
+  {
+   "advertiser": "Arif Academy",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=1120607073637749",
+   "started": "2026-10-06",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "WHATSAPP",
+    "THREADS"
+   ],
+   "copyStart": "🎯 IELTS প্রস্তুতির জন্য সঠিক প্রতিষ্ঠান Guideline ও সাশ্রয়ী Mock Test খুঁজছেন?\n\nআপনার প্রস্তুতিকে আরও কার্যকর করতে Arif Academy দিচ্ছে—\n\n🔥 ১ মাস Unlimited IELTS"
+  },
+  {
+   "advertiser": "FutureEd English Language Institute",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2460155991122057",
+   "started": "2026-04-27",
+   "format": "VIDEO",
+   "cta": "Send WhatsApp message",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM",
+    "AUDIENCE_NETWORK",
+    "MESSENGER",
+    "WHATSAPP"
+   ],
+   "copyStart": "🚨 FutureEd ঝটপট IELTS: Exam Ready in Just 7 Days! 🏃‍♂️\n\nStuck on time? Maximize your score in minimal time with our expertly-designed course:\n\n⏱️ 16 Hours of In"
+  },
+  {
+   "advertiser": "IELTS by IDP - Bangladesh",
+   "adLibraryUrl": "https://www.facebook.com/ads/library/?id=2576300432863419",
+   "started": "2026-09-29",
+   "format": "IMAGE",
+   "cta": "Book now",
+   "platforms": [
+    "FACEBOOK",
+    "INSTAGRAM"
+   ],
+   "copyStart": "চট্টগ্রামের IELTS পরীক্ষার্থীদের জন্য Everyone is a Winner with IDP IELTS! 🏆 \nএবার জিতুন দুইভাবে—Registration-এর সাথেই বুঝে নিন আপনার জয়ের উপহারগুলো!\nপান 100+ P"
+  }
+ ]
+}

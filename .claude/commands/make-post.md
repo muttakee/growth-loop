@@ -15,8 +15,9 @@ If the last word is `posted`, mark that post as posted instead (step 6).
    be `approved`, `content-ready` or `content-approved`. If it is `draft`, stop.
 3. **Make the post:** run the **content-creator** sub-agent (with the human's feedback, if any),
    then the **reviewer**. At most 2 fix rounds; if it still fails, stop and show the failed checks.
-4. **Render the media** (image, carousel, reel): `node media/render.mjs <post file>` (in the cloud
-   container set `CHROME_PATH=/opt/pw-browsers/chromium`) and check it as in `/make-week` step 4.
+4. **Render the media** (image, carousel, reel): in `studio/`, for a reel first
+   `node voiceover.mjs <slug> <week> <file>`, then `node render.mjs <slug> <week> <file>`, and check
+   it as in `/make-week` step 4.
 5. **Set the post `ready`** in `plan.md` and show it to the human (caption, hashtags, media).
    If the week was `content-approved`, set it back to `content-ready` and ask the human to approve
    this changed post. Commit: `Content: <slug> <week> <file>`.

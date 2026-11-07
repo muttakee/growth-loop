@@ -16,15 +16,15 @@ Arguments: `$ARGUMENTS`. The first is the brand slug, and the optional second is
 3. **List the posts to make:** every row in the calendar with `Post status: planned`, in calendar
    order (Mon 01, Mon 02, Tue 01, ...). Posts already `ready` are kept unless the human asks to
    remake them. Tell the human how many posts will be made.
-4. **For each post, one after another** (in order, so reel themes rotate and posts don't repeat
+4. **For each post, one after another** (in order, so posts don't repeat
    each other):
    1. Run the **content-creator** sub-agent with slug, week and file.
    2. Run the **reviewer** sub-agent. If it fails, run the content-creator with the review notes,
       then the reviewer again. **At most 2 fix rounds.** If it still fails, mark the post as
       failed in your summary, leave it `planned`, and go on to the next post.
-   3. **Render the media** (image, carousel, reel): `node media/render.mjs <post file>` (run
-      `npm ci` in `media/` first if `node_modules` is missing; in the cloud container set
-      `CHROME_PATH=/opt/pw-browsers/chromium`). Check the result: open the images; for a reel,
+   3. **Render the media** (image, carousel, reel): in `studio/` (run `npm ci` first if
+      `node_modules` is missing), for a reel first `node voiceover.mjs <slug> <week> <file>`, then
+      `node render.mjs <slug> <week> <file>`. Reels must pass `docs/video-rules.md`. Check the result: open the images; for a reel,
       look at a few frames (`ffmpeg -ss <s> -i <mp4> -frames:v 1 <png>`). If text is cut off,
       overlaps or the Bangla looks broken, send it back to the content-creator (counts as a fix round).
    4. Set the post's `Post status` to `ready` in `plan.md`. Commit:

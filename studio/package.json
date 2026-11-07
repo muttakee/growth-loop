@@ -1,0 +1,25 @@
+{
+  "name": "growthloop-studio",
+  "version": "1.0.0",
+  "scripts": {
+    "render": "node render.mjs",
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@fontsource/hind-siliguri": "5.1.1",
+    "@fontsource/plus-jakarta-sans": "5.1.1",
+    "@remotion/bundler": "4.0.290",
+    "@remotion/cli": "4.0.290",
+    "@remotion/renderer": "4.0.290",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.290"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  },
+  "type": "module",
+  "private": true
+}

@@ -158,6 +158,10 @@
 
 <!-- How we sound: e.g. friendly, expert, encouraging. Words and phrases we use and avoid -->
 
+### Posting frequency
+
+- **Posts per day:** 2 (14 a week) <!-- default; change per brand -->
+
 ### Visuals and audio
 
 - **Logo placement:** (e.g. bottom-right corner, small)

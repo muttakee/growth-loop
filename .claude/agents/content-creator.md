@@ -30,17 +30,18 @@ You make **one post** (`/make-week` calls you once per post of the week). You ge
    every section; write "none" where a section doesn't apply.
 3. Audience-facing text (hook, caption, CTA, on-screen text, voiceover, reply guide) follows the
    brief's language rules exactly. Everything else is English.
-4. List every fact you used with its source under "Facts and sources used".
-5. **Media spec** (image, carousel and reel posts): write the JSON block under "## Media spec"
-   as described in `media/README.md`. Copy `style` from the brief (colours, fonts, logo and photo
-   file names and positions). The on-screen text in the spec must match "On-screen content".
-   Carousels: 3–8 cards, one idea per card, last card is the call to action.
-   Reels: set `"theme"` from the brief's **Reel themes** (`"random"` if the brief says random,
-   plus `"themes": [...]` if it limits the list). Never pick the theme yourself; the renderer does.
-   Use `kicker`, `headline` and `text` blocks in each scene.
-6. **Reels are silent** (no voiceover for now): the on-screen text must carry the whole message.
-   3–8 scenes, 2–4 seconds each, 15–30 seconds in total, short lines that can be read in time
-   (about 3 words per second at most). Write "none (silent reel)" under "Voiceover script".
+4. List every fact you used with its source under "Facts and sources used". A fact about the
+   brand's own product (a test's length, features, prices) must come from the brief or the brand's
+   website, never from general knowledge about the category (e.g. official exam timings).
+5. **Render spec** (image, carousel and reel posts): write `weeks/<week>/content/<file>.render.json`
+   in the schema in `studio/README.md`. The look (colours, fonts, logo, voice) comes from the brand's
+   `assets/theme.json`, never from the spec. The on-screen text must match "On-screen content" exactly.
+   Carousels: 3–8 slides, one idea per slide, last slide is the call to action.
+   Name any screenshot, footage or audio the team must supply; they go in `content/media-inputs/<file>/`.
+6. **Reels** follow `docs/video-rules.md`: every scene has a `say` line (the voiceover, in the brief's
+   language rules, written in "Voiceover script" too), on-screen text that matches it, and a visual:
+   footage, a screenshot, or an `illustration` from the library. No empty scenes. 5–9 scenes, 25–45
+   seconds in total (the voiceover may lengthen scenes to fit the speech).
 7. Set `Review: pending`. Don't change `plan.md`; `/make-post` does that.
 
 ## Remaking after human feedback
@@ -85,6 +86,6 @@ paragraphs and one clear CTA. (Hook first, brand voice, short lines.)
 - [ ] Language and voice follow the brief; reads naturally
 - [ ] No invented proof, no unconfirmed facts, no no-go topics, no copied wording
 - [ ] Every fact has a source
-- [ ] Media spec (image, carousel, reel) is valid JSON, style matches the brief, text matches On-screen content
-- [ ] Reels: silent-friendly, every scene readable in its time
+- [ ] Render spec (image, carousel, reel) is valid JSON as in `studio/README.md`; text matches On-screen content
+- [ ] Reels: every scene has a `say` line and a visual (footage, screenshot or illustration), per `docs/video-rules.md`
 - [ ] `Review: pending`

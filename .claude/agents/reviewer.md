@@ -34,11 +34,13 @@ You are the brand's last check before a post goes out. You get a **brand slug**,
 8. **Originality:** no hook or line copied from a competitor post in the research.
 9. **Completeness:** every template section is filled; hook is in the first line; 3–8 hashtags;
    one clear CTA; visual brief follows the brief's colours, fonts and logo placement.
-10. **Media spec** (image, carousel, reel): valid JSON as in `media/README.md`; `style` matches
-    the brief (colours, fonts, logo and photo placement, and reel theme per the brief's Reel themes:
-    `"random"` is correct when the brief says random); the text matches "On-screen content".
-    Reels: the message works with no sound, and each scene is short enough to read in its time
-    (about 3 words per second at most).
+10. **Render spec** (image, carousel, reel): `<file>.render.json` is valid JSON as in `studio/README.md`,
+    and its text matches "On-screen content". Reels pass `docs/video-rules.md`: every scene has a
+    `say` line matching the Voiceover script, on-screen text that follows the speech, and a visual
+    (footage, screenshot or illustration); no empty scene.
+11. **Brand-site facts:** a fact about the brand's own product (a test's length, features, prices)
+    that only matches general category knowledge (e.g. official exam timings) fails; it must match
+    the brief or the brand's website.
 
 ## Output
 

@@ -1,0 +1,29 @@
+{
+  "format": "image",
+  "slides": [
+    {
+      "variant": "content",
+      "headline": "Fee কত? এক কার্ডেই সব দাম।",
+      "table": [
+        {
+          "title": "IELTS Mock Test (Academic)",
+          "rows": [
+            { "label": "Listening Test 01–02", "value": "FREE" },
+            { "label": "Listening / Reading / Writing test", "value": "৳২০ প্রতিটা", "old": "৳৫০" },
+            { "label": "Speaking test", "value": "৳৫০" },
+            { "label": "Reading Bundle (১০টা test)", "value": "৳১৫০", "old": "৳৫০০" }
+          ]
+        },
+        {
+          "title": "Course",
+          "rows": [
+            { "label": "IELTS 101 live class", "value": "FREE" },
+            { "label": "SpeakUp: 30 Day Speaking Challenge", "value": "৳১৯৯", "old": "৳৪৯৯" }
+          ]
+        }
+      ],
+      "note": "Mock test-গুলো Academic। General Training দিবে? আমাদের IELTS course-এ Academic আর General দুটোই আছে।",
+      "button": "vasha.ac/en/ielts-mock"
+    }
+  ]
+}

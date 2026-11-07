@@ -1,0 +1,76 @@
+{
+ "actor": "scraper_one/facebook-posts-search",
+ "target": "IELTS mock test",
+ "runId": "5HbW1ByZAfuzFUlhG",
+ "status": "SUCCEEDED",
+ "costUsd": 0.0401,
+ "items": 20,
+ "collected": "2026-11-04",
+ "note": "Group posts and author names removed (privacy). Metrics only.",
+ "pagePosts": [
+  {
+   "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02aNJXEYhsACie9YAgQZnmACnb2zyw3ffaS1ekY2vqdJ2w9SGEDm1JXQRUuDCrS4N1l&id=61577233112796",
+   "date": "2026-11-04",
+   "reactions": 43,
+   "comments": 2,
+   "shares": 1
+  },
+  {
+   "url": "https://www.facebook.com/IELTSListeningOfficial/posts/pfbid025MbNyqkQqoz1uetK4c7aWcyMNG8zQyv82NrB3h5pXB9T2XHA9WNkxuDCKuivDoFel",
+   "date": "2026-11-04",
+   "reactions": 13,
+   "comments": 1,
+   "shares": 16
+  },
+  {
+   "url": "https://www.facebook.com/undergradstoriesbd/posts/pfbid02D5uDPnwFoTCr1dqV62XZxp6v7beVAAgEKDz9Q4kBkLyJqAeJeZj5xGZXgCBRfVaql",
+   "date": "2026-11-04",
+   "reactions": 34,
+   "comments": 23,
+   "shares": 35
+  },
+  {
+   "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid036A7gaxNEu3pt3zq3GS4GHUCLWwPnTj6UrvPgCoRMbAPve7SydoXTr96gw9ZbcBT4l&id=100089778167831",
+   "date": "2026-11-04",
+   "reactions": 13,
+   "comments": 2,
+   "shares": 1
+  },
+  {
+   "url": "https://www.facebook.com/HexasHeadOffice/posts/pfbid02NjGv7rgtuf239bzCTbYKuMbKJ7NakL749brtDw9vPhTRdsrAXkVjYy6NQAS3mr24l",
+   "date": "2026-11-04",
+   "reactions": 0,
+   "comments": 0,
+   "shares": 1
+  },
+  {
+   "url": "https://www.facebook.com/rcescox/posts/pfbid02z4Vb4iXzqMYLhGhBmxkpGcWgEHehaNbnYatasYHWMpoSLaiULh7rohNaWm3ygJj7l",
+   "date": "2026-11-04",
+   "reactions": 7,
+   "comments": 0,
+   "shares": 0
+  },
+  {
+   "url": "https://www.facebook.com/BIIC.COM.BD/posts/pfbid02uAf39yyk1BeoTLSsRYUjsRN1RYbrY84Um8gVohecvDfJHPLUbBvdHsstq8XktGngl",
+   "date": "2026-11-04",
+   "reactions": 3,
+   "comments": 0,
+   "shares": 3
+  },
+  {
+   "url": "https://www.facebook.com/futureed.ieltsbritishcouncilbd/posts/pfbid0XTuGRFoZ3dnncw5xjEcvZVnRLtnukD94WgsZj9rskiVXWAV4DYTzoJe2T5819GXTl",
+   "date": "2026-11-04",
+   "reactions": 0,
+   "comments": 1,
+   "shares": 1
+  },
+  {
+   "url": "https://www.facebook.com/atm.mahmud.2/posts/pfbid02pPoskDj4ax5SeY25A2jjX5LXaJ7bB8W5aEW2d6JKhCnXWdVPj2BxVXKwSqCme3z4l",
+   "date": "2026-11-04",
+   "reactions": 28,
+   "comments": 2,
+   "shares": 1
+  }
+ ],
+ "groupPostsDropped": 11
+}

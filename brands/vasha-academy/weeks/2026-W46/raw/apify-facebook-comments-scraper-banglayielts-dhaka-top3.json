@@ -1,0 +1,36 @@
+{
+ "actor": "apify/facebook-comments-scraper",
+ "target": "banglayielts-dhaka-top3",
+ "runId": "WWcy6eoY0hSumFacb",
+ "status": "SUCCEEDED",
+ "costUsd": 0.1485,
+ "items": 59,
+ "collected": "2026-11-04",
+ "posts": {
+  "https://www.facebook.com/BanglayIELTSDhaka/posts/pfbid02dSCuphAjUYqz3pt5N4cdUoyiQbe5obDc12EgP2ttxujAntwTm9j2MYizj5AzVtQcl": {
+   "commentsCollected": 4,
+   "safeTexts": [
+    "Online spoken English & Basic Grammar কোর্সে ভর্তি হতে চাই, ডিটেলস টা জানান+ কবে থেকে শুরু",
+    "Course fee koto?"
+   ]
+  },
+  "https://www.facebook.com/BanglayIELTSDhaka/posts/pfbid0ZxPPsPKPHEKSrtRz3McsaAj1jpEkfR2JXNtPq19hzjGMPq7EHbY7Xd1ogMxxPcpfl": {
+   "commentsCollected": 5,
+   "safeTexts": [
+    "কোর্স ফি কত",
+    "কোর্স ফি?",
+    "কোর্স ফি কত",
+    "কোর্স ফি?"
+   ]
+  },
+  "https://www.facebook.com/reel/2466899444071263/": {
+   "commentsCollected": 50,
+   "safeTexts": [
+    "Ami nijei HSC-2026...peray asi...😅",
+    "4.33 এ যাত্রায় বেঁচে গেছি,,😁🤣🤣",
+    "কে কে পাস করছেন হাত তোলেন🙂"
+   ]
+  }
+ },
+ "note": "Commenter names, profile links and any comment text containing names/tags were dropped. Reel comments: most of the 50 collected tag friends by name (counted manually, not stored)."
+}

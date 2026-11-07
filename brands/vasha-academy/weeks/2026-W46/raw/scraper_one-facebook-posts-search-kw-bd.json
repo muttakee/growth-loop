@@ -1,0 +1,111 @@
+{
+ "actor": "scraper_one/facebook-posts-search",
+ "target": "IELTS Bangladesh",
+ "runId": "rNxIt3kcSz2CL7S53",
+ "status": "SUCCEEDED",
+ "costUsd": 0.044,
+ "items": 20,
+ "collected": "2026-11-04",
+ "note": "Group posts and author names removed (privacy). Metrics only.",
+ "pagePosts": [
+  {
+   "url": "https://www.facebook.com/ielts.narayangonj.1/posts/pfbid0374Y6LEe4WiEpc3KkqBNer7C3yxSxGZFfmoPUhQ369YPyfJv5eKjBpdjdDJHyo7Q2l",
+   "date": "2026-11-01",
+   "reactions": 90,
+   "comments": 1,
+   "shares": 1
+  },
+  {
+   "url": "https://www.facebook.com/ielts2abroadbd/posts/pfbid02kgZAoXWAw21VUAFEyvWNMAZcMvo2tVdyWRfoYAXsQ5osUJwcLsy1xPetMbLoXUvjl",
+   "date": "2026-10-04",
+   "reactions": 11,
+   "comments": 0,
+   "shares": 3
+  },
+  {
+   "url": "https://www.facebook.com/BanglayIELTS.CTG/posts/pfbid022zyK6JaMTG3xzTv8hUchTZ68uWUQXHuTTzv4A4rMZcKHGbSmYCCh38LvwyrNNMkMl",
+   "date": "2025-12-14",
+   "reactions": 966,
+   "comments": 27,
+   "shares": 10
+  },
+  {
+   "url": "https://www.facebook.com/AccentExpertIC/posts/pfbid0qvNxfoiSvaXuqz6RVQgMDsSrvqK4sFeczFuc2pDdfhPLf6dZt4kSVUovxhWWALpol",
+   "date": "2026-11-03",
+   "reactions": 21,
+   "comments": 4,
+   "shares": 1
+  },
+  {
+   "url": "https://www.facebook.com/sayadul.islam.consultant/posts/pfbid02tPfMSV2bWudFcmhVvDGBhCy9D5Xv722RA3gz65knWdLwP6rVsFe4dtJsZdhWqqkEl",
+   "date": "2026-11-04",
+   "reactions": 12,
+   "comments": 3,
+   "shares": 1
+  },
+  {
+   "url": "https://www.facebook.com/Laboratorian/posts/pfbid0ghuTDx3RV8d9KNFr1rhtrdyTUy8ri82kUdpZjQytxHyzPw6wQVhcwhAzw4ur1pdDl",
+   "date": "2026-11-03",
+   "reactions": 121,
+   "comments": 16,
+   "shares": 0
+  },
+  {
+   "url": "https://www.facebook.com/MahafujsirIELTS/posts/pfbid02nTRzqg6yHxmwVcvuES1JgpNWVsfLx6mqADVaYprUxcyxquuFTHJv5oHuFFDTvswfl",
+   "date": "2026-11-04",
+   "reactions": 61,
+   "comments": 148,
+   "shares": 4
+  },
+  {
+   "url": "https://www.facebook.com/IELTSProfessor/posts/pfbid07Asa3CaDPAf3UoLw4oztvPt6rbz826HYM1YWB2nP3nkARMt479royfViUN6z8JSql",
+   "date": "2026-08-10",
+   "reactions": 962,
+   "comments": 217,
+   "shares": 207
+  },
+  {
+   "url": "https://www.facebook.com/IGeducationBD/posts/pfbid08GKnKRMUSgigNjmzSq17fdd9BwkGrDvsfYq1nta1iZia8CugPA6DY1XtbJNqqh6Sl",
+   "date": "2026-11-03",
+   "reactions": 17,
+   "comments": 3,
+   "shares": 1
+  },
+  {
+   "url": "https://www.facebook.com/elcentrebd/posts/pfbid0fcfz1qh1oPS7w12gF7EtZZAjrC6f4NsnK4kwJgCwEMnnEaf3Rr5cg45ELLYXuppel",
+   "date": "2026-11-02",
+   "reactions": 12,
+   "comments": 2,
+   "shares": 0
+  },
+  {
+   "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02LGs8waWnKB88KsrpzJeeWYfp28GieskyvR33p6JEfem21GTq8Lnki59wbpsLijRvl&id=61577307159014",
+   "date": "2026-08-20",
+   "reactions": 18,
+   "comments": 1,
+   "shares": 4
+  },
+  {
+   "url": "https://www.facebook.com/IELTSProfessor/posts/pfbid0DXTT1CoadUtN4hRo2Kex5SPTPNea3sv4xKi4R7yBkGcQdKHQ3C3J2tKJAi2nhhLgl",
+   "date": "2026-07-21",
+   "reactions": 1782,
+   "comments": 17,
+   "shares": 4
+  },
+  {
+   "url": "https://www.facebook.com/rashed.banglayielts/posts/pfbid02qaW5XhTJXmsb6ES6MotVESqnbS683vQWdsSi7nJXmTxeR8PWySbpqe9YNKmQmhBUl",
+   "date": "2026-09-23",
+   "reactions": 199,
+   "comments": 8,
+   "shares": 12
+  },
+  {
+   "url": "https://www.facebook.com/abroadstudyltd.cumilla/posts/pfbid02gKWtHBRTjhDS37CTzdR4VSbAmTHZXumka9UosGuZnAHPQJirQd1sJvhUXDBWNEznl",
+   "date": "2026-11-03",
+   "reactions": 13,
+   "comments": 1,
+   "shares": 2
+  }
+ ],
+ "groupPostsDropped": 6
+}

@@ -1,0 +1,177 @@
+{
+ "actor": "apify/facebook-posts-scraper",
+ "target": "page-identity-check",
+ "runId": "0JfqwwhdLfFRysxvn",
+ "status": "SUCCEEDED",
+ "costUsd": 0.061,
+ "items": 15,
+ "collected": "2026-11-04",
+ "errors": [],
+ "posts": [
+  {
+   "page": "futureed.ieltsbritishcouncilbd",
+   "url": "https://www.facebook.com/futureed.ieltsbritishcouncilbd/posts/pfbid0XTuGRFoZ3dnncw5xjEcvZVnRLtnukD94WgsZj9rskiVXWAV4DYTzoJe2T5819GXTl",
+   "date": "2026-11-04",
+   "reactions": 0,
+   "comments": 1,
+   "shares": 1,
+   "views": null,
+   "isVideo": false,
+   "hook": "🚀 Ready to ace your IELTS?\n\nJoin our Free IELTS Masterclass at British Council's 1st & Largest IELTS Testing Center on 12th November, 2026 a"
+  },
+  {
+   "page": "futureed.ieltsbritishcouncilbd",
+   "url": "https://www.facebook.com/futureed.ieltsbritishcouncilbd/posts/pfbid0c1rzf6zpv2L4qxyG4UBaWyZxSdKagyqApC8QmcVP2zoAsXxWfsER7i7e9guubuHFl",
+   "date": "2026-11-04",
+   "reactions": 2,
+   "comments": null,
+   "shares": 1,
+   "views": null,
+   "isVideo": false,
+   "hook": "যারা মাত্র দুইমাস IELTS প্রিপারেশন নিয়ে একটা ভালো IELTS স্কোর করতে চান, IELTS Regular কোর্স তাদের জন্য!\n\n👉IELTS Regular কোর্স\n🗓️ ক্লাস শুরু:"
+  },
+  {
+   "page": "futureed.ieltsbritishcouncilbd",
+   "url": "https://www.facebook.com/futureed.ieltsbritishcouncilbd/posts/pfbid02UmjKYDdg3hLo3kHGwh5HZdMo6BoYgf6C9XzUYQS9UJtu333ifk21gmy8gktcpmeml",
+   "date": "2026-11-04",
+   "reactions": 3,
+   "comments": null,
+   "shares": 1,
+   "views": null,
+   "isVideo": false,
+   "hook": "🎯 একদম বেসিক থেকে IELTS এর প্রস্তুতি নিতে চাচ্ছেন? চিন্তা নেই! 💡 দুর্বল English Foundation নিয়েও First Attempt এই 7+ পাওয়ার সুযোগ আছে! 🚀\n\n"
+  },
+  {
+   "page": "onmock",
+   "url": "https://www.facebook.com/onmock/posts/pfbid02bSLLffPrUaocJ7ReLUazwBoXABxyVrLCP2roTGvEhhkcbF6rZ2vUKBd3LUrUdMVFl",
+   "date": "2026-10-18",
+   "reactions": 7,
+   "comments": null,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": "OnMock finds your mistakes, tells you how to improve, and tracks your progress, all in one place. \n\nSupercharge your IELTS prep:  www.onmock"
+  },
+  {
+   "page": "onmock",
+   "url": "https://www.facebook.com/onmock/posts/pfbid0295ijYvNQ63bH62aceyNAWMi8C9pszj3ihCzaXLtf6sUChAnv6i8gPHVXab5AZEMql",
+   "date": "2026-10-12",
+   "reactions": 7,
+   "comments": 1,
+   "shares": 1,
+   "views": null,
+   "isVideo": false,
+   "hook": "[redacted: names a private individual]"
+  },
+  {
+   "page": "onmock",
+   "url": "https://www.facebook.com/onmock/posts/pfbid02GEAyJ3b7FJcs9eteeejXmd8KqfVWFctjj3uEz31Zgea9AazSEJDDfCh2Gi1Sidorl",
+   "date": "2026-09-22",
+   "reactions": 9,
+   "comments": null,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": "\"আমি ভেবেছিলাম ফ্ল্যাটার করছে ইউজারকে খুশি করতে...\"\nসত্যি বলতে, এই সন্দেহটা অনেকেরই থাকে। AI কি আসলেই ঠিকঠাক মার্ক করে, নাকি শুধু ভালো স্কোর"
+  },
+  {
+   "page": "bandscore9",
+   "url": "https://www.facebook.com/bandscore9/posts/549734671869085",
+   "date": "2016-02-25",
+   "reactions": 5,
+   "comments": 2,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": "ميتوانيد اجناسي را كه در كانال ما موجود ميباشد هرزمان سفارش دهيد و هنگام سفارش قيمت رنگبندي سايز و ساير ايتم هاي مورد نظر خود را بيان نموده "
+  },
+  {
+   "page": "bandscore9",
+   "url": "https://www.facebook.com/bandscore9/posts/396316067210947",
+   "date": "2015-01-19",
+   "reactions": 10,
+   "comments": 1,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": "QQ international انگليسي رو توي اين لينكها اپلودكردم ميتونيد با واردشدن به لينك هاي زيرنصب كنيد به هيچي اضافه هم نياز نداريد به دوستاتون هم "
+  },
+  {
+   "page": "bandscore9",
+   "url": "https://www.facebook.com/photo/?fbid=264728577036364&set=a.663991375775198",
+   "date": "2014-03-02",
+   "reactions": 29,
+   "comments": null,
+   "shares": 2,
+   "views": null,
+   "isVideo": false,
+   "hook": "Hair Style"
+  },
+  {
+   "page": "Future-ED-Bangladesh",
+   "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid022zXyZVZFjjiSYx4La3FEA4bev8T4qaJw8Qa9oB4HBkqU1sFFN2RtXA3KTbrLpqxBl&id=100069727121387",
+   "date": "2019-02-04",
+   "reactions": 1,
+   "comments": null,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": ""
+  },
+  {
+   "page": "Future-ED-Bangladesh",
+   "url": "https://www.facebook.com/100069727121387/videos/275746426423613/",
+   "date": "2018-12-25",
+   "reactions": 1,
+   "comments": null,
+   "shares": 0,
+   "views": 27,
+   "isVideo": true,
+   "hook": "SEGi University"
+  },
+  {
+   "page": "Future-ED-Bangladesh",
+   "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid034BZ82Mef3AdHYCW3SXGtfLsk1ePy7qsL5Efms7RZyUyevXnbBtFGdNZiuDPd98Hsl&id=100069727121387",
+   "date": "2018-12-20",
+   "reactions": 5,
+   "comments": null,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": "Walk in SEGi University\n#Beautiful_Campus\n#Scholarship \nApply now"
+  },
+  {
+   "page": "bandscores9",
+   "url": "https://www.facebook.com/bandscores9/posts/pfbid0xQAsTx7qc9PG3MfeDgBoNZzLj3TMSgufYZQWEq9ytH2Mw4K3dJuwD1UtJPDx1c8Kl",
+   "date": "2025-08-03",
+   "reactions": 0,
+   "comments": null,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": "IELTS-এ ভালো লিখতে হলে, গ্রামারের দুর্বলতা দূর করতেই হবে।\n\nCaption:\nBandscore9 এর AI তোমার ভুল ধরা, ঠিক করা—দুইটাই করে।\n🧠 Grammar ফিডব্যাক |"
+  },
+  {
+   "page": "bandscores9",
+   "url": "https://www.facebook.com/bandscores9/posts/pfbid02WH6fnMRNjyH4pfSThhqPauQvrUszADvPLbskLKoNkY9pBMB2rDfU1oWoLWDdvdZdl",
+   "date": "2025-08-02",
+   "reactions": 0,
+   "comments": null,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": "Practice like it's exam day—with AI that scores and corrects like an examiner.\n🕐 Full speaking part drills | 📊 Feedback that improves | 📈 Tr"
+  },
+  {
+   "page": "bandscores9",
+   "url": "https://www.facebook.com/bandscores9/posts/pfbid033nWcFbQD9jD7Vv77w9Ns7H8kJ6yi9v5JKvmj2ja9ZeT1fb42ayeVFBGZdwpzzAKXl",
+   "date": "2025-08-01",
+   "reactions": 0,
+   "comments": null,
+   "shares": 0,
+   "views": null,
+   "isVideo": false,
+   "hook": "Don’t just keep practicing—start fixing.\nBandscore9’s AI tells you where you're weak—grammar, fluency, or pronunciation.\n🎯 Instant feedback "
+  }
+ ]
+}
