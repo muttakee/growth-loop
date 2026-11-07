@@ -105,6 +105,10 @@ All of Bangladesh, mainly Dhaka, Chattogram and Sylhet.
 - A friendly older sibling: encouraging and practical.
 - **Avoid:** "guaranteed band" (and any similar promise of a score).
 
+### Posting frequency
+
+- **Posts per day:** 2 (14 a week), on the Facebook Page.
+
 ### Visuals and audio
 
 - **Logo placement:** top-left.

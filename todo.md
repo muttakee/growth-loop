@@ -46,6 +46,8 @@ is agreed with the user. When it's finished, the items are ticked and committed.
   **Budget: max $5 per brand per week** (test level). Fallbacks: web search, then the week's `inputs/` folder.
 - **Weekly `inputs/` folder:** the user can drop competitor links or screenshots into
   `weeks/<week>/inputs/`. The Researcher uses them too.
+- **Posting frequency:** 2 posts a day, 14 a week, per brand (set in the brief's "Posting frequency").
+  Mix about 50% educate, 25% trust, 25% sell. Commands: `/plan-week` and `/approve-plan`.
 - **Internal file language:** English for briefs, memory, personas and plans. Posts follow each
   brand's own language rules.
 
@@ -77,10 +79,10 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Test run for 2026-W46, done on the real brand `vasha-academy` instead of the sample
   (Apify via its API, $1.34 of $5)
 
-## 4. Planning and content ← next (plan to be agreed)
+## 4. Planning and content ← in progress
 
-- [ ] Planner agent (balanced 7-day calendar that mixes educate, trust and sell posts)
-- [ ] Approval step (the user approves the plan or sends it back with changes)
+- [x] Planner agent (balanced 7-day calendar, 14 posts, educate/trust/sell mix) and `/plan-week`
+- [x] Approval step `/approve-plan` (the user approves the plan or sends it back with changes)
 - [ ] Content Creator agent (hooks, scripts, captions, hashtags, calls to action)
 - [ ] Reviewer agent (checks every post against the brand brief and the language rules)
 - [ ] Confirm the video tool, then set up reel templates

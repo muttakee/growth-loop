@@ -57,7 +57,9 @@ That way the content is ready before the current week ends and posting never has
   to the paths in the table above, so the next agent (and the user) can see exactly what was passed on.
 - Before handing off, an agent checks its own output against its checklist.
 - Slash commands live in `.claude/commands/`: `/setup-brand` (add a brand) and
-  `/research-week <brand>` (Researcher, then Targeting Strategist).
+  `/research-week <brand>` (Researcher, then Targeting Strategist), `/plan-week <brand>` (Planner) and
+  `/approve-plan <brand>` (approve, or send back with changes).
+- **Posting frequency:** 2 posts a day (14 a week) unless the brand's brief says otherwise.
 - **Apify:** the Researcher uses it for public Facebook/Instagram data only, with a budget of
   **$5 per brand per week**. No private groups or profiles, no logins, no commenter names stored.
 
