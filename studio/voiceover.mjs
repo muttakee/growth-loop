@@ -32,15 +32,35 @@ const duration = (f) =>
   Number(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]).toString());
 
 // curl honours the HTTPS proxy settings (Node's fetch does not).
+// Returns the words of the line with start/end times in seconds, for synced captions.
 const speak = async (text, file) => {
   const body = JSON.stringify({ text, model_id: voice.model, language_code: voice.language });
+  const json = file + ".json";
   const code = execFileSync("curl", [
-    "-sS", "-o", file, "-w", "%{http_code}", "-X", "POST",
+    "-sS", "-o", json, "-w", "%{http_code}", "-X", "POST",
     "-H", `xi-api-key: ${key}`, "-H", "Content-Type: application/json",
     "--data-binary", body,
-    `https://api.elevenlabs.io/v1/text-to-speech/${voice.voiceId}?output_format=mp3_44100_128`,
+    `https://api.elevenlabs.io/v1/text-to-speech/${voice.voiceId}/with-timestamps?output_format=mp3_44100_128`,
   ]).toString();
-  if (code !== "200") throw new Error(`ElevenLabs ${code}: ${fs.readFileSync(file, "utf8").slice(0, 300)}`);
+  if (code !== "200") throw new Error(`ElevenLabs ${code}: ${fs.readFileSync(json, "utf8").slice(0, 300)}`);
+  const res = JSON.parse(fs.readFileSync(json, "utf8"));
+  fs.writeFileSync(file, Buffer.from(res.audio_base64, "base64"));
+  const a = res.alignment;
+  const words = [];
+  let cur = null;
+  a.characters.forEach((ch, i) => {
+    if (/\s/.test(ch)) {
+      cur = null;
+      return;
+    }
+    if (!cur) {
+      cur = { w: "", s: a.character_start_times_seconds[i], e: 0 };
+      words.push(cur);
+    }
+    cur.w += ch;
+    cur.e = a.character_end_times_seconds[i];
+  });
+  return words.map((x) => ({ w: x.w, s: Math.round(x.s * 100) / 100, e: Math.round(x.e * 100) / 100 }));
 };
 
 const ids = fs
@@ -66,7 +86,7 @@ for (const id of ids) {
       continue;
     }
     const f = path.join(tmp, `scene-${String(i + 1).padStart(2, "0")}.mp3`);
-    await speak(s.say, f);
+    s.words = await speak(s.say, f);
     const d = duration(f);
     if (d + PAD > s.seconds) s.seconds = Math.ceil((d + PAD) * 10) / 10;
     parts.push(f);

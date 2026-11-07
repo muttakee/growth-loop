@@ -37,6 +37,8 @@ export type Scene = {
   text: string; // on-screen text
   sub?: string;
   background?: string; // image or video file inside media-inputs; empty = brand colour
+  say?: string; // spoken line (voiceover.mjs)
+  words?: { w: string; s: number; e: number }[]; // word timings from voiceover.mjs, seconds from scene start
 };
 
 export type Job = {
