@@ -1,6 +1,7 @@
 # Weekly Plan: Vasha Academy, 2026-W46
 
-Status: draft
+Status: approved
+Approved: 2026-11-07 by the user (as drafted: price card pinned, link-only CTAs, no course start date, 4 instructor Reels + 1 voiceover)
 
 - **Dates:** Mon 9 Nov to Sun 15 Nov 2026 (all times Bangladesh time, BST/UTC+6)
 - **Channel:** Facebook Page only (https://www.facebook.com/vasha.ac). No Instagram or personal profile this week, per `brief.md`.
