@@ -1,13 +1,13 @@
 # sun-02-image: Single image, Sun 15 Nov 22:30
 
-Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** sell
 - **Persona:** Sakib (Persona 3, retaker)
 - **Angle / experiment:** Angle 5 (Writing criterion breakdown; ৳20 Writing mock, soft mention of the live course)
 - **Product and link:** ৳20 Writing mock: https://vasha.ac/en/ielts-mock. Secondary: IELTS with Nishi & Kamil
-  (৳15,000, 8 weeks), https://vasha.ac/en/courses
+  (৳15,000, 8 weeks), https://vasha.ac/en/courses/18/ielts-live
 
 ## Hook
 
@@ -45,7 +45,7 @@ Vasha-র Writing mock-এ:
 
 👉 https://vasha.ac/en/ielts-mock
 
-পরের ধাপে live class চাইলে: IELTS with Nishi & Kamil, ৮ সপ্তাহ, ৳১৫,০০০। বিস্তারিত: https://vasha.ac/en/courses
+পরের ধাপে live class চাইলে: IELTS with Nishi & Kamil, ৮ সপ্তাহ, ৳১৫,০০০। বিস্তারিত: https://vasha.ac/en/courses/18/ielts-live
 
 ## Hashtags
 
@@ -54,7 +54,7 @@ Vasha-র Writing mock-এ:
 ## Call to action
 
 Primary: take a ৳20 Writing mock at https://vasha.ac/en/ielts-mock (link only; no WhatsApp). Secondary, soft: the
-IELTS with Nishi & Kamil course at https://vasha.ac/en/courses (no start date).
+IELTS with Nishi & Kamil course at https://vasha.ac/en/courses/18/ielts-live (no start date).
 
 ## Visual and production brief
 
@@ -74,7 +74,7 @@ IELTS with Nishi & Kamil course at https://vasha.ac/en/courses (no start date).
 - **Prices:** Writing mock ৳20; IELTS with Nishi & Kamil ৳15,000, live, 8 weeks [brief.md, Business product].
 - **"About 5 minutes", "four criteria"**: brief USP. AI result always "practice estimate" [brief.md, No-go].
 - **No course start date** (user approval note; the 16/19 Nov dates in research are competitor batches). Course link
-  https://vasha.ac/en/courses from the brief.
+  https://vasha.ac/en/courses/18/ielts-live from the brief.
 - "Target band 6.5–8" for the course is in the brief but **deliberately left out** so nothing reads as a band promise.
 - Caption avoids "আটকে আছে" (FutureEd ad wording, flagged in targeting.md).
 - No competitor, never "official", no fee figure.
@@ -99,3 +99,9 @@ Required changes:
 2. Caption: `বিস্তারিত: https://vasha.ac/en/courses` → `বিস্তারিত: https://vasha.ac/en/courses/18/ielts-live`.
 3. Call to action: `IELTS with Nishi & Kamil course at https://vasha.ac/en/courses` → `IELTS with Nishi & Kamil course at https://vasha.ac/en/courses/18/ielts-live`.
 4. Notes for the Reviewer: `Course link https://vasha.ac/en/courses from the brief` → `Course link https://vasha.ac/en/courses/18/ielts-live from the brief`.
+
+Fixed: 2026-11-07 — course link changed to https://vasha.ac/en/courses/18/ielts-live in the header, caption, Call to action and Notes for the Reviewer (required changes 1–4).
+
+**Round 2, reviewed 2026-11-07. Result: passed.** All four link fixes verified (header, caption, Call to action, Reviewer note
+use https://vasha.ac/en/courses/18/ielts-live). Course facts (৳15,000, 8 weeks, live) match brief.md; no start date; target
+band left out; "Practice estimate" label required on the image. Full re-check of checks 1–7: pass.

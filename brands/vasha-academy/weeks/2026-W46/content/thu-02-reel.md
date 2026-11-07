@@ -1,6 +1,6 @@
 # thu-02-reel: Reel, Thu 12 Nov 21:30
 
-Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** build trust
@@ -19,7 +19,7 @@ Length: about 35 seconds. Nishi or Kamil speaks to camera the whole time; screen
 picture-in-picture or quick cut-aways). Spoken lines are in Bangla, IELTS and interface terms in English.
 
 1. **0:00–0:03, hook.** Instructor close-up, looking straight at the camera.
-   - On-screen text: **প্রথমবার computer-এ IELTS?**
+   - On-screen text: **জীবনে প্রথমবার computer-এ IELTS?**
    - Spoken: "জীবনে প্রথমবার computer-এ IELTS দিবে? Exam hall-এ বসার আগেই স্ক্রিনটা নিজের হাতে চালিয়ে দেখো।"
 2. **0:03–0:09, why it matters.** Instructor, medium shot.
    - On-screen text: **স্ক্রিন চেনা থাকলে সময় বাঁচে**
@@ -38,7 +38,7 @@ picture-in-picture or quick cut-aways). Spoken lines are in Bangla, IELTS and in
    - Spoken: "নিচের bar থেকে যেকোনো প্রশ্নে চলে যেতে পারবে, পরে ফিরে এসে বাকিটা করতে পারবে।"
 7. **0:29–0:35, CTA.** Instructor back on camera; small insert of the band score screen.
    - On-screen text: **Free Listening Test 01 · Reading test ৳২০ · vasha.ac/en/ielts-mock**
-   - Spoken: "আমাদের mock দেখতে real computer-delivered IELTS-এর মতোই। Free Listening Test 01 দিয়ে শুরু করো, বা ৳২০-এ একটা Reading test। শেষ হলেই band score। Link caption-এ।"
+   - Spoken: "Submit করলেই সাথে সাথে Reading-এর band score। দেখতে একদম real computer-delivered IELTS-এর মতো। Free Listening Test 01 দিয়ে শুরু করো, অথবা মাত্র ৳২০-এ একটা Reading test দাও। Link caption-এ।"
 
 ## Caption
 
@@ -54,7 +54,7 @@ Vasha-র mock test দেখতে real computer-delivered IELTS-এর মত�
 ✅ Reading test: ৳২০
 ✅ শেষ হলেই band score
 
-আজই একবার চালিয়ে দেখো 👇
+👉 Free Listening Test 01 দিয়ে শুরু করো, অথবা মাত্র ৳২০-এ একটা Reading test দাও:
 https://vasha.ac/en/ielts-mock
 
 ## Hashtags
@@ -118,3 +118,11 @@ Required changes (so experiment 2 tests format only; `mon-02-reel` is being alig
 4. Caption: replace `আজই একবার চালিয়ে দেখো 👇` with `👉 Free Listening Test 01 দিয়ে শুরু করো, অথবা মাত্র ৳২০-এ একটা Reading test দাও:` (link line below unchanged), so the caption CTA is word for word the same as version A.
 
 Production condition: same as version A; confirm highlighting and the navigation bar exist in the Vasha Reading mock, and use the same screen clips in both Reels.
+
+Fixed: 2026-11-07 — Scene 1 on-screen text now "জীবনে প্রথমবার computer-এ IELTS?"; Scene 7 spoken line replaced with the canonical version A line; caption CTA "আজই একবার চালিয়ে দেখো 👇" replaced with "👉 Free Listening Test 01 দিয়ে শুরু করো, অথবা মাত্র ৳২০-এ একটা Reading test দাও:" (required changes 1, 2, 4). Scene 7 on-screen text kept (change 3). Production condition still open.
+
+**Round 2, reviewed 2026-11-07. Result: passed.** Scene 1 on-screen hook, Scene 7 spoken CTA and caption CTA fixed as required.
+Experiment 2 parity with `mon-02-reel` verified word for word (Hook section, on-screen hook, spoken CTA, end-card text, caption
+CTA line and link, 21:30 slot); only the presenter format and body scenes differ, as intended. "Bangladesh-এ এখন IELTS দিতে হয়
+computer-এ" re-checked: research.md (Computer-delivered only) and personas.md (IDP, from 31 Jan 2026). Full re-check of
+checks 1–7: pass. Production condition as in version A still applies.

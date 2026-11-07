@@ -1,12 +1,12 @@
 # wed-01-reel: Reel, Wed 11 Nov 18:00
 
-Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** build trust
 - **Persona:** Mim, the HSC 2026 graduate
 - **Angle / experiment:** Angle 2, light and kind post-HSC reach post (no experiment)
-- **Product and link:** free IELTS 101 live class (https://vasha.ac/en/courses), linked in the pinned comment
+- **Product and link:** free IELTS 101 live class (https://vasha.ac/en/courses/26/ielts-101), linked in the pinned comment
 
 ## Hook
 
@@ -39,7 +39,7 @@ Link প্রথম কমেন্টে 👇
 যে বন্ধুকে বাসায় এই প্রশ্ন সবচেয়ে বেশি শুনতে হচ্ছে, তাকে tag করো! 🙋
 
 **Pinned first comment (post from the Page right after publishing, then pin):**
-Free IELTS 101 live class-এ যোগ দাও 👉 https://vasha.ac/en/courses
+Free IELTS 101 live class-এ যোগ দাও 👉 https://vasha.ac/en/courses/26/ielts-101
 
 ## Hashtags
 
@@ -47,7 +47,7 @@ Free IELTS 101 live class-এ যোগ দাও 👉 https://vasha.ac/en/cours
 
 ## Call to action
 
-Tag an HSC 2026 friend; the pinned first comment links the free IELTS 101 live class (https://vasha.ac/en/courses). Link only, no messaging CTA.
+Tag an HSC 2026 friend; the pinned first comment links the free IELTS 101 live class (https://vasha.ac/en/courses/26/ielts-101). Link only, no messaging CTA.
 
 ## Visual and production brief
 
@@ -65,7 +65,7 @@ Tag an HSC 2026 friend; the pinned first comment links the free IELTS 101 live c
 
 - Original concept. Only the format (relatable clip plus tag-a-friend CTA) is inspired by research (Banglay IELTS Dhaka HSC reel); none of its wording is used, and "একটা পরীক্ষাই জীবনের সবকিছু নয়" is deliberately avoided.
 - Kindness check: no GPA, no "fail", nothing about low results; the joke is the repeated family question, not the student's result (plan rule: no jokes about failing HSC).
-- Free IELTS 101 live class: brief.md, Business product. Link is the courses page; please confirm or supply a direct IELTS 101 URL.
+- Free IELTS 101 live class: brief.md, Business product. IELTS 101 links to its direct page, https://vasha.ac/en/courses/26/ielts-101 (brief.md, Business product).
 - No band promise, no study-abroad or visa talk, no competitor named.
 - Relative's lines use casual spoken Bangla on purpose ("করবা", "দেখবা") to sound natural in a family skit.
 
@@ -88,3 +88,9 @@ Required changes:
 1. Header "Product and link": `(https://vasha.ac/en/courses)` → `(https://vasha.ac/en/courses/26/ielts-101)`.
 2. Pinned first comment: `Free IELTS 101 live class-এ যোগ দাও 👉 https://vasha.ac/en/courses` → `Free IELTS 101 live class-এ যোগ দাও 👉 https://vasha.ac/en/courses/26/ielts-101`.
 3. Call to action: `(https://vasha.ac/en/courses)` → `(https://vasha.ac/en/courses/26/ielts-101)`.
+
+Fixed: 2026-11-07 — IELTS 101 link changed to https://vasha.ac/en/courses/26/ielts-101 in the header, pinned first comment and Call to action (required changes 1–3).
+
+**Round 2, reviewed 2026-11-07. Result: passed.** All three link fixes verified (header, pinned first comment, Call to action use
+https://vasha.ac/en/courses/26/ielts-101). Full re-check of checks 1–7: pass. Non-blocking: the third Reviewer note ("Link is
+the courses page; please confirm or supply a direct IELTS 101 URL") is now stale; it is internal and not audience-facing.

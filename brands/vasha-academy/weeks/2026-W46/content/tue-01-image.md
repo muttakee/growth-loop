@@ -56,7 +56,7 @@ Course:
 
 Listening আর Reading শেষ হতেই band score। Writing আর Speaking-এর practice estimate পাবে প্রায় ৫ মিনিটে।
 
-General Training দিবে? আমাদের mock test-গুলো Academic, তবে IELTS course-এ Academic আর General দুটোই আছে: https://vasha.ac/en/courses
+General Training দিবে? আমাদের mock test-গুলো Academic, তবে IELTS course-এ Academic আর General দুটোই আছে: https://vasha.ac/en/courses/18/ielts-live
 
 👉 Mock test শুরু করো: https://vasha.ac/en/ielts-mock
 
@@ -68,7 +68,7 @@ General Training দিবে? আমাদের mock test-গুলো Academi
 
 ## Call to action
 
-Start a mock test at https://vasha.ac/en/ielts-mock (General Training candidates: https://vasha.ac/en/courses). Link only, no messaging CTA.
+Start a mock test at https://vasha.ac/en/ielts-mock (General Training candidates: https://vasha.ac/en/courses/18/ielts-live). Link only, no messaging CTA.
 
 ## Visual and production brief
 
@@ -86,7 +86,7 @@ Start a mock test at https://vasha.ac/en/ielts-mock (General Training candidates
 - All prices from brief.md, Business product ("Prices as shown on vasha.ac on 2026-11-04"): Listening/Reading/Writing ৳20 (from ৳50), Speaking ৳50, Reading Bundle 10 tests ৳150 (from ৳500), Listening Tests 01–02 free, IELTS 101 free live, SpeakUp ৳199 (from ৳499). **Please re-check on vasha.ac before posting** in case prices changed after 4 Nov.
 - "Academic only" note and the General Training line: brief.md, Business product; wording from the plan.
 - Results timing (instant L/R band, W/S practice estimate in about 5 minutes): brief.md USP.
-- The ৳15,000 Nishi & Kamil course price is not on the card because the plan didn't list it; the General Training line links to the courses page. Tell us if you want it added.
+- The ৳15,000 Nishi & Kamil course price is not on the card because the plan didn't list it; the General Training line links to the IELTS with Nishi & Kamil course page (https://vasha.ac/en/courses/18/ielts-live), whose course FAQ on vasha.ac says it is for "the IELTS Academic or General Training test" (per the main agent, 2026-11-07; brief.md also says the IELTS course covers both). Tell us if you want the price added.
 - No competitor comparison, no exam fee figure (plan rule), no band promise.
 - The card shows "৳২০" in Bangla numerals; switch to "৳20" if the design team prefers Latin numerals for prices.
 
@@ -107,3 +107,11 @@ Reviewed 2026-11-07. Result: **passed**.
 Non-blocking notes: (a) re-check prices on vasha.ac before posting, as the Creator noted. (b) The General Training line links to
 https://vasha.ac/en/courses. If the user confirms "IELTS with Nishi & Kamil" is the course that covers General Training, the
 link could be https://vasha.ac/en/courses/18/ielts-live; the courses page is accurate either way.
+
+Fixed: 2026-11-07 — General Training link changed from https://vasha.ac/en/courses to https://vasha.ac/en/courses/18/ielts-live in the caption and Call to action (source: vasha.ac course FAQ, "the IELTS Academic or General Training test"); matching Reviewer note updated. Nothing else changed (header "courses mentioned" link left as is).
+
+**Round 2, reviewed 2026-11-07. Result: passed.** General Training line in the caption and Call to action now links
+https://vasha.ac/en/courses/18/ielts-live. Fact check: brief.md says the IELTS course covers Academic and General Training, and
+the vasha.ac course FAQ (checked by the main agent) says it is for "the IELTS Academic or General Training test". No visa or
+immigration advice in the line. Prices unchanged and still match brief.md. Full re-check of checks 1–7: pass. Header
+"courses mentioned (https://vasha.ac/en/courses)" is internal and accurate; fine as is. Re-check prices on vasha.ac before posting.

@@ -1,6 +1,6 @@
 # tue-02-carousel: Carousel, Tue 10 Nov 22:30
 
-Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
@@ -55,7 +55,7 @@ All sample text below was **written by the Vasha team** for teaching. It is not 
 **Slide 6: Grammatical Range and Accuracy**
 - Headline: ৪. Grammatical Range and Accuracy
 - What it measures: grammar কতটা নির্ভুল, আর বাক্যের ধরনে কতটা বৈচিত্র্য।
-- Where it loses marks: *"government should gives money to every students"*: দুইটা ভুল (should gives, every students)। সব বাক্য একই রকম ছোট।
+- Where it loses marks: *"government should gives money to every students"*: তিনটা ভুল (government-এর আগে "The" নেই, should gives, every students)। সব বাক্য একই রকম ছোট।
 - Fix: *"The government should give financial support to every student who cannot afford tuition."* ভুল ঠিক, আর একটা complex sentence।
 - Visual: errors struck through in coral red, corrected sentence in dark green.
 
@@ -135,3 +135,10 @@ Required change:
    Change `দুইটা ভুল (should gives, every students)` → `তিনটা ভুল (government-এর আগে "The" নেই, should gives, every students)`.
 
 Instructor check (already requested by the Creator): Nishi or Kamil proof-reads the English sample, fixes and the "what it measures" lines before design.
+
+Fixed: 2026-11-07 — Slide 6 "Where it loses marks" now says তিনটা ভুল (government-এর আগে "The" নেই, should gives, every students) (required change 1).
+
+**Round 2, reviewed 2026-11-07. Result: passed.** Slide 6 error count now correct (three errors, matching the fix sentence).
+Re-checked the rest of the sample: "important" appears 3 times (Slide 5 correct); Firstly/Moreover/Furthermore are the three
+linkers (Slide 4). Practice-estimate label on Slide 7 and caption. Full re-check of checks 1–7: pass. Instructor proof-read
+still requested before design.

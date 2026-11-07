@@ -1,12 +1,12 @@
 # mon-01-carousel: Carousel, Mon 09 Nov 17:30
 
-Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
 - **Persona:** Mim, the HSC 2026 graduate
 - **Angle / experiment:** Angle 1, "HSC-র পর IELTS: শুরু করার ৩ ধাপ" (no experiment)
-- **Product and link:** free IELTS 101 live class (https://vasha.ac/en/courses) and free Listening Test 01 (https://vasha.ac/en/ielts-mock)
+- **Product and link:** free IELTS 101 live class (https://vasha.ac/en/courses/26/ielts-101) and free Listening Test 01 (https://vasha.ac/en/ielts-mock)
 
 ## Hook
 
@@ -46,7 +46,7 @@ HSC-র রেজাল্ট যেমনই হোক, সামনের র�
 
 **Slide 7 (CTA)**
 - Headline: আজকেই প্রথম ধাপটা নাও
-- Body: Free IELTS 101 class: vasha.ac/en/courses
+- Body: Free IELTS 101 class: vasha.ac/en/courses/26/ielts-101
   Free Listening Test 01: vasha.ac/en/ielts-mock
 - Visual: coral-red background, white text, logo top-left.
 
@@ -62,7 +62,7 @@ IELTS নিয়ে ভাবছো, কিন্তু কোথা থেক
 
 কোনো টাকা ছাড়াই প্রথম দুইটা ধাপ আজকেই শুরু করা যায়।
 
-👉 Free IELTS 101: https://vasha.ac/en/courses
+👉 Free IELTS 101: https://vasha.ac/en/courses/26/ielts-101
 👉 Free Listening Test 01: https://vasha.ac/en/ielts-mock
 
 পোস্টটা save করে রাখো, আর যে বন্ধুও IELTS নিয়ে ভাবছে, তাকে পাঠিয়ে দাও।
@@ -73,7 +73,7 @@ IELTS নিয়ে ভাবছো, কিন্তু কোথা থেক
 
 ## Call to action
 
-Join the free IELTS 101 live class (https://vasha.ac/en/courses) and take the free Listening Test 01 (https://vasha.ac/en/ielts-mock). Link only, no messaging CTA.
+Join the free IELTS 101 live class (https://vasha.ac/en/courses/26/ielts-101) and take the free Listening Test 01 (https://vasha.ac/en/ielts-mock). Link only, no messaging CTA.
 
 ## Visual and production brief
 
@@ -89,7 +89,7 @@ Join the free IELTS 101 live class (https://vasha.ac/en/courses) and take the fr
 
 ## Notes for the Reviewer
 
-- Free IELTS 101 live class and free Listening Tests 01–02: brief.md, Business product. The course link is the courses page (https://vasha.ac/en/courses) because the brief has no direct IELTS 101 URL; please confirm or give a direct link.
+- Free IELTS 101 live class and free Listening Tests 01–02: brief.md, Business product. IELTS 101 links to its direct page, https://vasha.ac/en/courses/26/ielts-101 (brief.md, Business product).
 - "শেষ হতেই band score": instant Listening/Reading band score, brief.md USP.
 - Academic vs General line is general IELTS knowledge, kept generic, with no visa or immigration advice ("তোমার প্রতিষ্ঠান কোনটা চায়, আগে দেখে নাও").
 - "band দিয়ে মাপা হয়, পাস-ফেল না": general IELTS knowledge (the band scale is a measure, not pass/fail).
@@ -119,3 +119,8 @@ Required changes:
 
 Non-blocking note: the plan row says 5–6 slides; this has 7 (hook + 5 content + CTA). Acceptable as drafted, but if the
 designer wants to match the plan, merge Slides 2 and 3 into one slide.
+
+Fixed: 2026-11-07 — IELTS 101 link changed to https://vasha.ac/en/courses/26/ielts-101 in the header, Slide 7, caption and Call to action (required changes 1–4). Slide count unchanged (non-blocking note).
+
+**Round 2, reviewed 2026-11-07. Result: passed.** All four link fixes verified (header, Slide 7, caption, Call to action now use
+https://vasha.ac/en/courses/26/ielts-101). Full re-check of checks 1–7: pass. The 7-slide count stays a non-blocking note.

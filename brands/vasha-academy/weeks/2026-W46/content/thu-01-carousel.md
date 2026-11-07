@@ -1,12 +1,12 @@
 # thu-01-carousel: Carousel, Thu 12 Nov 17:30
 
-Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
 - **Persona:** Mim, the HSC 2026 graduate
 - **Angle / experiment:** Angle 1, myth-buster for beginners (no experiment)
-- **Product and link:** free IELTS 101 live class (https://vasha.ac/en/courses)
+- **Product and link:** free IELTS 101 live class (https://vasha.ac/en/courses/26/ielts-101)
 
 ## Hook
 
@@ -43,7 +43,7 @@ Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer
 **Slide 6 (CTA)**
 - Headline: শুরুটা করো free IELTS 101 class দিয়ে
 - Body: Format কেমন, কোথা থেকে শুরু করবে, সহজ করে বুঝে নাও। কোনো টাকা লাগবে না।
-- Link: vasha.ac/en/courses
+- Link: vasha.ac/en/courses/26/ielts-101
 - Visual: coral-red background, white text, logo top-left.
 
 ## Caption
@@ -55,7 +55,7 @@ Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer
 ✔️ আর format শেখা যায়। "Perfect" হওয়ার অপেক্ষা না করে প্রতিদিন একটু করে অনুশীলনই আসল।
 
 কোথা থেকে শুরু করবে বুঝতে পারছো না? আমাদের free IELTS 101 live class-এ format থেকে শুরু করে প্রথম ধাপগুলো সহজ করে বুঝে নাও।
-👉 https://vasha.ac/en/courses
+👉 https://vasha.ac/en/courses/26/ielts-101
 
 পোস্টটা save করো, আর যে বন্ধু ভাবছে "আমার ইংরেজি দিয়ে হবে না", তাকে পাঠিয়ে দাও।
 
@@ -65,7 +65,7 @@ Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer
 
 ## Call to action
 
-Join the free IELTS 101 live class at https://vasha.ac/en/courses. Link only, no messaging CTA, no start date.
+Join the free IELTS 101 live class at https://vasha.ac/en/courses/26/ielts-101. Link only, no messaging CTA, no start date.
 
 ## Visual and production brief
 
@@ -80,7 +80,7 @@ Join the free IELTS 101 live class at https://vasha.ac/en/courses. Link only, no
 
 ## Notes for the Reviewer
 
-- Free IELTS 101 live class: brief.md, Business product. Link is the courses page; please confirm or supply a direct IELTS 101 URL. No class date is given (none is in the brief or approved plan).
+- Free IELTS 101 live class: brief.md, Business product. IELTS 101 links to its direct page, https://vasha.ac/en/courses/26/ielts-101 (brief.md, Business product). No class date is given (none is in the brief or approved plan).
 - **General IELTS knowledge, not in brief or research (please confirm):** the band scale runs 0–9 and there is no pass/fail; Reading question types include True/False/Not Given, Matching and Sentence completion.
 - Four modules: brief.md (USP references all four modules; Business product "all four modules").
 - No band promise, no claim that practice guarantees a score, no study-abroad or visa talk, no competitor named. Kind tone for HSC graduates.
@@ -106,3 +106,9 @@ Required changes:
 2. Slide 6 link: `vasha.ac/en/courses` → `vasha.ac/en/courses/26/ielts-101`.
 3. Caption: `👉 https://vasha.ac/en/courses` → `👉 https://vasha.ac/en/courses/26/ielts-101`.
 4. Call to action: `https://vasha.ac/en/courses` → `https://vasha.ac/en/courses/26/ielts-101`.
+
+Fixed: 2026-11-07 — IELTS 101 link changed to https://vasha.ac/en/courses/26/ielts-101 in the header, Slide 6, caption and Call to action (required changes 1–4).
+
+**Round 2, reviewed 2026-11-07. Result: passed.** All four link fixes verified (header, Slide 6, caption, Call to action use
+https://vasha.ac/en/courses/26/ielts-101). Full re-check of checks 1–7: pass. Non-blocking: the first Reviewer note ("Link is
+the courses page; please confirm or supply a direct IELTS 101 URL") is now stale; it is internal and not audience-facing.
