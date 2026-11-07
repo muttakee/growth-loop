@@ -89,7 +89,8 @@ for (const { id, spec, missing, mediaDir } of jobs) {
     const inputProps = { ...base, scenes: spec.scenes, music: spec.music, voiceover: spec.voiceover };
     const composition = await selectComposition({ serveUrl, id: "Reel", inputProps, browserExecutable });
     const file = path.join(out, `${id}.mp4`);
-    await renderMedia({ serveUrl, composition, codec: "h264", outputLocation: file, inputProps, browserExecutable });
+    // crf 23 keeps Reels sharp at about a third of the default file size.
+    await renderMedia({ serveUrl, composition, codec: "h264", crf: 23, outputLocation: file, inputProps, browserExecutable });
     console.log(`✓ ${id}: ${path.relative(repo, file)}`);
   } else {
     const slides = spec.slides;

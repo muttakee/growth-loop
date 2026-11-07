@@ -161,7 +161,7 @@ const Captions: React.FC<{ words: NonNullable<Scene["words"]>; theme: Theme }> =
 };
 
 // A screenshot shown whole in a floating device card, with a slow zoom.
-const DeviceCard: React.FC<{ src: string }> = ({ src }) => {
+const DeviceCard: React.FC<{ src: string; top?: number }> = ({ src, top = 560 }) => {
   const f = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
   const enter = spring({ frame: f - 4, fps, config: { damping: 15 } });
@@ -173,8 +173,8 @@ const DeviceCard: React.FC<{ src: string }> = ({ src }) => {
         position: "absolute",
         left: 120,
         right: 120,
-        top: 560,
-        height: 820,
+        top,
+        height: 1380 - top,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -194,7 +194,7 @@ const DeviceCard: React.FC<{ src: string }> = ({ src }) => {
         }}
       >
         <div style={{ borderRadius: 32, overflow: "hidden", display: "flex" }}>
-          <Img src={src} style={{ maxHeight: 792, maxWidth: 812, objectFit: "contain", transform: `scale(${zoom})` }} />
+          <Img src={src} style={{ maxHeight: 1352 - top, maxWidth: 812, objectFit: "contain", transform: `scale(${zoom})` }} />
         </div>
       </div>
     </div>
@@ -221,7 +221,8 @@ const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string; muted:
   const variant = scene.variant ?? "content";
   const bg = scene.background;
   const video = bg && isVideo(bg);
-  const image = bg && !video;
+  // End cards always use the clean layout (illustration, title, button), never a screenshot.
+  const image = bg && !video && variant !== "cta";
   const exit = interpolate(f, [durationInFrames - 6, durationInFrames], [1, 0], { extrapolateLeft: "clamp" });
   const enter = spring({ frame: f, fps, config: { damping: 200 } });
   const font = fontStack(theme.fonts.latin, theme.fonts.main);
@@ -234,16 +235,16 @@ const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string; muted:
           <AbsoluteFill style={{ background: "linear-gradient(180deg, rgba(0,0,0,0.65) 0%, transparent 35%, transparent 60%, rgba(0,0,0,0.75) 100%)" }} />
         </>
       )}
-      {image && <DeviceCard src={staticFile(`${mediaDir}/${bg}`)} />}
+      {image && <DeviceCard src={staticFile(`${mediaDir}/${bg}`)} top={scene.text.length > 60 ? 700 : 560} />}
 
       {variant === "cta" ? (
         <AbsoluteFill style={{ alignItems: "center", padding: "0 90px" }}>
-          {!bg && (
+          {!video && (
             <div style={{ position: "absolute", top: 210, left: 190, width: 700, height: 700 }}>
               <Illo scene={scene} theme={theme} />
             </div>
           )}
-          <div style={{ position: "absolute", top: bg ? 300 : 860, left: 90, right: 90, display: "flex", flexDirection: "column", alignItems: "center", gap: 48 }}>
+          <div style={{ position: "absolute", top: video ? 300 : 860, left: 90, right: 90, display: "flex", flexDirection: "column", alignItems: "center", gap: 48 }}>
             <Headline text={scene.text} theme={theme} size={72} align="center" />
             {scene.sub && (
               <div
@@ -267,7 +268,7 @@ const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string; muted:
       ) : (
         <>
           <div style={{ position: "absolute", left: 80, right: 80, top: 210 }}>
-            <Headline text={scene.text} theme={theme} size={variant === "hook" ? 84 : 70} align={variant === "hook" ? "center" : "left"} />
+            <Headline text={scene.text} theme={theme} size={variant === "hook" ? 84 : scene.text.length > 60 ? 54 : 70} align={variant === "hook" ? "center" : "left"} />
             {variant === "hook" && (
               <div
                 style={{
