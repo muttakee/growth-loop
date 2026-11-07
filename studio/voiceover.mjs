@@ -33,7 +33,14 @@ const duration = (f) =>
 
 // curl honours the HTTPS proxy settings (Node's fetch does not).
 // Returns the words of the line with start/end times in seconds, for synced captions.
-const speak = async (text, file) => {
+// voice.pronounce maps a written word to how it should be said (e.g. a brand name). Only the voice
+// changes: caption words are mapped back to the written spelling.
+const pronounce = Object.entries(voice.pronounce || {});
+const toSpoken = (t) => pronounce.reduce((acc, [w, said]) => acc.split(w).join(said), t);
+const toWritten = (t) => pronounce.reduce((acc, [w, said]) => acc.split(said).join(w), t);
+
+const speak = async (written, file) => {
+  const text = toSpoken(written);
   const body = JSON.stringify({ text, model_id: voice.model, language_code: voice.language });
   const json = file + ".json";
   const code = execFileSync("curl", [
@@ -60,7 +67,7 @@ const speak = async (text, file) => {
     cur.w += ch;
     cur.e = a.character_end_times_seconds[i];
   });
-  return words.map((x) => ({ w: x.w, s: Math.round(x.s * 100) / 100, e: Math.round(x.e * 100) / 100 }));
+  return words.map((x) => ({ w: toWritten(x.w), s: Math.round(x.s * 100) / 100, e: Math.round(x.e * 100) / 100 }));
 };
 
 const ids = fs

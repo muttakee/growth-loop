@@ -68,7 +68,8 @@
           "s": 5.44,
           "e": 6.24
         }
-      ]
+      ],
+      "illustration": "mistake"
     },
     {
       "seconds": 4.5,
@@ -126,7 +127,8 @@
           "s": 3.6,
           "e": 4.16
         }
-      ]
+      ],
+      "illustration": "magnifier"
     },
     {
       "seconds": 13.8,
@@ -274,7 +276,8 @@
           "s": 12.96,
           "e": 13.44
         }
-      ]
+      ],
+      "illustration": "criteria"
     },
     {
       "seconds": 11,
@@ -422,7 +425,9 @@
           "s": 10.16,
           "e": 10.64
         }
-      ]
+      ],
+      "illustration": "score",
+      "illustrationLabel": "Practice estimate"
     },
     {
       "seconds": 10.4,
@@ -534,7 +539,8 @@
           "s": 9.28,
           "e": 10
         }
-      ]
+      ],
+      "illustration": "loop"
     },
     {
       "seconds": 6.3,
@@ -609,7 +615,9 @@
           "s": 5.04,
           "e": 5.92
         }
-      ]
+      ],
+      "illustration": "price",
+      "illustrationLabel": "৳২০"
     }
   ],
   "voiceover": "voiceover.mp3",

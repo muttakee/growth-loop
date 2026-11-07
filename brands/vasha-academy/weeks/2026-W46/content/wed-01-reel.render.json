@@ -33,7 +33,8 @@
           "s": 2.96,
           "e": 3.6
         }
-      ]
+      ],
+      "illustration": "graduation"
     },
     {
       "seconds": 4.2,
@@ -71,7 +72,8 @@
           "s": 3.28,
           "e": 3.84
         }
-      ]
+      ],
+      "illustration": "chat"
     },
     {
       "seconds": 4.3,
@@ -104,7 +106,8 @@
           "s": 3.28,
           "e": 3.84
         }
-      ]
+      ],
+      "illustration": "chat"
     },
     {
       "seconds": 3,
@@ -132,7 +135,8 @@
           "s": 1.92,
           "e": 2.48
         }
-      ]
+      ],
+      "illustration": "chat"
     },
     {
       "seconds": 4,
@@ -160,7 +164,8 @@
           "s": 2.16,
           "e": 3.36
         }
-      ]
+      ],
+      "illustration": "chat"
     },
     {
       "seconds": 7.9,
@@ -263,7 +268,8 @@
           "s": 6.92,
           "e": 7.52
         }
-      ]
+      ],
+      "illustration": "paper"
     },
     {
       "seconds": 7.3,
@@ -356,7 +362,8 @@
           "s": 6.44,
           "e": 6.96
         }
-      ]
+      ],
+      "illustration": "graduation"
     }
   ],
   "voiceover": "voiceover.mp3",

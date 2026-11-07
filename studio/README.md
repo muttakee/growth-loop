@@ -75,7 +75,12 @@ The Latin family comes first in the font stack; text in the main language falls 
 }
 ```
 
-- `background`: an image or video in `media-inputs/<id>/`; without one the scene is brand colour.
+- `background`: an image or video in `media-inputs/<id>/`.
+- `illustration` (+ optional `illustrationLabel`): the animated SVG shown when there is no background
+  (library: `src/components/Illustrations.tsx`; list and rules in `docs/video-rules.md`). If it is
+  missing, one is picked from the scene's words, so no scene is ever empty.
+- `voice.pronounce` in `theme.json`: how a written word is said (e.g. a brand name). Only the voice
+  changes; captions keep the written spelling.
 - On-camera Reels: put the recorded clip as each scene's `background`; the text sits on a white card.
 - When `voiceover` is set, the sound of every video clip is muted, so all speech comes from the
   voiceover file. Without a voiceover, clip sound plays (e.g. an on-camera take recorded in one go).

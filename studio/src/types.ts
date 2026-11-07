@@ -38,6 +38,8 @@ export type Scene = {
   sub?: string;
   background?: string; // image or video file inside media-inputs; empty = brand colour
   say?: string; // spoken line (voiceover.mjs)
+  illustration?: string; // animated SVG from Illustrations.tsx, used when there is no background
+  illustrationLabel?: string; // optional text inside the illustration (e.g. a price)
   words?: { w: string; s: number; e: number }[]; // word timings from voiceover.mjs, seconds from scene start
 };
 

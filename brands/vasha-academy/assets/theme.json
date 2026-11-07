@@ -21,6 +21,10 @@
     "model": "eleven_v4",
     "voiceId": "iP95p4xoKVk53GoZ742B",
     "name": "Chris (male)",
-    "language": "bn"
+    "language": "bn",
+    "pronounce": {
+      "Vasha": "ভাষা"
+    },
+    "_pronounce_note": "Spoken form only. Captions and on-screen text keep the written spelling."
   }
 }

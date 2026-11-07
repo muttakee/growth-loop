@@ -107,6 +107,8 @@ All of Bangladesh, mainly Dhaka, Chattogram and Sylhet.
 
 - A friendly older sibling: encouraging and practical.
 - **Avoid:** "guaranteed band" (and any similar promise of a score).
+- **Brand name in voiceovers:** written "Vasha" everywhere, but **spoken "Bhasha" (ভাষা)**. The
+  voiceover tool handles this (`assets/theme.json` → `voice.pronounce`); never change the written spelling.
 
 ### Posting frequency
 

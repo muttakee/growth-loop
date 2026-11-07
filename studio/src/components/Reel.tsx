@@ -14,6 +14,7 @@ import {
 import { fontStack, loadFonts } from "../fonts";
 import { ReelProps, Scene, Theme } from "../types";
 import { Logo } from "./Logo";
+import { ILLUSTRATIONS, pickIllustration } from "./Illustrations";
 
 const isVideo = (f: string) => /\.(mp4|mov|webm)$/i.test(f);
 const hasNumber = (w: string) => /[৳%]/.test(w);
@@ -122,9 +123,14 @@ const Captions: React.FC<{ words: NonNullable<Scene["words"]>; theme: Theme }> =
         display: "flex",
         flexWrap: "wrap",
         justifyContent: "center",
-        gap: "10px 16px",
+        gap: "10px 14px",
         transform: `scale(${0.9 + enter * 0.1})`,
         opacity: enter,
+        background: "rgba(0,0,0,0.45)",
+        backdropFilter: "blur(6px)",
+        borderRadius: 28,
+        padding: "18px 22px",
+        border: "1px solid rgba(255,255,255,0.12)",
       }}
     >
       {chunk.map((w, i) => {
@@ -195,6 +201,13 @@ const DeviceCard: React.FC<{ src: string }> = ({ src }) => {
   );
 };
 
+// The scene's illustration (named in the spec, or picked from its words), so no scene is empty.
+const Illo: React.FC<{ scene: Scene; theme: Theme }> = ({ scene, theme }) => {
+  const name = scene.illustration ?? pickIllustration(`${scene.text} ${scene.say ?? ""}`);
+  const C = ILLUSTRATIONS[name] ?? ILLUSTRATIONS.spark;
+  return <C theme={theme} label={scene.illustrationLabel} />;
+};
+
 const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string; muted: boolean; index: number; total: number }> = ({
   scene,
   theme,
@@ -223,86 +236,61 @@ const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string; muted:
       )}
       {image && <DeviceCard src={staticFile(`${mediaDir}/${bg}`)} />}
 
-      {variant === "hook" && !bg ? (
-        <AbsoluteFill style={{ justifyContent: "center", padding: "0 90px", transform: `scale(${interpolate(enter, [0, 1], [1.12, 1])})` }}>
-          <Headline text={scene.text} theme={theme} size={104} align="center" />
-          <div
-            style={{
-              height: 10,
-              borderRadius: 5,
-              background: theme.colors.primary,
-              width: `${interpolate(f, [8, 26], [0, 46], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}%`,
-              margin: "44px auto 0",
-              boxShadow: `0 0 30px ${theme.colors.primary}`,
-            }}
-          />
-        </AbsoluteFill>
-      ) : variant === "cta" ? (
-        <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 90px", gap: 56 }}>
-          <Headline text={scene.text} theme={theme} size={78} align="center" />
-          {scene.sub && (
-            <div
-              style={{
-                opacity: spring({ frame: f - 14, fps, config: { damping: 14 } }),
-                transform: `scale(${1 + Math.sin(f / 8) * 0.025})`,
-                background: theme.colors.primary,
-                color: "#fff",
-                fontSize: 54,
-                fontWeight: 800,
-                padding: "30px 56px",
-                borderRadius: 999,
-                boxShadow: `0 20px 60px ${theme.colors.primary}99, inset 0 -6px 0 rgba(0,0,0,0.15)`,
-              }}
-            >
-              {scene.sub} →
+      {variant === "cta" ? (
+        <AbsoluteFill style={{ alignItems: "center", padding: "0 90px" }}>
+          {!bg && (
+            <div style={{ position: "absolute", top: 210, left: 190, width: 700, height: 700 }}>
+              <Illo scene={scene} theme={theme} />
             </div>
           )}
-        </AbsoluteFill>
-      ) : bg ? (
-        <div style={{ position: "absolute", left: 80, right: 80, top: 230 }}>
-          <Headline text={scene.text} theme={theme} size={64} align="left" />
-        </div>
-      ) : (
-        // Text-only scene: big centred type over a glowing ring, with the scene number.
-        <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 90px" }}>
-          <div
-            style={{
-              position: "absolute",
-              width: 760,
-              height: 760,
-              borderRadius: "50%",
-              border: `3px solid ${theme.colors.primary}`,
-              opacity: 0.35 * enter,
-              transform: `scale(${0.85 + enter * 0.15 + Math.sin(f / 20) * 0.02})`,
-              boxShadow: `0 0 120px ${theme.colors.primary}66, inset 0 0 120px ${theme.colors.primary}44`,
-            }}
-          />
-          <div
-            style={{
-              fontSize: 40,
-              fontWeight: 800,
-              letterSpacing: 6,
-              color: theme.colors.primary,
-              background: "#fff",
-              borderRadius: 999,
-              padding: "8px 26px",
-              marginBottom: 40,
-              opacity: enter,
-            }}
-          >
-            {String(index + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
+          <div style={{ position: "absolute", top: bg ? 300 : 860, left: 90, right: 90, display: "flex", flexDirection: "column", alignItems: "center", gap: 48 }}>
+            <Headline text={scene.text} theme={theme} size={72} align="center" />
+            {scene.sub && (
+              <div
+                style={{
+                  opacity: spring({ frame: f - 14, fps, config: { damping: 14 } }),
+                  transform: `scale(${1 + Math.sin(f / 8) * 0.025})`,
+                  background: theme.colors.primary,
+                  color: "#fff",
+                  fontSize: 52,
+                  fontWeight: 800,
+                  padding: "28px 52px",
+                  borderRadius: 999,
+                  boxShadow: `0 20px 60px ${theme.colors.primary}99, inset 0 -6px 0 rgba(0,0,0,0.15)`,
+                }}
+              >
+                {scene.sub} →
+              </div>
+            )}
           </div>
-          <Headline text={scene.text} theme={theme} size={92} align="center" delay={4} />
-          {scene.sub && (
-            <div style={{ marginTop: 32, fontSize: 46, color: "rgba(255,255,255,0.88)", lineHeight: 1.4, textAlign: "center" }}>
-              {scene.sub}
+        </AbsoluteFill>
+      ) : (
+        <>
+          <div style={{ position: "absolute", left: 80, right: 80, top: 210 }}>
+            <Headline text={scene.text} theme={theme} size={variant === "hook" ? 84 : 70} align={variant === "hook" ? "center" : "left"} />
+            {variant === "hook" && (
+              <div
+                style={{
+                  height: 8,
+                  borderRadius: 4,
+                  background: theme.colors.primary,
+                  width: `${interpolate(f, [8, 26], [0, 40], { extrapolateLeft: "clamp", extrapolateRight: "clamp" })}%`,
+                  margin: "28px auto 0",
+                  boxShadow: `0 0 30px ${theme.colors.primary}`,
+                }}
+              />
+            )}
+          </div>
+          {!bg && (
+            <div style={{ position: "absolute", top: 500, left: 90, width: 900, height: 900 }}>
+              <Illo scene={scene} theme={theme} />
             </div>
           )}
-        </AbsoluteFill>
+        </>
       )}
 
       {scene.words && scene.words.length > 0 && (
-        <div style={{ position: "absolute", left: 60, right: 60, bottom: 230 }}>
+        <div style={{ position: "absolute", left: 50, right: 50, bottom: 300, display: "flex", justifyContent: "center" }}>
           <Captions words={scene.words} theme={theme} />
         </div>
       )}

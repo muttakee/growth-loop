@@ -78,7 +78,8 @@
           "s": 6.04,
           "e": 6.64
         }
-      ]
+      ],
+      "illustration": "chat"
     },
     {
       "seconds": 8.2,
@@ -176,7 +177,8 @@
           "s": 7.36,
           "e": 7.84
         }
-      ]
+      ],
+      "illustration": "screen"
     },
     {
       "seconds": 5,
@@ -234,7 +236,8 @@
           "s": 3.8,
           "e": 4.32
         }
-      ]
+      ],
+      "illustration": "timer"
     },
     {
       "seconds": 6.6,
@@ -312,7 +315,8 @@
           "s": 5.6,
           "e": 6.24
         }
-      ]
+      ],
+      "illustration": "highlight"
     },
     {
       "seconds": 5,
@@ -365,7 +369,8 @@
           "s": 3.68,
           "e": 4.4
         }
-      ]
+      ],
+      "illustration": "typing"
     },
     {
       "seconds": 5.5,
@@ -443,7 +448,8 @@
           "s": 4.64,
           "e": 5.2
         }
-      ]
+      ],
+      "illustration": "navigate"
     },
     {
       "seconds": 14.8,
@@ -598,7 +604,8 @@
           "s": 12.72,
           "e": 13.6
         }
-      ]
+      ],
+      "illustration": "score"
     }
   ],
   "voiceover": "voiceover.mp3",
