@@ -1,11 +1,38 @@
 {
   "format": "reel",
   "scenes": [
-    { "seconds": 2, "variant": "hook", "text": "ফি জমা দেওয়ার আগে ৳২০-এ যাচাই" },
-    { "seconds": 6, "text": "Exam fee: অনেক টাকা", "sub": "Mock test: ৳২০", "background": "02-fee-vs-mock.png" },
-    { "seconds": 6, "text": "Listening, Reading: শেষ হলেই band score", "background": "03-reading-band-score.mp4" },
-    { "seconds": 5, "text": "Writing, Speaking: practice estimate, প্রায় ৫ মিনিটে", "background": "04-writing-estimate.mp4" },
-    { "seconds": 6, "variant": "cta", "text": "Listening · Reading · Writing: ৳২০ প্রতিটা", "sub": "vasha.ac/en/ielts-mock" }
+    {
+      "seconds": 5.7,
+      "variant": "hook",
+      "text": "ফি জমা দেওয়ার আগে ৳২০-এ যাচাই",
+      "say": "IELTS-এর ফি জমা দেওয়ার আগে মাত্র ৳২০-এ একবার নিজেকে যাচাই করে নাও।"
+    },
+    {
+      "seconds": 6.4,
+      "text": "Exam fee: অনেক টাকা",
+      "sub": "Mock test: ৳২০",
+      "background": "02-fee-vs-mock.png",
+      "say": "আসল exam-এর ফি অনেক টাকা। Ready না হয়ে book করলে সেই টাকার ঝুঁকিটা তোমার।"
+    },
+    {
+      "seconds": 7.6,
+      "text": "Listening, Reading: শেষ হলেই band score",
+      "background": "03-reading-band-score.mp4",
+      "say": "Vasha-র mock দেখতে real computer-delivered IELTS-এর মতো। Listening আর Reading শেষ হলেই band score।"
+    },
+    {
+      "seconds": 6,
+      "text": "Writing, Speaking: practice estimate, প্রায় ৫ মিনিটে",
+      "background": "writing-breakdown.png",
+      "say": "Writing আর Speaking-এর practice estimate পাবে প্রায় ৫ মিনিটে, চারটা criteria ধরে।"
+    },
+    {
+      "seconds": 6,
+      "variant": "cta",
+      "text": "Listening · Reading · Writing: ৳২০ প্রতিটা",
+      "sub": "vasha.ac/en/ielts-mock",
+      "say": "Book করার আগে নিজের অবস্থাটা জেনে নাও। Link caption-এ।"
+    }
   ],
   "voiceover": "voiceover.mp3",
   "music": "music.mp3"

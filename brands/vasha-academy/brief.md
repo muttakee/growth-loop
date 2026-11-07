@@ -71,6 +71,9 @@ across all four modules:
 - Listening, Reading and Writing tests: **৳20 each** (marked down from ৳50)
 - Speaking tests: **৳50 each**
 - Some tests are free (e.g. Listening Tests 01–02)
+- Test lengths on vasha.ac: Listening Test 01 25 min, 02 23 min, 03 21 min, 04 22 min (40 questions each);
+  Writing tests 60 min (2 tasks); Speaking tests 20 min (3 parts). Use these, not official IELTS timings,
+  when a post describes a Vasha test.
 - All mock tests are **Academic** only for now (no General Training mock). For General Training
   candidates (mainly job seekers), promote the IELTS course, which covers both Academic and
   General Training.

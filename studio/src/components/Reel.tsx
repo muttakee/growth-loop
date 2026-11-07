@@ -39,12 +39,24 @@ const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string; muted:
         (isVideo(scene.background!) ? (
           <OffthreadVideo muted={muted} src={staticFile(`${mediaDir}/${scene.background}`)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         ) : (
-          <Img src={staticFile(`${mediaDir}/${scene.background}`)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          // Screenshots are shown whole, on the brand colour, above the text card.
+          <AbsoluteFill style={{ padding: "200px 70px 640px", justifyContent: "center", alignItems: "center" }}>
+            <Img
+              src={staticFile(`${mediaDir}/${scene.background}`)}
+              style={{
+                maxWidth: "100%",
+                maxHeight: "100%",
+                objectFit: "contain",
+                borderRadius: 28,
+                boxShadow: "0 20px 60px rgba(0,0,0,0.35)",
+              }}
+            />
+          </AbsoluteFill>
         ))}
       <AbsoluteFill
         style={{
-          justifyContent: big ? "center" : "flex-end",
-          padding: big ? "0 80px" : "0 60px 360px",
+          justifyContent: hasBg ? "flex-end" : "center",
+          padding: hasBg ? "0 60px 300px" : "0 80px",
           fontFamily: fontStack(theme.fonts.latin, theme.fonts.main),
         }}
       >

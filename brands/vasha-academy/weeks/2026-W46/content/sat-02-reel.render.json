@@ -1,12 +1,44 @@
 {
   "format": "reel",
   "scenes": [
-    { "seconds": 4, "variant": "hook", "text": "AI Writing score = official result? ❌", "background": "01-instructor-hook.mp4" },
-    { "seconds": 4, "text": "কাজ: কোথায় ঠিক করতে হবে, দেখানো", "background": "02-instructor.mp4" },
-    { "seconds": 10, "text": "Task Response · Coherence and Cohesion · Lexical Resource · Grammatical Range and Accuracy", "background": "03-writing-breakdown.png" },
-    { "seconds": 9, "text": "Exam-এর দিনের score বলে দিতে পারে না", "background": "04-instructor.mp4" },
-    { "seconds": 8, "text": "Test → Fix → আবার Test" },
-    { "seconds": 5, "variant": "cta", "text": "Writing mock ৳২০", "sub": "vasha.ac/en/ielts-mock", "background": "06-instructor-cta.mp4" }
+    {
+      "seconds": 6.4,
+      "variant": "hook",
+      "text": "AI Writing score = official result? ❌",
+      "background": "01-instructor-hook.mp4",
+      "say": "AI-এর দেওয়া Writing score কি official result? না। এটা একটা practice estimate।"
+    },
+    {
+      "seconds": 4.4,
+      "text": "কাজ: কোথায় ঠিক করতে হবে, দেখানো",
+      "background": "02-instructor.mp4",
+      "say": "আর এর আসল কাজ হলো দেখানো, কোথায় ঠিক করতে হবে।"
+    },
+    {
+      "seconds": 13.8,
+      "text": "Task Response · Coherence and Cohesion · Lexical Resource · Grammatical Range and Accuracy",
+      "background": "03-writing-breakdown.png",
+      "say": "তোমার Task 2 চারটা criteria ধরে দেখা হয়: Task Response, Coherence and Cohesion, Lexical Resource, আর Grammatical Range and Accuracy। কোনটায় তুমি পিছিয়ে, সেটা আলাদা করে বোঝা যায়।"
+    },
+    {
+      "seconds": 11,
+      "text": "Exam-এর দিনের score বলে দিতে পারে না",
+      "background": "04-instructor.mp4",
+      "say": "কিন্তু মনে রাখো, এটা আসল exam-এর examiner না, আর exam-এর দিনে তুমি কত পাবে সেটাও বলে দিতে পারে না। তাই একটা নাম্বার দেখে খুশি বা হতাশ হয়ো না।"
+    },
+    {
+      "seconds": 10.2,
+      "text": "Test → Fix → আবার Test",
+      "say": "যেটা কাজে দেয়: একটা essay লেখো, দুর্বল criteria-টা ঠিক করো, তারপর আবার লেখো। একটা নাম্বারের চেয়ে এই loop-টা অনেক বেশি জরুরি।"
+    },
+    {
+      "seconds": 6.2,
+      "variant": "cta",
+      "text": "Writing mock ৳২০",
+      "sub": "vasha.ac/en/ielts-mock",
+      "background": "06-instructor-cta.mp4",
+      "say": "৳২০-এ একটা Writing mock দাও, প্রায় ৫ মিনিটে practice estimate পাবে। Link caption-এ।"
+    }
   ],
   "voiceover": "voiceover.mp3",
   "music": "music.mp3"

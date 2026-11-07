@@ -51,7 +51,7 @@ export const SlideCard: React.FC<SlideProps> = ({ theme, logo, mediaDir, slide, 
           display: "flex",
           flexDirection: "column",
           justifyContent: variant === "content" ? "flex-start" : "center",
-          gap: slide.table ? 26 : 36,
+          gap: slide.table || slide.image ? 24 : 36,
           minHeight: 0,
         }}
       >
@@ -80,11 +80,13 @@ export const SlideCard: React.FC<SlideProps> = ({ theme, logo, mediaDir, slide, 
         >
           {slide.headline}
         </div>
-        {slide.body && <div style={{ fontSize: 42, lineHeight: 1.5, fontWeight: 400 }}>{slide.body}</div>}
+        {slide.body && (
+          <div style={{ fontSize: slide.image ? 36 : 42, lineHeight: 1.5, fontWeight: 400 }}>{slide.body}</div>
+        )}
         {slide.bullets && (
           <div style={{ display: "flex", flexDirection: "column", gap: 22 }}>
             {slide.bullets.map((b, i) => (
-              <div key={i} style={{ display: "flex", gap: 22, fontSize: 40, lineHeight: 1.45 }}>
+              <div key={i} style={{ display: "flex", gap: 22, fontSize: slide.image ? 34 : 40, lineHeight: 1.45 }}>
                 <div
                   style={{
                     flex: "0 0 auto",
@@ -157,7 +159,15 @@ export const SlideCard: React.FC<SlideProps> = ({ theme, logo, mediaDir, slide, 
         {slide.image && (
           <Img
             src={staticFile(`${mediaDir}/${slide.image}`)}
-            style={{ width: "100%", maxHeight: 560, objectFit: "contain", borderRadius: 24 }}
+            style={{
+              flex: "1 1 0",
+              minHeight: 240,
+              width: "100%",
+              objectFit: "contain",
+              objectPosition: "center top",
+              borderRadius: 24,
+              filter: "drop-shadow(0 8px 24px rgba(0,0,0,0.12))",
+            }}
           />
         )}
         {slide.button && (

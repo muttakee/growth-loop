@@ -23,7 +23,7 @@ HSC-র পর IELTS নিয়ে ভাবছো? কোচিংয়ে �
 
 **Slide 2 (the format)**
 - Headline: **Listening test-এ কী থাকে?**
-- Body: ৪টা part · ৪০টা প্রশ্ন · প্রায় ৩০ মিনিট
+- Body: ৪টা part · ৪০টা প্রশ্ন · প্রায় ২৫ মিনিট
 - Small line: রেকর্ডিং একবারই বাজে, তাই মন দিয়ে শুনতে হয়।
 - Visual: three large number blocks (4 / 40 / 30) in coral red.
 
@@ -61,7 +61,7 @@ HSC-র পর IELTS নিয়ে ভাবছো? কোচিংয়ে �
 
 **Slide 7 (CTA)**
 - Headline: **আজকেই প্রথম ধাপটা নাও**
-- Body: Listening Test 01 আর 02 দুটোই free। কোনো টাকা লাগবে না, শুধু ৩০ মিনিট।
+- Body: Listening Test 01 আর 02 দুটোই free। কোনো টাকা লাগবে না, শুধু ২৫ মিনিট।
 - Button-style line: **vasha.ac/en/ielts-mock**
 - Visual: laptop mock-up, coral-red button shape.
 
@@ -73,7 +73,7 @@ HSC-র পর IELTS নিয়ে ভাবছো? 🎧
 IELTS Listening-এ থাকে:
 • ৪টা part
 • ৪০টা প্রশ্ন
-• প্রায় ৩০ মিনিট
+• প্রায় ২৫ মিনিট
 
 Carousel-এ দেখো প্রশ্নের ধরন, শুরু করার ৩টা টিপ, আর free test কীভাবে দিবে, ধাপে ধাপে।
 
@@ -108,7 +108,7 @@ Start free Listening Test 01 (or 02) at https://vasha.ac/en/ielts-mock (link onl
   Academic fits Mim's likely route (bachelor's admission, inferred in personas.md); no General Training claim made.
 - **Listening format (4 parts, 40 questions, about 30 minutes, recording played once, part descriptions, question types)**:
   from the plan row plus standard public IELTS format knowledge; not sourced in research.md. **Please confirm** the Vasha
-  Listening Test 01 runs about 30 minutes, since slide 7 says "শুধু ৩০ মিনিট".
+  Listening Test 01 runs about 30 minutes, since slide 7 says "শুধু ২৫ মিনিট".
 - **Tips** are general study advice written by the team; no score promise.
 - Tone: kind, no mention of HSC results or failing; no jokes [plan rules]. HSC 2026 hashtag used only as audience context.
 - No competitor named; "কোচিংয়ে ভর্তির আগে" refers to coaching in general, not any centre.
@@ -127,5 +127,9 @@ Reviewed 2026-11-07. Result: **passed**.
 | 6. Quality | Pass |
 | 7. Complete | Pass |
 
-Production condition: confirm the Vasha Listening Test 01 runs about 30 minutes (Slide 7 says "শুধু ৩০ মিনিট"); if it is longer,
-change it to "প্রায় ৩০ মিনিট".
+Production condition: confirm the Vasha Listening Test 01 runs about 30 minutes (Slide 7 says "শুধু ২৫ মিনিট"); if it is longer,
+change it to "প্রায় ২৫ মিনিট".
+
+Fixed: 2026-11-07. The test length now matches vasha.ac: Listening Test 01 is 25 min and Test 02 is 23 min
+(https://vasha.ac/en/ielts-mock/tests?type=LISTENING). All "৩০ মিনিট" changed to "২৫ মিনিট". The notes above that mention
+30 minutes are from the first review and are superseded.

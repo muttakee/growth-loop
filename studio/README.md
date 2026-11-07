@@ -7,6 +7,7 @@ and logo. No brand is hardcoded: everything brand-specific comes from the brand 
 cd studio
 npm install                      # once
 node render.mjs <brand-slug> <week> [post-id ...]   # e.g. node render.mjs vasha-academy 2026-W46
+node voiceover.mjs <brand-slug> <week> [post-id ...]  # ElevenLabs voiceovers for reels (run before render)
 npm run studio                   # optional: live preview in the browser
 ```
 
@@ -78,4 +79,8 @@ The Latin family comes first in the font stack; text in the main language falls 
 - On-camera Reels: put the recorded clip as each scene's `background`; the text sits on a white card.
 - When `voiceover` is set, the sound of every video clip is muted, so all speech comes from the
   voiceover file. Without a voiceover, clip sound plays (e.g. an on-camera take recorded in one go).
+- **`say`** on a scene: the line `voiceover.mjs` speaks with the brand's voice (`theme.json` → `voice`:
+  provider `elevenlabs`, `model`, `voiceId`, `language`). It writes `media-inputs/<id>/voiceover.mp3`, each
+  line starting at its scene, and lengthens a scene whose line runs longer than its `seconds`.
+  The key is the session's network secret for api.elevenlabs.io, or `ELEVENLABS_API_KEY`.
 - Music plays quietly under the voiceover. Use only royalty-free music, and only if the brief allows it.

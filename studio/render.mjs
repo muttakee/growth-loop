@@ -68,13 +68,18 @@ const prepareInputs = (id, spec, missing) => {
   return `_job/${slug}/${id}`;
 };
 
-console.log("Bundling…");
-const serveUrl = await bundle({ entryPoint: path.join(here, "src", "index.ts"), publicDir: pub });
-
-for (const id of specs) {
+// Copy every post's inputs first: the bundle snapshots public/ when it is built.
+const jobs = specs.map((id) => {
   const spec = JSON.parse(fs.readFileSync(path.join(contentDir, `${id}.render.json`), "utf8"));
   const missing = [];
   const mediaDir = prepareInputs(id, spec, missing);
+  return { id, spec, missing, mediaDir };
+});
+
+console.log("Bundling…");
+const serveUrl = await bundle({ entryPoint: path.join(here, "src", "index.ts"), publicDir: pub });
+
+for (const { id, spec, missing, mediaDir } of jobs) {
   const out = path.join(contentDir, "media", id);
   fs.rmSync(out, { recursive: true, force: true });
   fs.mkdirSync(out, { recursive: true });

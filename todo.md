@@ -90,7 +90,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Reviewer agent (checks every post against the brand brief and the language rules)
 - [x] Confirm the video tool (Remotion), then set up reel templates (`studio/`, `Reel` composition)
 - [x] Image and carousel templates (`Slide` still, 1080×1350; brand theme in `assets/theme.json`)
-- [ ] ElevenLabs voiceover (Bangla and English)
+- [x] ElevenLabs voiceover (`studio/voiceover.mjs`; eleven_v4, male voice set per brand in `theme.json`)
 - [x] Test that Bangla text renders correctly in videos and images (Hind Siliguri; conjuncts checked)
 - [x] Produce the first full 7-day content pack (vasha-academy 2026-W46: 14 posts written, reviewed and rendered; team footage still to drop in)
 

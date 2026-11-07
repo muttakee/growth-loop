@@ -40,7 +40,8 @@ For each calendar row, write `brands/<slug>/weeks/<week>/content/<id>.md` using
 - **Render spec:** also write `content/<id>.render.json` in the schema in `studio/README.md`: the
   exact on-screen text from the post (slides or scenes, with seconds), and the file names of any
   screenshots, recordings, voiceover or music the team must put in `content/media-inputs/<id>/`
-  (list the same names in the production brief).
+  (list the same names in the production brief). For reels, give each scene a `say` field with its
+  spoken line or voiceover, exactly as in the script.
 - Set `Review: pending`.
 
 ## Rules
@@ -48,7 +49,9 @@ For each calendar row, write `brands/<slug>/weeks/<week>/content/<id>.md` using
 - **Language:** follow the brief exactly (e.g. which terms stay in English). Natural, never
   machine-translated. Internal notes and briefs in English.
 - **Facts:** only prices, products, features and claims that are in the brief or sourced in the
-  research. Never invent results, testimonials, student names, statistics or dates.
+  research. When a post describes the brand's own product (a test's length, features, results),
+  the fact must come from the brief or the brand's website, never from general knowledge about
+  the category (e.g. official exam timings). Never invent results, testimonials, student names, statistics or dates.
 - **No-go topics** from the brief apply to every word, including captions, on-screen text and hashtags.
 - **Competitors:** never name them; never reuse their wording.
 - Sample answers or examples are written by the team (say so in the notes), not taken from real students.

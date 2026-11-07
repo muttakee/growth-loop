@@ -1,12 +1,45 @@
 {
   "format": "reel",
   "scenes": [
-    { "seconds": 3, "variant": "hook", "text": "CD IELTS Writing-এর বড় ভুল ❌", "background": "01-instructor.mp4" },
-    { "seconds": 9, "text": "হাতে লেখা ≠ টাইপ করা", "background": "02-instructor-typing.mp4" },
-    { "seconds": 7, "text": "Tip ১: Timer দিয়ে টাইপ করে প্র্যাকটিস", "background": "03-timer-typing.mp4" },
-    { "seconds": 7, "text": "Tip ২: আগে কাগজে plan", "background": "04-paper-plan.mp4" },
-    { "seconds": 6, "text": "Tip ৩: শেষ ৩ মিনিট proofread", "background": "05-proofread.mp4" },
-    { "seconds": 8, "variant": "cta", "text": "৳২০-এ typed Task 2 · practice estimate ~৫ মিনিটে", "sub": "vasha.ac/en/ielts-mock" }
+    {
+      "seconds": 6.9,
+      "variant": "hook",
+      "text": "CD IELTS Writing-এর বড় ভুল ❌",
+      "background": "01-instructor.mp4",
+      "say": "CD IELTS-এর Writing-এ বড় একটা ভুল: জীবনের প্রথম typed essay-টা exam-এর দিনেই লেখা।"
+    },
+    {
+      "seconds": 12.9,
+      "text": "হাতে লেখা ≠ টাইপ করা",
+      "background": "02-instructor-typing.mp4",
+      "say": "কাগজে লেখা আর টাইপ করা এক জিনিস না। টাইপিংয়ের speed আলাদা, লাইন কেটে আবার লেখা আলাদা, আর স্ক্রিনের word count-এর দিকে চোখ রাখতে হয়। প্রথমবার করলে সময় হাতছাড়া হয়ে যায়।"
+    },
+    {
+      "seconds": 7,
+      "text": "Tip ১: Timer দিয়ে টাইপ করে প্র্যাকটিস",
+      "background": "03-timer-typing.mp4",
+      "say": "তাই প্রথম tip: সপ্তাহে অন্তত কয়েকবার timer চালিয়ে পুরো Task 2 টাইপ করে লেখো।"
+    },
+    {
+      "seconds": 9.5,
+      "text": "Tip ২: আগে কাগজে plan",
+      "background": "04-paper-plan.mp4",
+      "say": "দ্বিতীয় tip: টাইপ শুরুর আগে কাগজে দুই-তিন মিনিটে ছোট একটা plan করে নাও: position, দুইটা main idea, example।"
+    },
+    {
+      "seconds": 8,
+      "text": "Tip ৩: শেষ ৩ মিনিট proofread",
+      "background": "05-proofread.mp4",
+      "say": "তৃতীয় tip: শেষের ৩ মিনিট রাখো শুধু proofread করার জন্য। টাইপিংয়ের ছোট ভুল সেখানেই ধরা পড়ে।"
+    },
+    {
+      "seconds": 9.9,
+      "variant": "cta",
+      "text": "৳২০-এ typed Task 2 · practice estimate ~৫ মিনিটে",
+      "sub": "vasha.ac/en/ielts-mock",
+      "say": "Vasha-র ৳২০-এর Writing mock-এ একটা typed Task 2 লিখে ফেলো, প্রায় ৫ মিনিটে চার criteria-র practice estimate পাবে। Link caption-এ।",
+      "background": "writing-breakdown.png"
+    }
   ],
   "voiceover": "voiceover.mp3",
   "music": "music.mp3"

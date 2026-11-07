@@ -7,7 +7,20 @@
     "background": "#FFFFFF",
     "text": "#1F1F1F"
   },
-  "fonts": { "latin": "Plus Jakarta Sans", "main": "Hind Siliguri" },
-  "logo": { "position": "top-left", "size": 84 },
-  "handle": "vasha.ac"
+  "fonts": {
+    "latin": "Plus Jakarta Sans",
+    "main": "Hind Siliguri"
+  },
+  "logo": {
+    "position": "top-left",
+    "size": 84
+  },
+  "handle": "vasha.ac",
+  "voice": {
+    "provider": "elevenlabs",
+    "model": "eleven_v4",
+    "voiceId": "iP95p4xoKVk53GoZ742B",
+    "name": "Chris (male)",
+    "language": "bn"
+  }
 }

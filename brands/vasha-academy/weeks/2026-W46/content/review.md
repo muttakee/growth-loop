@@ -17,7 +17,7 @@
 | thu-02-reel | passed (round 2) | Round 1 experiment 2 on-screen hook and CTAs fixed; identical to `mon-02-reel` |
 | fri-01-carousel | passed | (Team to confirm the mock has notes and word count) |
 | fri-02-reel | passed | None |
-| sat-01-carousel | passed | (Confirm Listening Test 01 is about 30 minutes) |
+| sat-01-carousel | passed | Fixed 2026-11-07: "৩০ মিনিট" → "২৫ মিনিট" (vasha.ac lists Listening Test 01 at 25 min, Test 02 at 23 min) |
 | sat-02-reel | passed | None |
 | sun-01-carousel | passed | (Confirm C&C shows as its own line in the result) |
 | sun-02-image | passed (round 2) | Round 1 course link fixed to /en/courses/18/ielts-live |

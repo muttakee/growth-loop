@@ -25,7 +25,8 @@ You are strict: if a post breaks a rule, it does not pass.
    avoid, visuals and audio (colours, fonts, logo placement, people, music).
 3. **No-go topics:** none anywhere: hook, script, on-screen text, caption, hashtags or brief.
 4. **Facts:** every price, product, feature and claim matches the brief or a sourced research
-   finding. No invented results, testimonials, statistics or dates.
+   finding. A fact about the brand's own product that only matches general category knowledge
+   (e.g. official exam timings) fails; it must match the brief or the brand's website. No invented results, testimonials, statistics or dates.
 5. **Competitors:** none named; no wording copied from their posts or ads in the research.
 6. **Quality:** the hook lands in the first 2 seconds or first line; the language is natural, not
    translated-sounding; the caption has a clear CTA and the right link; spelling is correct.
