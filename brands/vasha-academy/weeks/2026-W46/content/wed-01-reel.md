@@ -1,6 +1,6 @@
 # wed-01-reel: Reel, Wed 11 Nov 18:00
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** build trust
@@ -71,4 +71,20 @@ Tag an HSC 2026 friend; the pinned first comment links the free IELTS 101 live c
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **needs-changes**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Wed 18:00, Reel, build trust, Mim, hook exact, real instructor skit, tag CTA + pinned comment) |
+| 2. Brand rules | Pass (instructor on camera, royalty-free music, no trending copyrighted audio, logo top-left) |
+| 3. No-go topics | Pass (nothing about failing HSC or grades) |
+| 4. Facts | Pass |
+| 5. Competitors | Pass (original concept; "একটা পরীক্ষাই জীবনের সবকিছু নয়" avoided) |
+| 6. Quality | **Fail: wrong link for IELTS 101** |
+| 7. Complete | Pass |
+
+Required changes:
+
+1. Header "Product and link": `(https://vasha.ac/en/courses)` → `(https://vasha.ac/en/courses/26/ielts-101)`.
+2. Pinned first comment: `Free IELTS 101 live class-এ যোগ দাও 👉 https://vasha.ac/en/courses` → `Free IELTS 101 live class-এ যোগ দাও 👉 https://vasha.ac/en/courses/26/ielts-101`.
+3. Call to action: `(https://vasha.ac/en/courses)` → `(https://vasha.ac/en/courses/26/ielts-101)`.

@@ -1,6 +1,6 @@
 # wed-02-reel: Reel, Wed 11 Nov 22:00
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
@@ -71,4 +71,17 @@ Write a typed Task 2 in the ৳20 Writing mock at https://vasha.ac/en/ielts-mock
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **passed**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Wed 22:00, Reel, educate, Rafi, hook exact, 3 tips as planned, ৳20 Writing mock CTA) |
+| 2. Brand rules | Pass (Nishi/Kamil on camera, logo, colours, music) |
+| 3. No-go topics | Pass (practice estimate explained as "official IELTS result না") |
+| 4. Facts | Pass. General IELTS knowledge used is accurate: the CD Writing screen shows a word count, and CD candidates are given paper for notes/planning |
+| 5. Competitors | Pass ("টাইপিং বা ইন্টারফেস নিয়ে দ্বিধায়" not reused) |
+| 6. Quality | Pass |
+| 7. Complete | Pass |
+
+Production conditions: instructor confirms the two CD facts on record; screen inserts show only features the Vasha Writing mock
+really has (if there is no word count in the mock, show the timer only, as the Creator noted).

@@ -1,6 +1,6 @@
 # sat-02-reel: Reel, Sat 14 Nov 22:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** build trust
@@ -87,4 +87,14 @@ Take a ৳20 Writing mock at https://vasha.ac/en/ielts-mock (link only; no Whats
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **passed**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Sat 22:30, Reel, build trust, Sakib, hook exact, 4 criteria + limits + test-fix-test loop, ৳20 Writing mock) |
+| 2. Brand rules | Pass (Kamil/Nishi on camera, logo, music) |
+| 3. No-go topics | Pass. "official" appears only to say the AI score is **not** an official result; Vasha is never called official |
+| 4. Facts | Pass (four criteria, about 5 minutes, ৳20: brief.md); no accuracy claim |
+| 5. Competitors | Pass (AI doubt answered without naming or quoting anyone) |
+| 6. Quality | Pass |
+| 7. Complete | Pass |

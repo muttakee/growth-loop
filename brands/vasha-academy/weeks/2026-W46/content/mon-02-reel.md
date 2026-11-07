@@ -1,6 +1,6 @@
 # mon-02-reel: Reel, Mon 09 Nov 21:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** build trust
@@ -78,4 +78,25 @@ Try the free Listening Test 01 or a ৳20 Reading test at https://vasha.ac/en/ie
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **needs-changes** (experiment 2 parity with `thu-02-reel`).
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Hook, day, 21:30, Reel, build trust, Rafi, product: pass. **Experiment 2: CTA not identical to version B: fail** |
+| 2. Brand rules | Pass (instructor voiceover approved, music royalty-free, logo top-left, no stock) |
+| 3. No-go topics | Pass ("looks like the real computer-delivered IELTS", never "official") |
+| 4. Facts | Pass (instant Reading band score, free Listening 01, ৳20 Reading: brief). Interface features need team confirmation before recording (already noted) |
+| 5. Competitors | Pass (avoids "পরিবেশটা চেনা থাকলে") |
+| 6. Quality | Pass |
+| 7. Complete | Pass |
+
+Required changes (version A and B must use identical CTA wording; the same fixes are listed in `thu-02-reel`):
+
+1. Scene 8 voiceover: `দেখতে একদম real computer-delivered IELTS-এর মতো। Free Listening Test 01 দিয়ে শুরু করো, link caption-এ।`
+   → `দেখতে একদম real computer-delivered IELTS-এর মতো। Free Listening Test 01 দিয়ে শুরু করো, অথবা মাত্র ৳২০-এ একটা Reading test দাও। Link caption-এ।`
+   (the spoken CTA currently omits the ৳20 Reading option that version B and the plan include).
+2. Scene 8 on-screen text: `vasha.ac/en/ielts-mock · Listening Test 01 free · Reading ৳20`
+   → `Free Listening Test 01 · Reading test ৳২০ · vasha.ac/en/ielts-mock` (same end-card text as version B).
+3. Caption CTA line stays as is (`👉 Free Listening Test 01 দিয়ে শুরু করো, অথবা মাত্র ৳২০-এ একটা Reading test দাও:` + link); it is the canonical line version B must copy.
+
+Production condition: confirm the Vasha Reading mock has highlighting and a question navigation bar before recording; cut any scene showing a feature that doesn't exist, in both A and B.

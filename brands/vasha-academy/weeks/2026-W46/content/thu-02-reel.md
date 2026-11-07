@@ -1,6 +1,6 @@
 # thu-02-reel: Reel, Thu 12 Nov 21:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** build trust
@@ -97,4 +97,24 @@ Start free Listening Test 01 or a ৳20 Reading test at https://vasha.ac/en/ielt
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **needs-changes** (experiment 2 parity with `mon-02-reel`).
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Hook (Hook section and spoken line), Thu 21:30, Reel, build trust, Rafi, product: pass. **On-screen hook and CTA differ from version A: fail** |
+| 2. Brand rules | Pass (Nishi/Kamil on camera as approved, colours, fonts, logo, music) |
+| 3. No-go topics | Pass |
+| 4. Facts | Pass ("Bangladesh-এ এখন IELTS দিতে হয় computer-এ": research.md Niche news + personas.md, IDP link) |
+| 5. Competitors | Pass |
+| 6. Quality | Pass |
+| 7. Complete | Pass |
+
+Required changes (so experiment 2 tests format only; `mon-02-reel` is being aligned to the same text):
+
+1. Scene 1 on-screen text: `প্রথমবার computer-এ IELTS?` → `জীবনে প্রথমবার computer-এ IELTS?` (identical to version A).
+2. Scene 7 spoken: `আমাদের mock দেখতে real computer-delivered IELTS-এর মতোই। Free Listening Test 01 দিয়ে শুরু করো, বা ৳২০-এ একটা Reading test। শেষ হলেই band score। Link caption-এ।`
+   → `Submit করলেই সাথে সাথে Reading-এর band score। দেখতে একদম real computer-delivered IELTS-এর মতো। Free Listening Test 01 দিয়ে শুরু করো, অথবা মাত্র ৳২০-এ একটা Reading test দাও। Link caption-এ।`
+3. Scene 7 on-screen text: keep `Free Listening Test 01 · Reading test ৳২০ · vasha.ac/en/ielts-mock` (canonical; version A is being changed to match).
+4. Caption: replace `আজই একবার চালিয়ে দেখো 👇` with `👉 Free Listening Test 01 দিয়ে শুরু করো, অথবা মাত্র ৳২০-এ একটা Reading test দাও:` (link line below unchanged), so the caption CTA is word for word the same as version A.
+
+Production condition: same as version A; confirm highlighting and the navigation bar exist in the Vasha Reading mock, and use the same screen clips in both Reels.

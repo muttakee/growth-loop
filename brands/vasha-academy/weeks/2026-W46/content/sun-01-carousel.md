@@ -1,6 +1,6 @@
 # sun-01-carousel: Carousel, Sun 15 Nov 18:00
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
@@ -105,4 +105,17 @@ Test the fix with a ৳20 Writing mock at https://vasha.ac/en/ielts-mock (link o
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **passed**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Sun 18:00, carousel, educate, Sakib, hook exact, the four planned checks with team-written before/after, ৳20 Writing mock) |
+| 2. Brand rules | Pass |
+| 3. No-go topics | Pass |
+| 4. Facts | Pass (৳20, about 5 minutes, four criteria: brief.md); English examples are team-written and correct |
+| 5. Competitors | Pass |
+| 6. Quality | Pass |
+| 7. Complete | Pass |
+
+Production condition: confirm the Vasha Writing result shows Coherence and Cohesion as its own line (Slide 7). The "মঙ্গলবার..."
+caption sentence depends on `tue-02-carousel` going out as planned.

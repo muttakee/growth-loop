@@ -1,6 +1,6 @@
 # sun-02-image: Single image, Sun 15 Nov 22:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** sell
@@ -81,4 +81,21 @@ IELTS with Nishi & Kamil course at https://vasha.ac/en/courses (no start date).
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **needs-changes**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Sun 22:30, single image, sell, Sakib, hook exact, criterion screenshot labelled practice estimate, soft course line, no start date) |
+| 2. Brand rules | Pass |
+| 3. No-go topics | Pass (target band 6.5–8 deliberately omitted; practice estimate label) |
+| 4. Facts | Pass (৳20, about 5 minutes, ৳15,000, 8 weeks, live: brief.md) |
+| 5. Competitors | Pass ("আটকে আছে" avoided) |
+| 6. Quality | **Fail: course link is the generic courses page, not the course's own page** |
+| 7. Complete | Pass |
+
+Required changes:
+
+1. Header "Product and link": `https://vasha.ac/en/courses` → `https://vasha.ac/en/courses/18/ielts-live`.
+2. Caption: `বিস্তারিত: https://vasha.ac/en/courses` → `বিস্তারিত: https://vasha.ac/en/courses/18/ielts-live`.
+3. Call to action: `IELTS with Nishi & Kamil course at https://vasha.ac/en/courses` → `IELTS with Nishi & Kamil course at https://vasha.ac/en/courses/18/ielts-live`.
+4. Notes for the Reviewer: `Course link https://vasha.ac/en/courses from the brief` → `Course link https://vasha.ac/en/courses/18/ielts-live from the brief`.

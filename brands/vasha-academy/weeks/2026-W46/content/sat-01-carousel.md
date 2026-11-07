@@ -1,6 +1,6 @@
 # sat-01-carousel: Carousel, Sat 14 Nov 17:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
@@ -115,4 +115,17 @@ Start free Listening Test 01 (or 02) at https://vasha.ac/en/ielts-mock (link onl
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **passed**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Sat 17:30, carousel, educate, Mim, hook exact, format + types + 3 tips + step-by-step start, free Listening Tests 01–02) |
+| 2. Brand rules | Pass |
+| 3. No-go topics | Pass (no HSC result talk, no band promise) |
+| 4. Facts | Pass. General IELTS knowledge is accurate: 4 parts, 40 questions, about 30 minutes, recording played once, part descriptions, question types, word-limit rule. Free Listening 01–02 and instant band score: brief.md |
+| 5. Competitors | Pass |
+| 6. Quality | Pass |
+| 7. Complete | Pass |
+
+Production condition: confirm the Vasha Listening Test 01 runs about 30 minutes (Slide 7 says "শুধু ৩০ মিনিট"); if it is longer,
+change it to "প্রায় ৩০ মিনিট".

@@ -1,6 +1,6 @@
 # thu-01-carousel: Carousel, Thu 12 Nov 17:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
@@ -88,4 +88,21 @@ Join the free IELTS 101 live class at https://vasha.ac/en/courses. Link only, no
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **needs-changes**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Thu 17:30, carousel, educate, Mim, hook exact, myth-buster points as planned) |
+| 2. Brand rules | Pass |
+| 3. No-go topics | Pass (no band promise) |
+| 4. Facts | Pass. General IELTS knowledge is accurate: band scale 0–9, no pass/fail, Reading question types (True/False/Not Given, Matching, Sentence completion) |
+| 5. Competitors | Pass |
+| 6. Quality | **Fail: wrong link for IELTS 101** |
+| 7. Complete | Pass |
+
+Required changes:
+
+1. Header "Product and link": `(https://vasha.ac/en/courses)` → `(https://vasha.ac/en/courses/26/ielts-101)`.
+2. Slide 6 link: `vasha.ac/en/courses` → `vasha.ac/en/courses/26/ielts-101`.
+3. Caption: `👉 https://vasha.ac/en/courses` → `👉 https://vasha.ac/en/courses/26/ielts-101`.
+4. Call to action: `https://vasha.ac/en/courses` → `https://vasha.ac/en/courses/26/ielts-101`.

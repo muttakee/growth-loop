@@ -1,6 +1,6 @@
 # fri-01-carousel: Carousel, Fri 13 Nov 15:00
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
@@ -101,4 +101,17 @@ Try free Listening Test 01 at https://vasha.ac/en/ielts-mock (link only). Second
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **passed**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Fri 15:00, carousel, educate, Rafi, hook exact, the three planned differences, free Listening Test 01) |
+| 2. Brand rules | Pass |
+| 3. No-go topics | Pass |
+| 4. Facts | Pass. "Paper-based IELTS আর নেই": research.md Niche news (IDP). General IELTS knowledge is accurate: paper Listening has 10 minutes' transfer time, CD has a short check time (about 2 minutes) instead; CD Reading allows highlighting and notes; CD Writing shows a word count. Keeping the CD check time vague is fine |
+| 5. Competitors | Pass |
+| 6. Quality | Pass |
+| 7. Complete | Pass |
+
+Production conditions: instructor confirms the CD facts; team confirms the Vasha mock has notes and a word count before
+screenshots; if notes aren't supported, drop "note" from Slide 4 and the caption (as the Creator noted).

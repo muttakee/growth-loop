@@ -1,6 +1,6 @@
 # fri-02-reel: Reel, Fri 13 Nov 21:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** sell
@@ -86,4 +86,14 @@ Take a ৳20 mock at https://vasha.ac/en/ielts-mock before booking the exam (lin
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **passed**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Fri 21:30, Reel, sell, Rafi, hook exact, fee as "অনেক টাকা" vs ৳20, band report, results line; experiment 1) |
+| 2. Brand rules | Pass (voiceover Reel, no one on camera as planned; royalty-free music; logo) |
+| 3. No-go topics | Pass (no fee figure anywhere, including visuals; practice estimate for W/S; never "official") |
+| 4. Facts | Pass (৳20 L/R/W, instant L/R band, about 5 minutes for W/S: brief.md) |
+| 5. Competitors | Pass |
+| 6. Quality | Pass |
+| 7. Complete | Pass |

@@ -1,6 +1,6 @@
 # tue-02-carousel: Carousel, Tue 10 Nov 22:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
@@ -116,4 +116,22 @@ Write a Task 2 in the ৳20 Writing mock at https://vasha.ac/en/ielts-mock and g
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **needs-changes**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Tue 22:30, carousel, educate, Sakib, hook exact, one slide per criterion, ৳20 Writing mock; experiment 3) |
+| 2. Brand rules | Pass (sample and fixes in English, explanations in Bangla) |
+| 3. No-go topics | Pass ("practice estimate, official IELTS result না" is the brief's own rule) |
+| 4. Facts | **Fail: error count on Slide 6 is wrong** |
+| 5. Competitors | Pass |
+| 6. Quality | Pass |
+| 7. Complete | Pass |
+
+Required change:
+
+1. Slide 6, "Where it loses marks": the sample sentence `government should gives money to every students` has **three**
+   errors, not two (missing article before "government", "should gives", "every students"); the fix sentence itself adds "The".
+   Change `দুইটা ভুল (should gives, every students)` → `তিনটা ভুল (government-এর আগে "The" নেই, should gives, every students)`.
+
+Instructor check (already requested by the Creator): Nishi or Kamil proof-reads the English sample, fixes and the "what it measures" lines before design.

@@ -1,6 +1,6 @@
 # mon-01-carousel: Carousel, Mon 09 Nov 17:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: needs-changes <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac)
 - **Type:** educate
@@ -98,4 +98,24 @@ Join the free IELTS 101 live class (https://vasha.ac/en/courses) and take the fr
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **needs-changes**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (ID, Mon 17:30, carousel, educate, Mim, hook exact, IELTS 101 + Listening Test 01) |
+| 2. Brand rules | Pass (Bangla, IELTS terms in English, colours, fonts, logo top-left, no stock photos) |
+| 3. No-go topics | Pass |
+| 4. Facts | Pass (band is a measure, not pass/fail; Academic vs General kept generic, no visa advice) |
+| 5. Competitors | Pass |
+| 6. Quality | **Fail: wrong link for IELTS 101** |
+| 7. Complete | Pass |
+
+Required changes:
+
+1. Header "Product and link": `free IELTS 101 live class (https://vasha.ac/en/courses)` → `free IELTS 101 live class (https://vasha.ac/en/courses/26/ielts-101)`.
+2. Slide 7 body: `Free IELTS 101 class: vasha.ac/en/courses` → `Free IELTS 101 class: vasha.ac/en/courses/26/ielts-101`.
+3. Caption: `👉 Free IELTS 101: https://vasha.ac/en/courses` → `👉 Free IELTS 101: https://vasha.ac/en/courses/26/ielts-101`.
+4. Call to action: `(https://vasha.ac/en/courses)` → `(https://vasha.ac/en/courses/26/ielts-101)`.
+
+Non-blocking note: the plan row says 5–6 slides; this has 7 (hook + 5 content + CTA). Acceptable as drafted, but if the
+designer wants to match the plan, merge Slides 2 and 3 into one slide.

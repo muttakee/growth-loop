@@ -1,6 +1,6 @@
 # tue-01-image: Single image, Tue 10 Nov 17:30
 
-Review: pending <!-- pending | passed | needs-changes (set by the Reviewer) -->
+Review: passed <!-- pending | passed | needs-changes (set by the Reviewer) -->
 
 - **Platform:** Facebook Page (https://www.facebook.com/vasha.ac). **Pin to the top of the Page for the whole week** (approved by the user).
 - **Type:** sell
@@ -92,4 +92,18 @@ Start a mock test at https://vasha.ac/en/ielts-mock (General Training candidates
 
 ## Review
 
-<!-- Filled in by the Reviewer: checklist result and any required changes -->
+Reviewed 2026-11-07. Result: **passed**.
+
+| Check | Result |
+|-------|--------|
+| 1. Matches plan | Pass (Tue 17:30, single image, sell, Rafi/Mim/Tania, hook exact, pinned all week as approved) |
+| 2. Brand rules | Pass |
+| 3. No-go topics | Pass (no competitor comparison, no exam fee, no band promise) |
+| 4. Facts | Pass (every price and strike-through matches brief.md Business product; Academic-only note and GT line from brief) |
+| 5. Competitors | Pass |
+| 6. Quality | Pass (clear link-only CTA to /en/ielts-mock) |
+| 7. Complete | Pass |
+
+Non-blocking notes: (a) re-check prices on vasha.ac before posting, as the Creator noted. (b) The General Training line links to
+https://vasha.ac/en/courses. If the user confirms "IELTS with Nishi & Kamil" is the course that covers General Training, the
+link could be https://vasha.ac/en/courses/18/ielts-live; the courses page is accurate either way.
