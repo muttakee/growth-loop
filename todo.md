@@ -92,7 +92,7 @@ is agreed with the user. When it's finished, the items are ticked and committed.
 - [x] Image and carousel templates (`Slide` still, 1080×1350; brand theme in `assets/theme.json`)
 - [ ] ElevenLabs voiceover (Bangla and English)
 - [x] Test that Bangla text renders correctly in videos and images (Hind Siliguri; conjuncts checked)
-- [ ] Produce the first full 7-day content pack (text done: vasha-academy 2026-W46 is content-ready; media still to make)
+- [x] Produce the first full 7-day content pack (vasha-academy 2026-W46: 14 posts written, reviewed and rendered; team footage still to drop in)
 
 ## 5. Supabase (later)
 

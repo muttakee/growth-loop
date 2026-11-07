@@ -1,0 +1,13 @@
+{
+  "format": "reel",
+  "scenes": [
+    { "seconds": 4, "variant": "hook", "text": "AI Writing score = official result? ❌", "background": "01-instructor-hook.mp4" },
+    { "seconds": 4, "text": "কাজ: কোথায় ঠিক করতে হবে, দেখানো", "background": "02-instructor.mp4" },
+    { "seconds": 10, "text": "Task Response · Coherence and Cohesion · Lexical Resource · Grammatical Range and Accuracy", "background": "03-writing-breakdown.png" },
+    { "seconds": 9, "text": "Exam-এর দিনের score বলে দিতে পারে না", "background": "04-instructor.mp4" },
+    { "seconds": 8, "text": "Test → Fix → আবার Test" },
+    { "seconds": 5, "variant": "cta", "text": "Writing mock ৳২০", "sub": "vasha.ac/en/ielts-mock", "background": "06-instructor-cta.mp4" }
+  ],
+  "voiceover": "voiceover.mp3",
+  "music": "music.mp3"
+}

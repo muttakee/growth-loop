@@ -1,0 +1,13 @@
+{
+  "format": "reel",
+  "scenes": [
+    { "seconds": 3, "variant": "hook", "text": "CD IELTS Writing-এর বড় ভুল ❌", "background": "01-instructor.mp4" },
+    { "seconds": 9, "text": "হাতে লেখা ≠ টাইপ করা", "background": "02-instructor-typing.mp4" },
+    { "seconds": 7, "text": "Tip ১: Timer দিয়ে টাইপ করে প্র্যাকটিস", "background": "03-timer-typing.mp4" },
+    { "seconds": 7, "text": "Tip ২: আগে কাগজে plan", "background": "04-paper-plan.mp4" },
+    { "seconds": 6, "text": "Tip ৩: শেষ ৩ মিনিট proofread", "background": "05-proofread.mp4" },
+    { "seconds": 8, "variant": "cta", "text": "৳২০-এ typed Task 2 · practice estimate ~৫ মিনিটে", "sub": "vasha.ac/en/ielts-mock" }
+  ],
+  "voiceover": "voiceover.mp3",
+  "music": "music.mp3"
+}

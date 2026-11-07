@@ -1,0 +1,14 @@
+{
+  "format": "reel",
+  "scenes": [
+    { "seconds": 2, "variant": "hook", "text": "রেজাল্টের পর থেকে বাসায় একটাই প্রশ্ন 😅", "background": "01-dinner.mp4" },
+    { "seconds": 3, "text": "সকালে…", "background": "02-breakfast.mp4" },
+    { "seconds": 3, "text": "টিভি দেখার সময়…", "background": "03-tv.mp4" },
+    { "seconds": 3, "text": "ফোনেও…", "background": "04-phone.mp4" },
+    { "seconds": 3, "text": "দাওয়াতেও…", "background": "05-dawat.mp4" },
+    { "seconds": 7, "text": "চাপ নিয়ো না। এক ধাপে শুরু করো।", "background": "06-instructor.mp4" },
+    { "seconds": 4, "variant": "cta", "text": "Free IELTS 101 class · link কমেন্টে 👇" }
+  ],
+  "voiceover": "voiceover.mp3",
+  "music": "music.mp3"
+}

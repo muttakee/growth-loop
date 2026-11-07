@@ -76,4 +76,6 @@ The Latin family comes first in the font stack; text in the main language falls 
 
 - `background`: an image or video in `media-inputs/<id>/`; without one the scene is brand colour.
 - On-camera Reels: put the recorded clip as each scene's `background`; the text sits on a white card.
+- When `voiceover` is set, the sound of every video clip is muted, so all speech comes from the
+  voiceover file. Without a voiceover, clip sound plays (e.g. an on-camera take recorded in one go).
 - Music plays quietly under the voiceover. Use only royalty-free music, and only if the brief allows it.

@@ -17,7 +17,12 @@ import { Logo } from "./Logo";
 
 const isVideo = (f: string) => /\.(mp4|mov|webm)$/i.test(f);
 
-const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string }> = ({ scene, theme, mediaDir }) => {
+const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string; muted: boolean }> = ({
+  scene,
+  theme,
+  mediaDir,
+  muted,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const enter = spring({ frame, fps, config: { damping: 200 } });
@@ -32,7 +37,7 @@ const SceneView: React.FC<{ scene: Scene; theme: Theme; mediaDir: string }> = ({
     >
       {hasBg &&
         (isVideo(scene.background!) ? (
-          <OffthreadVideo src={staticFile(`${mediaDir}/${scene.background}`)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+          <OffthreadVideo muted={muted} src={staticFile(`${mediaDir}/${scene.background}`)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         ) : (
           <Img src={staticFile(`${mediaDir}/${scene.background}`)} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
         ))}
@@ -77,7 +82,7 @@ export const Reel: React.FC<ReelProps> = ({ theme, logo, mediaDir, scenes, music
         const d = Math.round(s.seconds * fps);
         const el = (
           <Sequence key={i} from={from} durationInFrames={d}>
-            <SceneView scene={s} theme={theme} mediaDir={mediaDir} />
+            <SceneView scene={s} theme={theme} mediaDir={mediaDir} muted={Boolean(voiceover)} />
           </Sequence>
         );
         from += d;

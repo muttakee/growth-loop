@@ -1,0 +1,12 @@
+{
+  "format": "reel",
+  "scenes": [
+    { "seconds": 2, "variant": "hook", "text": "ফি জমা দেওয়ার আগে ৳২০-এ যাচাই" },
+    { "seconds": 6, "text": "Exam fee: অনেক টাকা", "sub": "Mock test: ৳২০", "background": "02-fee-vs-mock.png" },
+    { "seconds": 6, "text": "Listening, Reading: শেষ হলেই band score", "background": "03-reading-band-score.mp4" },
+    { "seconds": 5, "text": "Writing, Speaking: practice estimate, প্রায় ৫ মিনিটে", "background": "04-writing-estimate.mp4" },
+    { "seconds": 6, "variant": "cta", "text": "Listening · Reading · Writing: ৳২০ প্রতিটা", "sub": "vasha.ac/en/ielts-mock" }
+  ],
+  "voiceover": "voiceover.mp3",
+  "music": "music.mp3"
+}

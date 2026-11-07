@@ -1,0 +1,14 @@
+{
+  "format": "reel",
+  "scenes": [
+    { "seconds": 3, "variant": "hook", "text": "জীবনে প্রথমবার computer-এ IELTS?", "background": "01-instructor-hook.mp4" },
+    { "seconds": 6, "text": "স্ক্রিন চেনা থাকলে সময় বাঁচে", "background": "02-instructor.mp4" },
+    { "seconds": 5, "text": "Timer: সবসময় চোখের সামনে", "background": "03-timer.mp4" },
+    { "seconds": 5, "text": "Highlight করো স্ক্রিনেই", "background": "04-highlight.mp4" },
+    { "seconds": 5, "text": "উত্তর টাইপ করো box-এ", "background": "05-type.mp4" },
+    { "seconds": 5, "text": "নিচের bar দিয়ে যেকোনো প্রশ্নে যাও", "background": "06-navigate.mp4" },
+    { "seconds": 6, "variant": "cta", "text": "Free Listening Test 01 · Reading test ৳২০", "sub": "vasha.ac/en/ielts-mock", "background": "07-instructor-cta.mp4" }
+  ],
+  "voiceover": "voiceover.mp3",
+  "music": "music.mp3"
+}
