@@ -79,10 +79,10 @@ across all four modules:
 **Upsell: courses** (https://vasha.ac/en/courses):
 
 - **IELTS with Nishi & Kamil**: ৳15,000. Live, 8 weeks, 24 core and 24 support classes
-  (1.5 hrs each), target band 6.5–8. Instructors: Jannatul Ferdous Nishi and Kamil Muttakee
+  (1.5 hrs each), target band 6.5–8. Link: https://vasha.ac/en/courses/18/ielts-live. Instructors: Jannatul Ferdous Nishi and Kamil Muttakee
   (lead), Abu Talha Alvi (support).
-- **IELTS 101: Start your IELTS Journey**: free, live.
-- **SpeakUp: 30 Day Speaking Challenge**: ৳199 (marked down from ৳499).
+- **IELTS 101: Start your IELTS Journey**: free, live. https://vasha.ac/en/courses/26/ielts-101
+- **SpeakUp: 30 Day Speaking Challenge**: ৳199 (marked down from ৳499). https://vasha.ac/en/courses/21/speakup
 - **English for Professional Purposes**: upcoming.
 
 ### Target customer geography
